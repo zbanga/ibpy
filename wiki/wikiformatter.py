@@ -1,24 +1,34 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+linkbase = 'http://ibpy.googlecode.com/svn/'
+
+def outname(v):
+    return v[9:-3].replace('/__init__', '').replace('/', '_') + '.wiki'
+
+def pkgname(v):
+    return v[9:-3].replace('/__init__', '').replace('/', '.')
+
+def linkname(v):
+    return linkbase + v[3:]
+
+def lineno(elem):
+    return int(elem.attrib['lineno'])
+
 
 class PythonDocGenerator:
     def __init__(self, options):
-        self.encoding = options.get("encoding")
-        self.outfile = options.get("outfile")
-        self.link = options.get("link")
+        pass
 
     def save(self, module, name):
-        filename = self.outfile #module.attrib['filename']
-        fh = open(filename, 'w')
+        modulefile = module.attrib['filename']
+        filename = outname(modulefile)
+        link = linkname(modulefile)
+        package = pkgname(modulefile)
 
+        fh = open(filename, 'w')
         def write(value=''):
             fh.write(value + '\n')
-
-        def lineno(elem):
-            return int(elem.attrib['lineno'])
-
-        link = self.link
 
         summary = module.find('info/summary')
         description = module.find('info/description')
@@ -26,18 +36,17 @@ class PythonDocGenerator:
         if summary is not None:
             summary = summary.text
         else:
-            summary = module.attrib['name']
+            summary = '%s reference documentation' % (package, )
         write('#summary %s' % summary)
         write('#labels API-Doc')
         write()
+
         if description is not None:
             description = description.text
             description = description.replace(summary, '')
             description = description.lstrip()
             write('_%s_' % description)
             write()
-
-
 
         def write_calls(functions, indent=0):
             functions.sort(key=lineno)
@@ -97,7 +106,7 @@ class PythonDocGenerator:
 
         write('')
         write('')
-        return filename
+        return filename + ' ' + package
 
     def done(self):
         print 'done'
