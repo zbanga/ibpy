@@ -1,26 +1,28 @@
+#summary sender
 #labels API-Doc
+
 ==== Sender(object) ====
 
 _objects call listeners pre/post reqScannerParameters,
 reqAccountUpdates, etc._
-defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/opt/sender.py line 10]
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 10]
 
   `__init__()`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/opt/sender.py line 17]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 17]
   ====== . ======
 
   `connect(host, port, clientId, handler)`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/opt/sender.py line 20]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 20]
   ====== . ======
 
   `__getattr__(name)`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/opt/sender.py line 24]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 24]
   ====== . ======
 
 

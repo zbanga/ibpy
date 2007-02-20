@@ -1,10 +1,11 @@
+#summary logger
 #labels API-Doc
-==== logger(name='ibpy', level=level, format=format, 
-datefmt=datefmt) ====
+
+==== logger(name='ibpy', level=level, format=format, datefmt=datefmt) ====
 
 _logger(...) -> returns a logger all fixed up_
 
-defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/opt/logger.py line 14]
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/logger.py line 14]
 ====== . ======
 
 

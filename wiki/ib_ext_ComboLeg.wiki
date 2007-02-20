@@ -1,29 +1,27 @@
+#summary ComboLeg
 #labels API-Doc
+
 ==== ComboLeg(object) ====
 
 _generated source for ComboLeg_
-defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/ComboLeg.py line 16]
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 16]
 
   `__init__()`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/ComboLeg.py line 31]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 31]
   ====== . ======
 
-  `__init___0(p_ConId, 
-p_Ratio, 
-p_Action, 
-p_exchange, 
-p_openClose)`
+  `__init___0(p_ConId, p_Ratio, p_Action, p_exchange, p_openClose)`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/ComboLeg.py line 37]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 37]
   ====== . ======
 
   `__eq__(p_other)`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/ComboLeg.py line 48]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 48]
   ====== . ======
 
 

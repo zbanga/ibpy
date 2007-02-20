@@ -1,9 +1,9 @@
-#summary: # maps wrapper method names to the message class that can be
+#summary # maps wrapper method names to the message class that can be
 # instantiated for delivery by the named method.
+#labels API-Doc
 
 __
 
-#labels API-Doc
 ==== isWrapperMethod(name, value) ====
 
 _predicate for wrapper methods_
@@ -14,7 +14,7 @@ _predicate for wrapper methods_
   returns: True if wrapper method
   }}}
 
-defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/opt/message.py line 83]
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 83]
 ====== . ======
 
 ==== selectWrapperMethods(cls) ====
@@ -26,7 +26,7 @@ _wrapper methods of a class_
   returns: list of two-tuples, each (name, method)
   }}}
 
-defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/opt/message.py line 95]
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 95]
 ====== . ======
 
 ==== buildMessageTypes(wrapper, mapping, *bases) ====
@@ -40,7 +40,7 @@ _construct message types and add to given mapping_
   returns: None;
   }}}
 
-defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/opt/message.py line 107]
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 107]
 ====== . ======
 
 ==== MessageType(type) ====
@@ -49,50 +49,50 @@ _MessageType -> simple metaclass to track Message subclasses
 
 As new Message subclasses are defined (see below), they are saved
 to the registry mapping._
-defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/opt/message.py line 24]
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 24]
 
   `__init__(name, bases, namespace)`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/opt/message.py line 30]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 30]
   ====== . ======
 
 ==== Message(object) ====
 
 _Message -> base type for message instances_
-defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/opt/message.py line 37]
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 37]
 
   `__init__(**kwds)`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/opt/message.py line 44]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 44]
   ====== . ======
 
   `__str__()`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/opt/message.py line 49]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 49]
   ====== . ======
 
   `items()`
 
   _list of message's (slot, slot value) pairs, as 2-tuples_
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/opt/message.py line 54]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 54]
   ====== . ======
 
   `values()`
 
   _list of message's slot values_
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/opt/message.py line 60]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 60]
   ====== . ======
 
   `keys()`
 
   _list of message's slots_
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/opt/message.py line 66]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 66]
   ====== . ======
 
 ==== Error(Message) ====
@@ -101,7 +101,7 @@ _Error -> specialized message type
 
 The error family of method calls can't be built programmatically,
 so we define one here._
-defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/opt/message.py line 73]
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 73]
 
 
 

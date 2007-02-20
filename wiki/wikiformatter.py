@@ -6,29 +6,30 @@ class PythonDocGenerator:
     def __init__(self, options):
         self.encoding = options.get("encoding")
         self.outfile = options.get("outfile")
+        self.link = options.get("link")
 
     def save(self, module, name):
         filename = self.outfile #module.attrib['filename']
         fh = open(filename, 'w')
-        def write(v=''):
-            fh.write(v)
-            fh.write('\n')
 
-        def lineno(o):
-            return int(o.attrib['lineno'])
+        def write(value=''):
+            fh.write(value + '\n')
 
+        def lineno(elem):
+            return int(elem.attrib['lineno'])
 
-        link = 'http://ibpy.googlecode.com/svn/trunk/' + module.attrib['filename']
+        link = self.link
 
         summary = module.find('info/summary')
         description = module.find('info/description')
 
         if summary is not None:
             summary = summary.text
-            write('#summary: %s' % summary)
-            write()
         else:
-            summary = ''
+            summary = module.attrib['name']
+        write('#summary %s' % summary)
+        write('#labels API-Doc')
+        write()
         if description is not None:
             description = description.text
             description = description.replace(summary, '')
@@ -36,7 +37,7 @@ class PythonDocGenerator:
             write('_%s_' % description)
             write()
 
-        write('#labels API-Doc')
+
 
         def write_calls(functions, indent=0):
             functions.sort(key=lineno)
@@ -46,7 +47,10 @@ class PythonDocGenerator:
 
             for function in functions:
                 fs = '%s==== %s ====' if not indent else '%s`%s`'
-                write(fs % (offset, function.find('info/def').text))
+                defstr = function.find('info/def')
+                if defstr is not None:
+                    defstr = defstr.text.replace('\n', '')
+                write(fs % (offset, defstr))
                 write()
 
                 description = function.find('info/description')
