@@ -1,18 +1,13 @@
-#summary: # Source file: "EClientErrors.java"
-# Target file: "EClientErrors.py"
-
-__
-
 #labels API-Doc
 ==== EClientErrors(object) ====
 
 _generated source for EClientErrors_
-defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientErrors.py line 13]
+defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientErrors.py line 15]
 
   `__init__()`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientErrors.py line 59]
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientErrors.py line 61]
   ====== . ======
 
 

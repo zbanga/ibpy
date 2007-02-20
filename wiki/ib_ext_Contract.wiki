@@ -1,24 +1,19 @@
-#summary: # Source file: "Contract.java"
-# Target file: "Contract.py"
-
-__
-
 #labels API-Doc
 ==== Contract(Cloneable) ====
 
 _generated source for Contract_
-defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Contract.py line 15]
+defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Contract.py line 17]
 
   `__init__()`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Contract.py line 48]
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Contract.py line 50]
   ====== . ======
 
   `clone()`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Contract.py line 51]
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Contract.py line 53]
   ====== . ======
 
   `__init___0(p_symbol, 
@@ -50,13 +45,13 @@ p_nextOptionPartial,
 p_notes)`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Contract.py line 57]
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Contract.py line 59]
   ====== . ======
 
   `__eq__(p_other)`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Contract.py line 112]
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Contract.py line 114]
   ====== . ======
 
 

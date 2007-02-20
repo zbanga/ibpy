@@ -1,18 +1,13 @@
-#summary: # Source file: "ContractDetails.java"
-# Target file: "ContractDetails.py"
-
-__
-
 #labels API-Doc
 ==== ContractDetails(object) ====
 
 _generated source for ContractDetails_
-defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/ContractDetails.py line 15]
+defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/ContractDetails.py line 17]
 
   `__init__()`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/ContractDetails.py line 30]
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/ContractDetails.py line 32]
   ====== . ======
 
   `__init___0(p_summary, 
@@ -25,7 +20,7 @@ p_orderTypes,
 p_validExchanges)`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/ContractDetails.py line 36]
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/ContractDetails.py line 38]
   ====== . ======
 
 

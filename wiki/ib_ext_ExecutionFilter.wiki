@@ -1,18 +1,13 @@
-#summary: # Source file: "ExecutionFilter.java"
-# Target file: "ExecutionFilter.py"
-
-__
-
 #labels API-Doc
 ==== ExecutionFilter(object) ====
 
 _generated source for ExecutionFilter_
-defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/ExecutionFilter.py line 14]
+defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/ExecutionFilter.py line 16]
 
   `__init__()`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/ExecutionFilter.py line 27]
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/ExecutionFilter.py line 29]
   ====== . ======
 
   `__init___0(p_clientId, 
@@ -24,13 +19,13 @@ p_exchange,
 p_side)`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/ExecutionFilter.py line 31]
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/ExecutionFilter.py line 33]
   ====== . ======
 
   `__eq__(p_other)`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/ExecutionFilter.py line 46]
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/ExecutionFilter.py line 48]
   ====== . ======
 
 

@@ -1,18 +1,13 @@
-#summary: # Source file: "Execution.java"
-# Target file: "Execution.py"
-
-__
-
 #labels API-Doc
 ==== Execution(object) ====
 
 _generated source for Execution_
-defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Execution.py line 14]
+defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Execution.py line 16]
 
   `__init__()`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Execution.py line 31]
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Execution.py line 33]
   ====== . ======
 
   `__init___0(p_orderId, 
@@ -28,13 +23,13 @@ p_permId,
 p_liquidation)`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Execution.py line 40]
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Execution.py line 42]
   ====== . ======
 
   `__eq__(p_other)`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Execution.py line 63]
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Execution.py line 65]
   ====== . ======
 
 
