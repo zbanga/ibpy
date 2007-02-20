@@ -1,0 +1,70 @@
+#summary # This is the preferred client interface to this module.
+#labels API-Doc
+
+_# Alternatively, the Connection type can be sub-classed an its create
+# classmethod reused_
+
+==== Connection(object) ====
+
+_Connection -> encapsulates a connection to TWS_
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 34]
+
+  `__init__(host, port, clientId)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 38]
+  ====== . ======
+
+  `__getattr__(name)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 45]
+  ====== . ======
+
+  `connect()`
+
+  _establish a connection to TWS with instance attributes_
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 58]
+  ====== . ======
+
+  `enableLogging(enable=True)`
+
+  _toggle logging of all messages_
+
+    {{{
+    enable : if True (default), enables logging; otherwise disables
+    returns: None
+    }}}
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 65]
+  ====== . ======
+
+  `logMessage(message)`
+
+  _format and send a message values to the logger_
+
+    {{{
+    message : instance of Message
+    returns: None
+    }}}
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 77]
+  ====== . ======
+
+  `create(host='localhost', port=7496, clientId=0)`
+
+  _creates and returns Connection object_
+
+    {{{
+    host : name of host for connection; default is localhost
+    port : port number for connection; default is 7496
+    clientId : client identifier to send when connected
+    returns: Connection instance
+    }}}
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 88]
+  ====== . ======
+
+
+

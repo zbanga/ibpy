@@ -1,0 +1,31 @@
+#summary # Source file: "ComboLeg.java"
+# Target file: "ComboLeg.py"
+#labels API-Doc
+
+__
+
+==== ComboLeg(object) ====
+
+_generated source for ComboLeg_
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 14]
+
+  `__init__()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 29]
+  ====== . ======
+
+  `__init___0(p_ConId, p_Ratio, p_Action, p_exchange, p_openClose)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 35]
+  ====== . ======
+
+  `__eq__(p_other)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 46]
+  ====== . ======
+
+
+

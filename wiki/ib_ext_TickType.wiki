@@ -1,0 +1,16 @@
+#summary ib.ext.TickType reference documentation
+#labels API-Doc
+
+==== TickType(object) ====
+
+_generated source for TickType_
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/TickType.py line 15]
+
+  `getField(tickType)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/TickType.py line 59]
+  ====== . ======
+
+
+

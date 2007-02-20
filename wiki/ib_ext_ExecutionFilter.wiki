@@ -1,0 +1,28 @@
+#summary ib.ext.ExecutionFilter reference documentation
+#labels API-Doc
+
+==== ExecutionFilter(object) ====
+
+_generated source for ExecutionFilter_
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 16]
+
+  `__init__()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 29]
+  ====== . ======
+
+  `__init___0(p_clientId, p_acctCode, p_time, p_symbol, p_secType, p_exchange, p_side)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 33]
+  ====== . ======
+
+  `__eq__(p_other)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 48]
+  ====== . ======
+
+
+

@@ -1,0 +1,16 @@
+#summary ib.ext.EClientErrors reference documentation
+#labels API-Doc
+
+==== EClientErrors(object) ====
+
+_generated source for EClientErrors_
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientErrors.py line 15]
+
+  `__init__()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientErrors.py line 61]
+  ====== . ======
+
+
+

@@ -1,0 +1,34 @@
+#summary ib.ext.Contract reference documentation
+#labels API-Doc
+
+==== Contract(Cloneable) ====
+
+_generated source for Contract_
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 17]
+
+  `__init__()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 50]
+  ====== . ======
+
+  `clone()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 53]
+  ====== . ======
+
+  `__init___0(p_symbol, p_secType, p_expiry, p_strike, p_right, p_multiplier, p_exchange, p_currency, p_localSymbol, p_comboLegs, p_primaryExch, p_includeExpired, p_cusip, p_ratings, p_descAppend, p_bondType, p_couponType, p_callable, p_putable, p_coupon, p_convertible, p_maturity, p_issueDate, p_nextOptionDate, p_nextOptionType, p_nextOptionPartial, p_notes)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 59]
+  ====== . ======
+
+  `__eq__(p_other)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 114]
+  ====== . ======
+
+
+
