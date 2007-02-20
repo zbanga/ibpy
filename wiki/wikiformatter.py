@@ -36,6 +36,7 @@ class PythonDocGenerator:
             write('_%s_' % description)
             write()
 
+        write('#labels API-Doc')
 
         def write_calls(functions, indent=0):
             functions.sort(key=lineno)

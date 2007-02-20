@@ -3,6 +3,7 @@
 _# Alternatively, the Connection type can be sub-classed an its create
 # classmethod reused_
 
+#labels API-Doc
 ==== Connection(object) ====
 
 _Connection -> encapsulates a connection to TWS_

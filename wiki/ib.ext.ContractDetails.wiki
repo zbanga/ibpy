@@ -3,6 +3,7 @@
 
 __
 
+#labels API-Doc
 ==== ContractDetails(object) ====
 
 _generated source for ContractDetails_

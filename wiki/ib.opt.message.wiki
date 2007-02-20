@@ -3,6 +3,7 @@
 
 __
 
+#labels API-Doc
 ==== isWrapperMethod(name, value) ====
 
 _predicate for wrapper methods_
