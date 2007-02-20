@@ -1,0 +1,342 @@
+#summary: # Source file: "EClientSocket.java"
+# Target file: "EClientSocket.py"
+
+__
+
+==== EClientSocket(object) ====
+
+_generated source for EClientSocket_
+defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 24]
+
+  `faMsgTypeName(faDataType)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 37]
+  ====== . ======
+
+  `serverVersion()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 79]
+  ====== . ======
+
+  `TwsConnectionTime()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 82]
+  ====== . ======
+
+  `wrapper()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 85]
+  ====== . ======
+
+  `reader()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 88]
+  ====== . ======
+
+  `__init__(anyWrapper)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 91]
+  ====== . ======
+
+  `isConnected()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 94]
+  ====== . ======
+
+  `eConnect(host, port, clientId)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 99]
+  ====== . ======
+
+  `connectionError()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 109]
+  ====== . ======
+
+  `checkConnected(host)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 113]
+  ====== . ======
+
+  `eConnect_0(socket, clientId)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 123]
+  ====== . ======
+
+  `eDisconnect()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 143]
+  ====== . ======
+
+  `cancelScannerSubscription(tickerId)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 156]
+  ====== . ======
+
+  `reqScannerParameters()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 173]
+  ====== . ======
+
+  `reqScannerSubscription(tickerId, subscription)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 189]
+  ====== . ======
+
+  `reqMktData(tickerId, contract, genericTickList)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 229]
+  ====== . ======
+
+  `cancelHistoricalData(tickerId)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 273]
+  ====== . ======
+
+  `reqHistoricalData(tickerId, 
+contract, 
+endDateTime, 
+durationStr, 
+barSizeSetting, 
+whatToShow, 
+useRTH, 
+formatDate)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 290]
+  ====== . ======
+
+  `reqContractDetails(contract)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 349]
+  ====== . ======
+
+  `reqMktDepth(tickerId, contract, numRows)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 377]
+  ====== . ======
+
+  `cancelMktData(tickerId)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 406]
+  ====== . ======
+
+  `cancelMktDepth(tickerId)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 420]
+  ====== . ======
+
+  `exerciseOptions(tickerId, 
+contract, 
+exerciseAction, 
+exerciseQuantity, 
+account, 
+override)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 437]
+  ====== . ======
+
+  `placeOrder(id, contract, order)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 472]
+  ====== . ======
+
+  `reqAccountUpdates(subscribe, acctCode)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 591]
+  ====== . ======
+
+  `reqExecutions(filter)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 607]
+  ====== . ======
+
+  `cancelOrder(id)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 628]
+  ====== . ======
+
+  `reqOpenOrders()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 642]
+  ====== . ======
+
+  `reqIds(numIds)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 655]
+  ====== . ======
+
+  `reqNewsBulletins(allMsgs)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 669]
+  ====== . ======
+
+  `cancelNewsBulletins()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 683]
+  ====== . ======
+
+  `setServerLogLevel(logLevel)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 696]
+  ====== . ======
+
+  `reqAutoOpenOrders(bAutoBind)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 710]
+  ====== . ======
+
+  `reqAllOpenOrders()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 724]
+  ====== . ======
+
+  `reqManagedAccts()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 737]
+  ====== . ======
+
+  `requestFA(faDataType)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 750]
+  ====== . ======
+
+  `replaceFA(faDataType, xml)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 767]
+  ====== . ======
+
+  `error(err)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 786]
+  ====== . ======
+
+  `error_0(id, errorCode, errorMsg)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 791]
+  ====== . ======
+
+  `close()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 794]
+  ====== . ======
+
+  `is_(strval)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 799]
+  ====== . ======
+
+  `isNull(strval)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 803]
+  ====== . ======
+
+  `error_1(id, pair, tail)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 807]
+  ====== . ======
+
+  `send(strval)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 811]
+  ====== . ======
+
+  `sendEOL()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 816]
+  ====== . ======
+
+  `send_0(val)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 820]
+  ====== . ======
+
+  `send_1(val)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 824]
+  ====== . ======
+
+  `send_2(val)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 829]
+  ====== . ======
+
+  `send_3(val)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 833]
+  ====== . ======
+
+  `sendMax(val)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 837]
+  ====== . ======
+
+  `sendMax_0(val)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 844]
+  ====== . ======
+
+  `send_4(val)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 851]
+  ====== . ======
+
+  `createReader(socket, dis)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientSocket.py line 854]
+  ====== . ======
+
+
+

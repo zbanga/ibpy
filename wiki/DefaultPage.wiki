@@ -1,3 +1,0 @@
-#summary None.
-
-This is a default document (to be removed via svn).

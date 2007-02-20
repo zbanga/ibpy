@@ -1,0 +1,24 @@
+#summary: # Source file: "Order.java"
+# Target file: "Order.py"
+
+__
+
+==== Order(object) ====
+
+_generated source for Order_
+defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Order.py line 14]
+
+  `__init__()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Order.py line 88]
+  ====== . ======
+
+  `__eq__(p_other)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Order.py line 108]
+  ====== . ======
+
+
+

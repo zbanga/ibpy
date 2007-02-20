@@ -1,0 +1,189 @@
+#summary: # Source file: "EWrapper.java"
+# Target file: "EWrapper.py"
+
+__
+
+==== EWrapper(AnyWrapper) ====
+
+_generated source for EWrapper_
+defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 14]
+
+  `tickPrice(tickerId, field, price, canAutoExecute)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 19]
+  ====== . ======
+
+  `tickSize(tickerId, field, size)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 22]
+  ====== . ======
+
+  `tickOptionComputation(tickerId, 
+field, 
+impliedVol, 
+delta, 
+modelPrice, 
+pvDividend)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 25]
+  ====== . ======
+
+  `orderStatus(orderId, 
+status, 
+filled, 
+remaining, 
+avgFillPrice, 
+permId, 
+parentId, 
+lastFillPrice, 
+clientId)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 33]
+  ====== . ======
+
+  `openOrder(orderId, contract, order)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 44]
+  ====== . ======
+
+  `updateAccountValue(key, value, currency, accountName)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 47]
+  ====== . ======
+
+  `updatePortfolio(contract, 
+position, 
+marketPrice, 
+marketValue, 
+averageCost, 
+unrealizedPNL, 
+realizedPNL, 
+accountName)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 50]
+  ====== . ======
+
+  `updateAccountTime(timeStamp)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 60]
+  ====== . ======
+
+  `nextValidId(orderId)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 63]
+  ====== . ======
+
+  `contractDetails(contractDetails)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 66]
+  ====== . ======
+
+  `bondContractDetails(contractDetails)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 69]
+  ====== . ======
+
+  `execDetails(orderId, contract, execution)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 72]
+  ====== . ======
+
+  `updateMktDepth(tickerId, 
+position, 
+operation, 
+side, 
+price, 
+size)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 75]
+  ====== . ======
+
+  `updateMktDepthL2(tickerId, 
+position, 
+marketMaker, 
+operation, 
+side, 
+price, 
+size)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 83]
+  ====== . ======
+
+  `updateNewsBulletin(msgId, msgType, message, origExchange)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 92]
+  ====== . ======
+
+  `managedAccounts(accountsList)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 95]
+  ====== . ======
+
+  `receiveFA(faDataType, xml)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 98]
+  ====== . ======
+
+  `historicalData(reqId, 
+date, 
+open, 
+high, 
+low, 
+close, 
+volume, 
+count, 
+WAP, 
+hasGaps)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 101]
+  ====== . ======
+
+  `scannerParameters(xml)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 113]
+  ====== . ======
+
+  `scannerData(reqId, 
+rank, 
+contractDetails, 
+distance, 
+benchmark, 
+projection)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 116]
+  ====== . ======
+
+  `tickGeneric(tickerId, tickType, value)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 124]
+  ====== . ======
+
+  `tickString(tickerId, tickType, value)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EWrapper.py line 127]
+  ====== . ======
+
+
+

@@ -1,0 +1,18 @@
+#summary: # Source file: "TickType.java"
+# Target file: "TickType.py"
+
+__
+
+==== TickType(object) ====
+
+_generated source for TickType_
+defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/TickType.py line 13]
+
+  `getField(tickType)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/TickType.py line 57]
+  ====== . ======
+
+
+

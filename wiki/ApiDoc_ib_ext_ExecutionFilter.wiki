@@ -1,0 +1,36 @@
+#summary: # Source file: "ExecutionFilter.java"
+# Target file: "ExecutionFilter.py"
+
+__
+
+==== ExecutionFilter(object) ====
+
+_generated source for ExecutionFilter_
+defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/ExecutionFilter.py line 14]
+
+  `__init__()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/ExecutionFilter.py line 27]
+  ====== . ======
+
+  `__init___0(p_clientId, 
+p_acctCode, 
+p_time, 
+p_symbol, 
+p_secType, 
+p_exchange, 
+p_side)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/ExecutionFilter.py line 31]
+  ====== . ======
+
+  `__eq__(p_other)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/ExecutionFilter.py line 46]
+  ====== . ======
+
+
+

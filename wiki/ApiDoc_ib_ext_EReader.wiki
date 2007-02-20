@@ -1,0 +1,78 @@
+#summary: # Source file: "EReader.java"
+# Target file: "EReader.py"
+
+__
+
+==== EReader(Thread) ====
+
+_generated source for EReader_
+defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EReader.py line 19]
+
+  `parent()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EReader.py line 49]
+  ====== . ======
+
+  `eWrapper()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EReader.py line 52]
+  ====== . ======
+
+  `__init__(parent, dis)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EReader.py line 56]
+  ====== . ======
+
+  `__init___0(name, parent, dis)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EReader.py line 60]
+  ====== . ======
+
+  `run()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EReader.py line 66]
+  ====== . ======
+
+  `processMsg(msgId)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EReader.py line 75]
+  ====== . ======
+
+  `readStr()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EReader.py line 468]
+  ====== . ======
+
+  `readBoolFromInt()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EReader.py line 478]
+  ====== . ======
+
+  `readInt()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EReader.py line 482]
+  ====== . ======
+
+  `readLong()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EReader.py line 486]
+  ====== . ======
+
+  `readDouble()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EReader.py line 490]
+  ====== . ======
+
+
+

@@ -1,0 +1,36 @@
+#summary: # Source file: "AnyWrapper.java"
+# Target file: "AnyWrapper.py"
+
+__
+
+==== AnyWrapper(object) ====
+
+_generated source for AnyWrapper_
+defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/AnyWrapper.py line 14]
+
+  `error(e)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/AnyWrapper.py line 20]
+  ====== . ======
+
+  `error_0(strval)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/AnyWrapper.py line 24]
+  ====== . ======
+
+  `error_1(id, errorCode, errorMsg)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/AnyWrapper.py line 28]
+  ====== . ======
+
+  `connectionClosed()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/AnyWrapper.py line 31]
+  ====== . ======
+
+
+

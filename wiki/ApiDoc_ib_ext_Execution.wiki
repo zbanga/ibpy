@@ -1,0 +1,40 @@
+#summary: # Source file: "Execution.java"
+# Target file: "Execution.py"
+
+__
+
+==== Execution(object) ====
+
+_generated source for Execution_
+defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Execution.py line 14]
+
+  `__init__()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Execution.py line 31]
+  ====== . ======
+
+  `__init___0(p_orderId, 
+p_clientId, 
+p_execId, 
+p_time, 
+p_acctNumber, 
+p_exchange, 
+p_side, 
+p_shares, 
+p_price, 
+p_permId, 
+p_liquidation)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Execution.py line 40]
+  ====== . ======
+
+  `__eq__(p_other)`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/Execution.py line 63]
+  ====== . ======
+
+
+

@@ -1,0 +1,18 @@
+#summary: # Source file: "EClientErrors.java"
+# Target file: "EClientErrors.py"
+
+__
+
+==== EClientErrors(object) ====
+
+_generated source for EClientErrors_
+defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientErrors.py line 13]
+
+  `__init__()`
+
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/../trunk/ib/ext/EClientErrors.py line 59]
+  ====== . ======
+
+
+
