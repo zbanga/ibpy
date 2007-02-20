@@ -45,9 +45,9 @@ defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 107]
 
 ==== MessageType(type) ====
 
-_MessageType -> simple metaclass to track Message subclasses
+_!!!MessageType -> simple metaclass to track !!Message subclasses
 
-As new Message subclasses are defined (see below), they are saved
+!As new !!Message subclasses are defined (see below), they are saved
 to the registry mapping._
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 24]
 
@@ -59,7 +59,7 @@ defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 24]
 
 ==== Message(object) ====
 
-_Message -> base type for message instances_
+_!Message -> base type for message instances_
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 37]
 
   `__init__(**kwds)`
@@ -97,9 +97,9 @@ defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 37]
 
 ==== Error(Message) ====
 
-_Error -> specialized message type
+_!Error -> specialized message type
 
-The error family of method calls can't be built programmatically,
+!The error family of method calls can't be built programmatically,
 so we define one here._
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 73]
 

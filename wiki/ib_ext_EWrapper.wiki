@@ -3,7 +3,7 @@
 
 ==== EWrapper(AnyWrapper) ====
 
-_generated source for EWrapper_
+_generated source for !EWrapper_
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 16]
 
   `tickPrice(tickerId, field, price, canAutoExecute)`
