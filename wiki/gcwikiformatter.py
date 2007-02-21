@@ -57,7 +57,7 @@ def write_callables(functions, write, link, indent=0):
 
         description = etext(function.find('info/description'))
         if description:
-            write('%s_%s _' % (offset, description))
+            write('%s_%s _' % (offset, description.replace('\n', '')))
             write()
 
         params = function.findall('info/param')

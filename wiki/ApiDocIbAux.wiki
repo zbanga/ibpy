@@ -3,9 +3,7 @@
 
 === synchronized(lock) (function) ===
 
-_synchronization decorator
-
-from http://wiki.python.org/moin/PythonDecoratorLibrary _
+_synchronization decoratorfrom http://wiki.python.org/moin/PythonDecoratorLibrary _
 
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 13]
 ====== . ======
@@ -60,10 +58,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 6
 
   method *`readByte(unpack=struct.unpack)`*
 
-  _reads a byte from the contained stream
-
-keyword arguments are bound to module globals for faster
-access. _
+  _reads a byte from the contained streamkeyword arguments are bound to module globals for fasteraccess. _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 71]
   ====== . ======
@@ -81,10 +76,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 8
 
   method *`write(data, pack=struct.pack, eol=struct.pack('!b', 0))`*
 
-  _writes data to the contained stream
-
-keyword arguments are bound to module globals for faster
-access. _
+  _writes data to the contained streamkeyword arguments are bound to module globals for fasteraccess. _
 
     {{{
     data: string to send, or 0
@@ -174,10 +166,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 1
 
   method *`__str__(join=str.join, chr=chr)`*
 
-  _the string value of this instance
-
-keyword arguments are bound to module globals for faster
-access. _
+  _the string value of this instancekeyword arguments are bound to module globals for fasteraccess. _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 174]
   ====== . ======
