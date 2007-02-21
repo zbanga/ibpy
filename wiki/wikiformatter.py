@@ -1,10 +1,26 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""
+TODO:
+
+update all source docs
+
+fix summary/description line endings.
+
+add support for module variables.
+
+
+"""
 linkbase = 'http://ibpy.googlecode.com/svn/'
 
 def outname(v):
-    return v[9:-3].replace('/__init__', '').replace('/', '_') + '.wiki'
+    t = v[9:-3].replace('/__init__', '').split('/')
+    if len(t) == 3 and t[-2] == 'ext':
+        t = str.join('', [a.title() for a in t[:-1]]) + t[-1]
+    else:
+        t = str.join('', [a.title() for a in t])
+    return 'ApiDoc' + t + '.wiki'
 
 def pkgname(v):
     return v[9:-3].replace('/__init__', '').replace('/', '.')
