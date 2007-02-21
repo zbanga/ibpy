@@ -13,22 +13,22 @@ The documentation for IbPy is divided into two sections:  [HowTo how-to document
 
 == API Reference Documents ===
 
-  * ApiDocIbExtAnyWrapper - documentation for {{{ib.ext.AnyWrapper}}}
-  * ApiDocIbExtComboLeg - documentation for {{{ib.ext.ComboLeg}}}
-  * ApiDocIbExtContract - documentation for {{{ib.ext.Contract}}}
-  * ApiDocIbExtContractDetails - documentation for {{{ib.ext.ContractDetails}}}
-  * ApiDocIbExtEClientErrors - documentation for {{{ib.ext.EClientErrors}}}
-  * ApiDocIbExtEClientSocket - documentation for {{{ib.ext.EClientSocket}}}
-  * ApiDocIbExtEReader - documentation for {{{ib.ext.EReader}}}
-  * ApiDocIbExtEWrapper - documentation for {{{ib.ext.EWrapper}}}
-  * ApiDocIbExtExecution - documentation for {{{ib.ext.Execution}}}
-  * ApiDocIbExtExecutionFilter - documentation for {{{ib.ext.ExecutionFilter}}}
-  * ApiDocIbExtOrder - documentation for {{{ib.ext.Order}}}
-  * ApiDocIbExtScannerSubscription - documentation for {{{ib.ext.ScannerSubscription}}}
-  * ApiDocIbExtTickType - documentation for {{{ib.ext.TickType}}}
-  * ApiDocIbOpt - documentation for {{{ib.opt}}}
-  * ApiDocIbOptLogger - documentation for {{{ib.opt.logger}}}
-  * ApiDocIbOptSender - documentation for {{{ib.opt.sender}}}
-  * ApiDocIbOptReceiver - documentation for {{{ib.opt.receiver}}}
-  * ApiDocIbOptMessage - documentation for {{{ib.opt.message}}}
-  * ApiDocIbAuxOverloading - documentation for {{{ib.aux.overloading}}}
+  * [ApiDocIbExtAnyWrapper ApiDocIbExtAnyWrapper] - documentation for {{{ib.ext.AnyWrapper}}}
+  * [ApiDocIbExtComboLeg ApiDocIbExtComboLeg] - documentation for {{{ib.ext.ComboLeg}}}
+  * [ApiDocIbExtContract ApiDocIbExtContract] - documentation for {{{ib.ext.Contract}}}
+  * [ApiDocIbExtContractDetails ApiDocIbExtContractDetails] - documentation for {{{ib.ext.ContractDetails}}}
+  * [ApiDocIbExtEClientErrors ApiDocIbExtEClientErrors] - documentation for {{{ib.ext.EClientErrors}}}
+  * [ApiDocIbExtEClientSocket ApiDocIbExtEClientSocket] - documentation for {{{ib.ext.EClientSocket}}}
+  * [ApiDocIbExtEReader ApiDocIbExtEReader] - documentation for {{{ib.ext.EReader}}}
+  * [ApiDocIbExtEWrapper ApiDocIbExtEWrapper] - documentation for {{{ib.ext.EWrapper}}}
+  * [ApiDocIbExtExecution ApiDocIbExtExecution] - documentation for {{{ib.ext.Execution}}}
+  * [ApiDocIbExtExecutionFilter ApiDocIbExtExecutionFilter] - documentation for {{{ib.ext.ExecutionFilter}}}
+  * [ApiDocIbExtOrder ApiDocIbExtOrder] - documentation for {{{ib.ext.Order}}}
+  * [ApiDocIbExtScannerSubscription ApiDocIbExtScannerSubscription] - documentation for {{{ib.ext.ScannerSubscription}}}
+  * [ApiDocIbExtTickType ApiDocIbExtTickType] - documentation for {{{ib.ext.TickType}}}
+  * [ApiDocIbOpt ApiDocIbOpt] - documentation for {{{ib.opt}}}
+  * [ApiDocIbOptLogger ApiDocIbOptLogger] - documentation for {{{ib.opt.logger}}}
+  * [ApiDocIbOptSender ApiDocIbOptSender] - documentation for {{{ib.opt.sender}}}
+  * [ApiDocIbOptReceiver ApiDocIbOptReceiver] - documentation for {{{ib.opt.receiver}}}
+  * [ApiDocIbOptMessage ApiDocIbOptMessage] - documentation for {{{ib.opt.message}}}
+  * [ApiDocIbAuxOverloading ApiDocIbAuxOverloading] - documentation for {{{ib.aux.overloading}}}

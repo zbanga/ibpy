@@ -106,7 +106,8 @@ def update_index(wikifile, package, index='DocumentationIndex.wiki'):
     wikiname = wikifile[:-5]
     if wikiname not in data:
         fh = open(index, 'a')
-        fh.write('  * %s - documentation for {{{%s}}}\n' % (wikiname, package))
+        fs = '  * [%s %s] - documentation for {{{%s}}}\n'
+        fh.write(fs % (wikiname, wikiname, package))
 
 class PythonDocGenerator:
     def __init__(self, options):
