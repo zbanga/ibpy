@@ -47,7 +47,7 @@ def write_callables(functions, write, link, indent=0):
     offset = '  ' * indent
     moreoffset = offset + '  '
 
-    deffs = '%s=== function %s ===' if not indent else '%smethod *`%s`*'
+    deffs = '%s=== %s (function) ===' if not indent else '%smethod *`%s`*'
     for function in sorted(functions, key=line_no):
         defstr = etext(function.find('info/def'))
         if defstr:
@@ -83,22 +83,23 @@ def write_callables(functions, write, link, indent=0):
 def write_variables(variables, write, link, indent=0):
     variables.sort(key=line_no)
     offset = '  ' * indent
-    varfs = '%s=== module variable %s ===' if not indent else '%smember *`%s`*'
+    varfs = '%s=== %s (variable) ===' if not indent else '%smember *`%s`*'
 
-    for variable in sorted(variables, key=line_no):
-        vdef = etext(variable.find('info/def'))
-        name = etext(variable.find('info/name'))
-        summary = etext(variable.find('info/summary'))
-        descrip = etext(variable.find('info/description'))
+    for var in sorted(variables, key=line_no):
+        vdef = etext(var.find('info/def'))
+        name = etext(var.find('info/name'))
+        summary = etext(var.find('info/summary'))
+        descrip = etext(var.find('info/description'))
 
         write(varfs % (offset, vdef))
         write()
 
         if descrip:
-            write('%s _%s_' % (indent, descrip))
+            write('%s _%s_' % (offset, descrip))
         elif summary:
-            write('%s _%s_' % (indent, summary))
+            write('%s _%s_' % (offset, summary))
         write()
+        write('%sdefined at [%s line %s]' % (offset, link, var.attrib['lineno']))
 
 
 class PythonDocGenerator:
@@ -136,7 +137,7 @@ class PythonDocGenerator:
         write_callables(module.findall('function'), write, link, 0)
 
         for cls in sorted(module.findall('class'), key=line_no):
-            write('=== class %s ===' % etext(cls.find('info/def')))
+            write('=== %s (class) ===' % etext(cls.find('info/def')))
             write()
 
             summary = etext(cls.find('info/summary'))
@@ -153,6 +154,7 @@ class PythonDocGenerator:
 
             write('class defined at [%s line %s]' % (link, cls.attrib['lineno']))
             write()
+            write_variables(cls.findall('variable'), write, link, 1)
             write_callables(cls.findall('method'), write, link, 1)
 
         write()

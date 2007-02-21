@@ -9,12 +9,13 @@ types.  In creating the types, it also builds a registry of them that
 the Receiver class uses to determine message types to instantiate and
 deliver.
 
-=== module variable registry ===
+=== registry (variable) ===
 
-0 _maps wrapper method names to the message class that can be
+ _maps wrapper method names to the message class that can be
 instantiated for delivery by the named method._
 
-=== function isWrapperMethod(name, value) ===
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 23]
+=== isWrapperMethod(name, value) (function) ===
 
 _predicate for wrapper methods _
 
@@ -27,7 +28,7 @@ _predicate for wrapper methods _
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 85]
 ====== . ======
 
-=== function selectWrapperMethods(cls) ===
+=== selectWrapperMethods(cls) (function) ===
 
 _wrapper methods of a class _
 
@@ -39,7 +40,7 @@ _wrapper methods of a class _
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 97]
 ====== . ======
 
-=== function buildMessageTypes(wrapper, mapping, *bases) ===
+=== buildMessageTypes(wrapper, mapping, *bases) (function) ===
 
 _construct message types and add to given mapping _
 
@@ -53,7 +54,7 @@ _construct message types and add to given mapping _
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 109]
 ====== . ======
 
-=== class MessageType(type) ===
+=== MessageType(type) (class) ===
 
 _MessageType -> simple metaclass to track Message subclasses
 
@@ -68,7 +69,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 26
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 32]
   ====== . ======
 
-=== class Message(object) ===
+=== Message(object) (class) ===
 
 _Message -> base type for message instances_
 
@@ -106,7 +107,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 39
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 68]
   ====== . ======
 
-=== class Error(Message) ===
+=== Error(Message) (class) ===
 
 _Error -> specialized message type
 

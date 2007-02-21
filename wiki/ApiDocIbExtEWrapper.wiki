@@ -1,7 +1,7 @@
 #summary Automated source translation for EWrapper.
 #labels ApiDoc
 
-=== class EWrapper(AnyWrapper) ===
+=== EWrapper(AnyWrapper) (class) ===
 
 _generated source for EWrapper_
 

@@ -1,7 +1,7 @@
 #summary Automated source translation for AnyWrapper.
 #labels ApiDoc
 
-=== class AnyWrapper(object) ===
+=== AnyWrapper(object) (class) ===
 
 _generated source for AnyWrapper_
 

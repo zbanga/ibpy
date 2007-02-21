@@ -1,7 +1,7 @@
 #summary Automated source translation for EClientSocket.
 #labels ApiDoc
 
-=== class EClientSocket(object) ===
+=== EClientSocket(object) (class) ===
 
 _generated source for EClientSocket_
 

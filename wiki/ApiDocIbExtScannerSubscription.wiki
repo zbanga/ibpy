@@ -1,7 +1,7 @@
 #summary Automated source translation for ScannerSubscription.
 #labels ApiDoc
 
-=== class ScannerSubscription(object) ===
+=== ScannerSubscription(object) (class) ===
 
 _generated source for ScannerSubscription_
 

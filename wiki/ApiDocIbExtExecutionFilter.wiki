@@ -1,7 +1,7 @@
 #summary Automated source translation for ExecutionFilter.
 #labels ApiDoc
 
-=== class ExecutionFilter(object) ===
+=== ExecutionFilter(object) (class) ===
 
 _generated source for ExecutionFilter_
 

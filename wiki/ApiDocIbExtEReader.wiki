@@ -1,7 +1,7 @@
 #summary Automated source translation for EReader.
 #labels ApiDoc
 
-=== class EReader(Thread) ===
+=== EReader(Thread) (class) ===
 
 _generated source for EReader_
 

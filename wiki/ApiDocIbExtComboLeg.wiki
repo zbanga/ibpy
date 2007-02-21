@@ -1,7 +1,7 @@
 #summary Automated source translation for ComboLeg.
 #labels ApiDoc
 
-=== class ComboLeg(object) ===
+=== ComboLeg(object) (class) ===
 
 _generated source for ComboLeg_
 

@@ -1,8 +1,9 @@
 #summary Package root.
 #labels ApiDoc
 
-=== module variable api ===
+=== api (variable) ===
 
-0 _values substituted during release build._
+ _values substituted during release build._
 
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/__init__.py line 12]
 

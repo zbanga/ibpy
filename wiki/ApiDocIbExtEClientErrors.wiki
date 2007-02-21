@@ -1,7 +1,7 @@
 #summary Automated source translation for EClientErrors.
 #labels ApiDoc
 
-=== class EClientErrors(object) ===
+=== EClientErrors(object) (class) ===
 
 _generated source for EClientErrors_
 

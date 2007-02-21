@@ -1,7 +1,7 @@
 #summary Defines Receiver class to handle inbound data.
 #labels ApiDoc
 
-=== function messageMethod(name, argnames) ===
+=== messageMethod(name, argnames) (function) ===
 
 _messageMethod -> creates method for dispatching messages _
 
@@ -14,7 +14,7 @@ _messageMethod -> creates method for dispatching messages _
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 12]
 ====== . ======
 
-=== class ReceiverType(type) ===
+=== ReceiverType(type) (class) ===
 
 _ReceiverType -> metaclass that adds EWrapper methods to Receiver
 
@@ -29,7 +29,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 2
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 32]
   ====== . ======
 
-=== class Receiver(object) ===
+=== Receiver(object) (class) ===
 
 _Receiver -> dispatches messages to interested callables_
 

@@ -1,7 +1,7 @@
 #summary Automated source translation for Execution.
 #labels ApiDoc
 
-=== class Execution(object) ===
+=== Execution(object) (class) ===
 
 _generated source for Execution_
 

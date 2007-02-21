@@ -1,7 +1,7 @@
 #summary Automated source translation for ContractDetails.
 #labels ApiDoc
 
-=== class ContractDetails(object) ===
+=== ContractDetails(object) (class) ===
 
 _generated source for ContractDetails_
 

@@ -27,13 +27,14 @@ Enable and disable logging:
    con.enableLogging(False)
    }}}
 
-=== module variable ibConnection ===
+=== ibConnection (variable) ===
 
-0 _This is the preferred client interface to this module.
+ _This is the preferred client interface to this module.
 Alternatively, the Connection type can be sub-classed an its create
 classmethod reused_
 
-=== class Connection(object) ===
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 105]
+=== Connection(object) (class) ===
 
 _Connection -> encapsulates a connection to TWS_
 

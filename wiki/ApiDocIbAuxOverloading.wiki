@@ -1,7 +1,7 @@
 #summary Reference documentation for ib.aux.overloading
 #labels ApiDoc
 
-=== class overloaded ===
+=== overloaded (class) ===
 
 _An implementation of overloaded functions._
 
