@@ -1,4 +1,8 @@
 #summary Package root.
 #labels ApiDoc
 
+=== module variable api ===
+
+0 _values substituted during release build._
+
 

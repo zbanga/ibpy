@@ -9,6 +9,11 @@ types.  In creating the types, it also builds a registry of them that
 the Receiver class uses to determine message types to instantiate and
 deliver.
 
+=== module variable registry ===
+
+0 _maps wrapper method names to the message class that can be
+instantiated for delivery by the named method._
+
 === function isWrapperMethod(name, value) ===
 
 _predicate for wrapper methods _

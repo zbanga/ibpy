@@ -44,12 +44,11 @@ def etext(elem, default=''):
 
 
 def write_callables(functions, write, link, indent=0):
-    functions.sort(key=line_no)
     offset = '  ' * indent
     moreoffset = offset + '  '
 
     deffs = '%s=== function %s ===' if not indent else '%smethod *`%s`*'
-    for function in functions:
+    for function in sorted(functions, key=line_no):
         defstr = etext(function.find('info/def'))
         if defstr:
             defstr = defstr.replace('\n', '')
@@ -80,9 +79,26 @@ def write_callables(functions, write, link, indent=0):
         write('%s====== . ======' % offset)
         write()
 
+
 def write_variables(variables, write, link, indent=0):
     variables.sort(key=line_no)
     offset = '  ' * indent
+    varfs = '%s=== module variable %s ===' if not indent else '%smember *`%s`*'
+
+    for variable in sorted(variables, key=line_no):
+        vdef = etext(variable.find('info/def'))
+        name = etext(variable.find('info/name'))
+        summary = etext(variable.find('info/summary'))
+        descrip = etext(variable.find('info/description'))
+
+        write(varfs % (offset, vdef))
+        write()
+
+        if descrip:
+            write('%s _%s_' % (indent, descrip))
+        elif summary:
+            write('%s _%s_' % (indent, summary))
+        write()
 
 
 class PythonDocGenerator:
