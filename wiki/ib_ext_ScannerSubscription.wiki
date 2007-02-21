@@ -3,8 +3,9 @@
 
 ==== ScannerSubscription(object) ====
 
-_generated source for ScannerSubscription_
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 17]
+_generated source for ScannerSubscription _
+
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 17]
 
   `numberOfRows()`
 

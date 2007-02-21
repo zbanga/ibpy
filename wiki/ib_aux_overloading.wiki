@@ -3,8 +3,9 @@
 
 ==== overloaded ====
 
-_An implementation of overloaded functions._
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py line 36]
+_An implementation of overloaded functions. _
+
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py line 36]
 
   `__init__(default_func)`
 
@@ -20,32 +21,32 @@ defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py line 36]
 
   `register(*types)`
 
-  _Decorator to register an implementation for a specific set of types._
-  __
-  _.register(t1, t2)(f) is equivalent to .register_func((t1, t2), f)._
+  _Decorator to register an implementation for a specific set of types. _
+  _ _
+  _.register(t1, t2)(f) is equivalent to .register_func((t1, t2), f). _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py line 50]
   ====== . ======
 
   `register_func(types, func)`
 
-  _Helper to register an implementation._
+  _Helper to register an implementation. _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py line 61]
   ====== . ======
 
   `__call__(*args)`
 
-  _Call the overloaded function._
+  _Call the overloaded function. _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py line 66]
   ====== . ======
 
   `find_func(types)`
 
-  _Find the appropriate overloaded function; don't call it._
-  __
-  _This won't work for old-style classes or classes without __mro__._
+  _Find the appropriate overloaded function; don't call it. _
+  _ _
+  _This won't work for old-style classes or classes without __mro__. _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py line 74]
   ====== . ======

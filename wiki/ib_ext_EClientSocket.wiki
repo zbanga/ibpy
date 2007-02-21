@@ -3,8 +3,9 @@
 
 ==== EClientSocket(object) ====
 
-_generated source for EClientSocket_
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 26]
+_generated source for EClientSocket _
+
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 26]
 
   `faMsgTypeName(faDataType)`
 

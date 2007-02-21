@@ -2,12 +2,13 @@
 # Target file: "ComboLeg.py"
 #labels API-Doc
 
-__
+_ _
 
 ==== ComboLeg(object) ====
 
-_generated source for ComboLeg_
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 14]
+_generated source for ComboLeg _
+
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 14]
 
   `__init__()`
 

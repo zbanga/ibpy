@@ -3,8 +3,9 @@
 
 ==== EClientErrors(object) ====
 
-_generated source for EClientErrors_
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientErrors.py line 15]
+_generated source for EClientErrors _
+
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientErrors.py line 15]
 
   `__init__()`
 

@@ -3,8 +3,9 @@
 
 ==== Execution(object) ====
 
-_generated source for Execution_
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 16]
+_generated source for Execution _
+
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 16]
 
   `__init__()`
 

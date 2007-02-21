@@ -56,7 +56,7 @@ class PythonDocGenerator:
             description = description.text
             description = description.replace(summary, '')
             description = description.lstrip()
-            write('_%s_' % wikiescape(description))
+            write('_%s _' % wikiescape(description))
             write()
 
         def write_calls(functions, indent=0):
@@ -77,7 +77,7 @@ class PythonDocGenerator:
                 if description is not None and description.text:
                     for line in description.text.split('\n'):
                         line = line.strip()
-                        write('%s_%s_' % (offset, wikiescape(line)))
+                        write('%s_%s _' % (offset, wikiescape(line)))
                 else:
                     pass
                 write()
@@ -109,8 +109,9 @@ class PythonDocGenerator:
             write()
             description = cls.find('info/description')
             if description is not None and description.text:
-                write('_%s_' % wikiescape(description.text))
-            write('defined at [%s line %s]' % (link, cls.attrib['lineno']))
+                write('_%s _' % wikiescape(description.text))
+                write()
+            write('class defined at [%s line %s]' % (link, cls.attrib['lineno']))
             write()
             write_calls(cls.findall('method'), 1)
 

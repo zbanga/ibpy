@@ -3,8 +3,9 @@
 
 ==== EReader(Thread) ====
 
-_generated source for EReader_
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 21]
+_generated source for EReader _
+
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 21]
 
   `parent()`
 

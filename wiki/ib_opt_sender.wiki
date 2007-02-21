@@ -1,28 +1,31 @@
-#summary Reference documentation for ib.opt.sender
+#summary Defines Sender class to handle outbound requests.
 #labels API-Doc
+
+_ _
 
 ==== Sender(object) ====
 
 _objects call listeners pre/post reqScannerParameters,
-reqAccountUpdates, etc._
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 10]
+reqAccountUpdates, etc. _
+
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 12]
 
   `__init__()`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 17]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 19]
   ====== . ======
 
   `connect(host, port, clientId, handler)`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 20]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 22]
   ====== . ======
 
   `__getattr__(name)`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 24]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 26]
   ====== . ======
 
 
