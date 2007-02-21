@@ -3,8 +3,7 @@
 
 === Contract(Cloneable) (class) ===
 
-_generated source for Contract_
-
+generated source for Contract
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 17]
 

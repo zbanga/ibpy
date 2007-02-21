@@ -3,8 +3,7 @@
 
 === Order(object) (class) ===
 
-_generated source for Order_
-
+generated source for Order
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 16]
 

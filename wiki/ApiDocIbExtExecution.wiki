@@ -3,8 +3,7 @@
 
 === Execution(object) (class) ===
 
-_generated source for Execution_
-
+generated source for Execution
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 16]
 

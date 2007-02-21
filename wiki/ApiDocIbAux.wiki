@@ -12,8 +12,7 @@ defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 13]
 
 === Boolean(object) (class) ===
 
-_partial implementation of java Boolean type_
-
+partial implementation of java Boolean type
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 29]
 
@@ -44,19 +43,17 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
 
 === Cloneable(object) (class) ===
 
-_stub for the Cloneable java interface
+stub for the Cloneable java interface
 
 some of the translated code implements the java Cloneable
-interface, but its methods are never used._
-  we provide this class
+interface, but its methods are never used.  we provide this class
 for subtyping, and will implement methods as needed later.
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 55]
 
 === DataInputStream(object) (class) ===
 
-_partial implementation of the java DataInputStream type_
-
+partial implementation of the java DataInputStream type
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 64]
 
@@ -77,8 +74,7 @@ access. _
 
 === DataOutputStream(object) (class) ===
 
-_partial implementation of the java DataOutputStream type_
-
+partial implementation of the java DataOutputStream type
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 82]
 
@@ -104,8 +100,7 @@ access. _
 
 === Double(float) (class) ===
 
-_partial implementation of java Double type_
-
+partial implementation of java Double type
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 106]
 
@@ -125,8 +120,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 1
 
 === Integer(int) (class) ===
 
-_partial implementation of java Integer type_
-
+partial implementation of java Integer type
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 122]
 
@@ -153,8 +147,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 1
 
 === Socket(socket.socket) (class) ===
 
-_partial implementation of the java Socket type._
-
+partial implementation of the java Socket type.
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 146]
 
@@ -179,10 +172,9 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 1
 
 === StringBuffer(list) (class) ===
 
-_partial implementation of the java StringBuffer type
+partial implementation of the java StringBuffer type
 
-translated code uses instances of this type to build up strings._
-
+translated code uses instances of this type to build up strings.
 the list base type provides the append method.
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 167]
@@ -199,8 +191,7 @@ access. _
 
 === ThreadType(QThread) (class) ===
 
-_partial implementation of java Thread type, based on Qt3 QThread_
-
+partial implementation of java Thread type, based on Qt3 QThread
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 188]
 
@@ -231,8 +222,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 1
 
 === ThreadType(QThread) (class) ===
 
-_partial implementation of java Thread type, based on Qt4 QThread_
-
+partial implementation of java Thread type, based on Qt4 QThread
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 212]
 
@@ -263,8 +253,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
 
 === ThreadType(threading.Thread) (class) ===
 
-_partial implementation of java Thread type, based on Python Thread_
-
+partial implementation of java Thread type, based on Python Thread
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 235]
 
@@ -289,8 +278,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
 
 === Thread(ThreadType) (class) ===
 
-_Thread parent type, based on available framework_
-
+Thread parent type, based on available framework
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 256]
 

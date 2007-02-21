@@ -3,8 +3,7 @@
 
 === ComboLeg(object) (class) ===
 
-_generated source for ComboLeg_
-
+generated source for ComboLeg
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 16]
 

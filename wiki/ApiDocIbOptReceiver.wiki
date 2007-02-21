@@ -16,11 +16,10 @@ defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 12]
 
 === ReceiverType(type) (class) ===
 
-_ReceiverType -> metaclass that adds EWrapper methods to Receiver
+ReceiverType -> metaclass that adds EWrapper methods to Receiver
 
 This metaclass creates dispatch methods for each method defined by
-EWrapper._
-
+EWrapper.
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 26]
 
@@ -31,8 +30,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 2
 
 === Receiver(object) (class) ===
 
-_Receiver -> dispatches messages to interested callables_
-
+Receiver -> dispatches messages to interested callables
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 38]
 

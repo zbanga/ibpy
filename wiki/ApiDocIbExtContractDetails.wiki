@@ -3,8 +3,7 @@
 
 === ContractDetails(object) (class) ===
 
-_generated source for ContractDetails_
-
+generated source for ContractDetails
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ContractDetails.py line 17]
 

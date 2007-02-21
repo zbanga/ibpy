@@ -3,8 +3,7 @@
 
 === overloaded (class) ===
 
-_An implementation of overloaded functions._
-
+An implementation of overloaded functions.
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py line 36]
 

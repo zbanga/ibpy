@@ -3,8 +3,7 @@
 
 === AnyWrapper(object) (class) ===
 
-_generated source for AnyWrapper_
-
+generated source for AnyWrapper
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 16]
 

@@ -142,12 +142,9 @@ class PythonDocGenerator:
             summary = etext(cls.find('info/summary'))
             description = etext(cls.find('info/description'))
 
-            if summary:
+            if not description:
                 write('_%s_' % summary)
-
-            if description:
-                if description.startswith(summary):
-                    description = description[len(summary):]
+            else:
                 write(description)
                 write()
 
