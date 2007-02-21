@@ -1,5 +1,7 @@
-#summary Defines message types for the Receiver class.
+#summary Reference documentation for ib.opt.message
 #labels API-Doc
+
+Defines message types for the Receiver class.
 
 This module inspects the !EWrapper class to build a set of Message
 types.  In creating the types, it also builds a registry of them that

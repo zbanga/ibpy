@@ -1,5 +1,7 @@
-#summary Sugary sweet layer of icing on top of the TWS API.
+#summary Reference documentation for ib.opt
 #labels API-Doc
+
+Sugary sweet layer of icing on top of the !TWS !API.
 
 Use:
    {{{

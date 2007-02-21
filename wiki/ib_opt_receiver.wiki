@@ -1,7 +1,7 @@
-#summary Defines Receiver class to handle inbound data.
+#summary Reference documentation for ib.opt.receiver
 #labels API-Doc
 
-
+Defines Receiver class to handle inbound data.
 
 === function messageMethod(name, argnames) ===
 

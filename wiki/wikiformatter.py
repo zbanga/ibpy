@@ -48,12 +48,8 @@ class PythonDocGenerator:
         summary = module.find('info/summary')
         description = module.find('info/description')
 
-        if summary is not None:
-            summary = summary.text
-            suminfo = summary
-        else:
-            summary = 'Reference documentation for %s' % (package, )
-            suminfo = ''
+        summary = 'Reference documentation for %s' % (package, )
+        suminfo = ''
         write('#summary %s' % summary)
         write('#labels API-Doc')
         write()

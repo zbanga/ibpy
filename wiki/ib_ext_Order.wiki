@@ -1,9 +1,10 @@
-#summary Source file: Order.java
+#summary Reference documentation for ib.ext.Order
+#labels API-Doc
+
+Source file: Order.java
 Target file: Order.py
 
 Original file copyright original author(s).
-#labels API-Doc
-
 This file copyright Troy Melhase, troy@gci.net.
 
 === class Order(object) ===

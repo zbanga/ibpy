@@ -1,9 +1,10 @@
-#summary Source file: Contract.java
+#summary Reference documentation for ib.ext.Contract
+#labels API-Doc
+
+Source file: Contract.java
 Target file: Contract.py
 
 Original file copyright original author(s).
-#labels API-Doc
-
 This file copyright Troy Melhase, troy@gci.net.
 
 === class Contract(Cloneable) ===

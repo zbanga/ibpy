@@ -1,7 +1,7 @@
-#summary Just enough auxiliary bits to make the translated code work.
+#summary Reference documentation for ib.aux
 #labels API-Doc
 
-
+Just enough auxiliary bits to make the translated code work.
 
 === function synchronized(lock) ===
 

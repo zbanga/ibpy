@@ -1,7 +1,7 @@
-#summary Defines Sender class to handle outbound requests.
+#summary Reference documentation for ib.opt.sender
 #labels API-Doc
 
-
+Defines Sender class to handle outbound requests.
 
 === class Sender(object) ===
 
