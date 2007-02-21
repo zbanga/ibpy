@@ -9,15 +9,24 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 12]
 
   method *`__init__()`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 19]
   ====== . ======
 
   method *`connect(host, port, clientId, handler)`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 22]
   ====== . ======
 
   method *`__getattr__(name)`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 26]
   ====== . ======

@@ -9,10 +9,16 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 16]
 
   method *`__init__()`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 90]
   ====== . ======
 
   method *`__eq__(p_other)`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 110]
   ====== . ======

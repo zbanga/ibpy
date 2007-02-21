@@ -42,10 +42,16 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 3
 
   method *`__init__(host, port, clientId)`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 41]
   ====== . ======
 
   method *`__getattr__(name)`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 48]
   ====== . ======
@@ -54,6 +60,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 3
 
   _establish a connection to TWS with instance attributes _
 
+    {{{
     returns: None
     }}}
 

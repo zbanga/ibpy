@@ -9,210 +9,336 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscriptio
 
   method *`numberOfRows()`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 45]
   ====== . ======
 
   method *`instrument()`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 49]
   ====== . ======
 
   method *`locationCode()`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 53]
   ====== . ======
 
   method *`scanCode()`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 57]
   ====== . ======
 
   method *`abovePrice()`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 61]
   ====== . ======
 
   method *`belowPrice()`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 65]
   ====== . ======
 
   method *`aboveVolume()`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 69]
   ====== . ======
 
   method *`averageOptionVolumeAbove()`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 73]
   ====== . ======
 
   method *`marketCapAbove()`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 77]
   ====== . ======
 
   method *`marketCapBelow()`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 81]
   ====== . ======
 
   method *`moodyRatingAbove()`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 85]
   ====== . ======
 
   method *`moodyRatingBelow()`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 89]
   ====== . ======
 
   method *`spRatingAbove()`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 93]
   ====== . ======
 
   method *`spRatingBelow()`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 97]
   ====== . ======
 
   method *`maturityDateAbove()`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 101]
   ====== . ======
 
   method *`maturityDateBelow()`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 105]
   ====== . ======
 
   method *`couponRateAbove()`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 109]
   ====== . ======
 
   method *`couponRateBelow()`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 113]
   ====== . ======
 
   method *`excludeConvertible()`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 117]
   ====== . ======
 
   method *`scannerSettingPairs()`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 121]
   ====== . ======
 
   method *`stockTypeFilter()`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 125]
   ====== . ======
 
   method *`numberOfRows_0(num)`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 129]
   ====== . ======
 
   method *`instrument_0(txt)`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 133]
   ====== . ======
 
   method *`locationCode_0(txt)`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 137]
   ====== . ======
 
   method *`scanCode_0(txt)`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 141]
   ====== . ======
 
   method *`abovePrice_0(price)`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 145]
   ====== . ======
 
   method *`belowPrice_0(price)`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 149]
   ====== . ======
 
   method *`aboveVolume_0(volume)`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 153]
   ====== . ======
 
   method *`averageOptionVolumeAbove_0(volume)`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 157]
   ====== . ======
 
   method *`marketCapAbove_0(cap)`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 161]
   ====== . ======
 
   method *`marketCapBelow_0(cap)`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 165]
   ====== . ======
 
   method *`moodyRatingAbove_0(r)`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 169]
   ====== . ======
 
   method *`moodyRatingBelow_0(r)`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 173]
   ====== . ======
 
   method *`spRatingAbove_0(r)`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 177]
   ====== . ======
 
   method *`spRatingBelow_0(r)`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 181]
   ====== . ======
 
   method *`maturityDateAbove_0(d)`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 185]
   ====== . ======
 
   method *`maturityDateBelow_0(d)`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 189]
   ====== . ======
 
   method *`couponRateAbove_0(r)`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 193]
   ====== . ======
 
   method *`couponRateBelow_0(r)`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 197]
   ====== . ======
 
   method *`excludeConvertible_0(c)`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 201]
   ====== . ======
 
   method *`scannerSettingPairs_0(val)`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 205]
   ====== . ======
 
   method *`stockTypeFilter_0(val)`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 209]
   ====== . ======

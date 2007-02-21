@@ -63,6 +63,9 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 26
 
   method *`__init__(name, bases, namespace)`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 32]
   ====== . ======
 
@@ -74,10 +77,16 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 39
 
   method *`__init__(**kwds)`*
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 46]
   ====== . ======
 
   method *`__str__()`*
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 51]
   ====== . ======
@@ -86,6 +95,9 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 39
 
   _list of message's (slot, slot value) pairs, as 2-tuples _
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 56]
   ====== . ======
 
@@ -93,12 +105,18 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 39
 
   _list of message's slot values _
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 62]
   ====== . ======
 
   method *`keys()`*
 
   _list of message's slots _
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 68]
   ====== . ======

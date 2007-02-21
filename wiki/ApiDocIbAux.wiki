@@ -42,6 +42,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 3
 
   _The value of this instance (a bool). _
 
+    {{{
     returns: True or False
     }}}
 
@@ -88,6 +89,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 7
 
   _Reads a byte from the contained stream. _
 
+    {{{
     returns: string read from stream
     }}}
 
@@ -207,12 +209,18 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 1
 
   _Returns this instance, which has a send method. _
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 180]
   ====== . ======
 
   method *`getOutputStream()`*
 
   _Returns this instance, which has a recv method. _
+
+    {{{
+    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 186]
   ====== . ======
@@ -227,6 +235,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 1
 
   _the string value of this instance _
 
+    {{{
     returns: string from characters contained in this instance
     }}}
 
@@ -254,6 +263,9 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
 
   _Stop this thread (by call to terminate). _
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 221]
   ====== . ======
 
@@ -261,6 +273,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
 
   _Check state of thread. _
 
+    {{{
     returns: True if thread is finished
     }}}
 
@@ -312,6 +325,9 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
 
   _stop this thread (by call to exit) _
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 264]
   ====== . ======
 
@@ -319,6 +335,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
 
   _check state of thread _
 
+    {{{
     returns: True if thread is finished
     }}}
 
@@ -370,6 +387,9 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
 
   _No-op; Python threads are not directly interruptible. _
 
+    {{{
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 308]
   ====== . ======
 
@@ -377,6 +397,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
 
   _Check state of thread (always False). _
 
+    {{{
     returns: False
     }}}
 
