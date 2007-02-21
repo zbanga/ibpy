@@ -1,32 +1,26 @@
-#summary Source file: ExecutionFilter.java
-Target file: ExecutionFilter.py
-
-Original file copyright original author(s).
+#summary Automated source translation for ExecutionFilter.
 #labels ApiDoc
-
-
-This file copyright Troy Melhase, troy@gci.net.
 
 === class ExecutionFilter(object) ===
 
 _generated source for ExecutionFilter_
 
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 14]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 16]
 
   method *`__init__()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 27]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 29]
   ====== . ======
 
   method *`__init___0(p_clientId, p_acctCode, p_time, p_symbol, p_secType, p_exchange, p_side)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 31]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 33]
   ====== . ======
 
   method *`__eq__(p_other)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 46]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 48]
   ====== . ======
 
 

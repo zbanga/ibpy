@@ -1,27 +1,21 @@
-#summary Source file: ContractDetails.java
-Target file: ContractDetails.py
-
-Original file copyright original author(s).
+#summary Automated source translation for ContractDetails.
 #labels ApiDoc
-
-
-This file copyright Troy Melhase, troy@gci.net.
 
 === class ContractDetails(object) ===
 
 _generated source for ContractDetails_
 
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ContractDetails.py line 15]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ContractDetails.py line 17]
 
   method *`__init__()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ContractDetails.py line 30]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ContractDetails.py line 32]
   ====== . ======
 
   method *`__init___0(p_summary, p_marketName, p_tradingClass, p_conid, p_minTick, p_multiplier, p_orderTypes, p_validExchanges)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ContractDetails.py line 36]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ContractDetails.py line 38]
   ====== . ======
 
 

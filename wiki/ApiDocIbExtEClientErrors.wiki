@@ -1,22 +1,16 @@
-#summary Source file: EClientErrors.java
-Target file: EClientErrors.py
-
-Original file copyright original author(s).
+#summary Automated source translation for EClientErrors.
 #labels ApiDoc
-
-
-This file copyright Troy Melhase, troy@gci.net.
 
 === class EClientErrors(object) ===
 
 _generated source for EClientErrors_
 
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientErrors.py line 13]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientErrors.py line 15]
 
   method *`__init__()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientErrors.py line 59]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientErrors.py line 61]
   ====== . ======
 
 
