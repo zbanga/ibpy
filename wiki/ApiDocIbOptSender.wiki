@@ -3,32 +3,39 @@
 
 === Sender(object) (class) ===
 
-objects call listeners pre/post reqScannerParameters, reqAccountUpdates, etc.
+Encapsulates an EClientSocket instance, and proxies attribute lookup to it.
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 12]
 
   method *`__init__()`*
 
-    {{{
-    }}}
+  _Constructor. _
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 19]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 17]
   ====== . ======
 
   method *`connect(host, port, clientId, handler)`*
 
+  _Creates an EClientSocket and connects it. _
+
     {{{
+    host: name of host for connection; default is localhost
+    port: port number for connection; default is 7496
+    clientId: client identifier to send when connected
+    handler: object to receive reader messages
+    returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 22]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 23]
   ====== . ======
 
   method *`__getattr__(name)`*
 
     {{{
+    returns: named attribute from instance client object
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 26]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 36]
   ====== . ======
 
 

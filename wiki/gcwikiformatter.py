@@ -63,16 +63,17 @@ def write_callables(functions, write, link, indent=0):
         params = function.findall('info/param')
         ret = etext(function.find('info/return'))
 
-        write('%s{{{' % moreoffset)
-        if params:
-            for param in params:
-                name = param.attrib['name']
-                write('%s%s: %s' % (moreoffset, name, param.text or ''))
-        if ret:
-            write('%sreturns: %s' % (moreoffset, ret, ))
+        if params or ret:
+            write('%s{{{' % moreoffset)
+            if params:
+                for param in params:
+                    name = param.attrib['name']
+                    write('%s%s: %s' % (moreoffset, name, param.text or ''))
+            if ret:
+                write('%sreturns: %s' % (moreoffset, ret, ))
 
-        write('%s}}}' % moreoffset)
-        write()
+            write('%s}}}' % moreoffset)
+            write()
         write('%sdefined at [%s line %s]' % (offset, link, function.attrib['lineno']))
         write('%s====== . ======' % offset)
         write()

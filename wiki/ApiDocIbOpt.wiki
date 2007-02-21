@@ -31,78 +31,84 @@ Enable and disable logging:
 
  _This is the preferred client interface to this module. Alternatively, the Connection type can be sub-classed an its create classmethod reused_
 
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 105]
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 111]
 ====== . ======
 
 === Connection(object) (class) ===
 
-Connection -> encapsulates a connection to TWS
+Encapsulates a connection to TWS.
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 37]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 36]
 
   method *`__init__(host, port, clientId)`*
 
+  _Constructor. _
+
     {{{
+    host: name of host for connection; default is localhost
+    port: port number for connection; default is 7496
+    clientId: client identifier to send when connected
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 41]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 40]
   ====== . ======
 
   method *`__getattr__(name)`*
 
     {{{
+    returns: named attribute from instance receiver or sender
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 48]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 53]
   ====== . ======
 
   method *`connect()`*
 
-  _establish a connection to TWS with instance attributes _
+  _Establish a connection to TWS with instance attributes. _
 
     {{{
     returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 61]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 67]
   ====== . ======
 
   method *`enableLogging(enable=True)`*
 
-  _toggle logging of all messages _
+  _Enable or disable logging of all messages. _
 
     {{{
     enable: if True (default), enables logging; otherwise disables
     returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 68]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 74]
   ====== . ======
 
   method *`logMessage(message)`*
 
-  _format and send a message values to the logger _
+  _Format and send a message values to the logger. _
 
     {{{
     message: instance of Message
     returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 80]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 86]
   ====== . ======
 
   method *`create(host='localhost', port=7496, clientId=0)`*
 
-  _creates and returns Connection object _
+  _Creates and returns Connection class (or subclass) instance. _
 
     {{{
     host: name of host for connection; default is localhost
     port: port number for connection; default is 7496
     clientId: client identifier to send when connected
-    returns: Connection instance
+    returns: Connection (or subclass) instance
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 91]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 97]
   ====== . ======
 
 

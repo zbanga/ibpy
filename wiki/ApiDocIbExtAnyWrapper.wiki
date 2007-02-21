@@ -9,32 +9,20 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line
 
   method *`error(e)`*
 
-    {{{
-    }}}
-
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 22]
   ====== . ======
 
   method *`error_0(strval)`*
-
-    {{{
-    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 26]
   ====== . ======
 
   method *`error_1(id, errorCode, errorMsg)`*
 
-    {{{
-    }}}
-
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 30]
   ====== . ======
 
   method *`connectionClosed()`*
-
-    {{{
-    }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 33]
   ====== . ======

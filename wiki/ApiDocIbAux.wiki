@@ -18,14 +18,14 @@ _Synchronization decorator.  from http://wiki.python.org/moin/PythonDecoratorLib
   returns: decorator that provides automatic locking
   }}}
 
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 19]
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 18]
 ====== . ======
 
 === Boolean(object) (class) ===
 
 Partial implementation of Java Boolean type.
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 38]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 37]
 
   method *`__init__(value)`*
 
@@ -35,7 +35,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 3
     value: bool instance, True or False
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 42]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 41]
   ====== . ======
 
   method *`booleanValue()`*
@@ -46,7 +46,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 3
     returns: True or False
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 49]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 48]
   ====== . ======
 
   method *`valueOf(text)`*
@@ -59,20 +59,20 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 3
     returns: instance of cls
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 57]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 56]
   ====== . ======
 
 === Cloneable(object) (class) ===
 
-Stub for the Cloneable Java interface.  Some of the translated code implements the Java Cloneable interface, but its methods are never used.  We provide this class for subtyping, and will implement methods as needed later.
+Stub for the Cloneable Java interface.  Some of the translated code implements the Java Cloneable interface, but its methods are never used.  We provide this class for sub typing, and will implement methods as needed later.
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 68]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 67]
 
 === DataInputStream(object) (class) ===
 
 Partial implementation of the Java DataInputStream type.
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 77]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 76]
 
   method *`__init__(stream)`*
 
@@ -82,7 +82,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 7
     stream: any object with recv method
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 81]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 80]
   ====== . ======
 
   method *`readByte(unpack=struct.unpack)`*
@@ -93,14 +93,14 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 7
     returns: string read from stream
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 88]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 87]
   ====== . ======
 
 === DataOutputStream(object) (class) ===
 
 Partial implementation of the Java DataOutputStream type
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 96]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 95]
 
   method *`__init__(stream)`*
 
@@ -110,7 +110,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 9
     stream: any object with send method
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 100]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 99]
   ====== . ======
 
   method *`write(data, pack=struct.pack, eol=struct.pack('!b', 0))`*
@@ -122,20 +122,20 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 9
     returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 107]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 106]
   ====== . ======
 
 === Double(float) (class) ===
 
 Partial implementation of Java Double type.
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 121]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 120]
 
   member *`MAX_VALUE`*
 
    _sentinel value used by the socket writer_
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 127]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 126]
   ====== . ======
 
   method *`parseDouble()`*
@@ -147,20 +147,20 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 1
     returns: float instance
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 130]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 129]
   ====== . ======
 
 === Integer(int) (class) ===
 
 Partial implementation of Java Integer type.
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 139]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 138]
 
   member *`MAX_VALUE`*
 
    _sentinel value used by the socket writer_
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 146]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 145]
   ====== . ======
 
   method *`parseInt()`*
@@ -172,7 +172,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 1
     returns: int instance
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 149]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 148]
   ====== . ======
 
   method *`parseLong()`*
@@ -184,14 +184,14 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 1
     returns: long instance
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 158]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 157]
   ====== . ======
 
 === Socket(socket.socket) (class) ===
 
 Partial implementation of the Java Socket type.
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 167]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 166]
 
   method *`__init__(host, port)`*
 
@@ -202,34 +202,28 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 1
     port: port number as integer
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 171]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 170]
   ====== . ======
 
   method *`getInputStream()`*
 
   _Returns this instance, which has a send method. _
 
-    {{{
-    }}}
-
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 180]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 179]
   ====== . ======
 
   method *`getOutputStream()`*
 
   _Returns this instance, which has a recv method. _
 
-    {{{
-    }}}
-
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 186]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 185]
   ====== . ======
 
 === StringBuffer(list) (class) ===
 
 Partial implementation of the Java StringBuffer type  Translated code uses instances of this type to build up strings. The list base type provides the append method.
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 193]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 192]
 
   method *`__str__(join=str.join, chr=chr)`*
 
@@ -239,14 +233,14 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 1
     returns: string from characters contained in this instance
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 199]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 198]
   ====== . ======
 
 === ThreadType(QThread) (class) ===
 
 Partial implementation of Java Thread type, based on Qt3 QThread.
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 210]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 209]
 
   method *`__init__(name)`*
 
@@ -256,17 +250,14 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
     name: ignored
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 214]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 213]
   ====== . ======
 
   method *`interrupt()`*
 
   _Stop this thread (by call to terminate). _
 
-    {{{
-    }}}
-
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 221]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 220]
   ====== . ======
 
   method *`isInterrupted()`*
@@ -277,7 +268,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
     returns: True if thread is finished
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 227]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 226]
   ====== . ======
 
   method *`setDaemon(value)`*
@@ -289,7 +280,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
     returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 234]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 233]
   ====== . ======
 
   method *`setName(value)`*
@@ -301,14 +292,14 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
     returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 241]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 240]
   ====== . ======
 
 === ThreadType(QThread) (class) ===
 
 Partial implementation of Java Thread type, based on Qt4 QThread.
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 253]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 252]
 
   method *`__init__(name)`*
 
@@ -318,17 +309,14 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
     name: ignored
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 257]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 256]
   ====== . ======
 
   method *`interrupt()`*
 
   _stop this thread (by call to exit) _
 
-    {{{
-    }}}
-
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 264]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 263]
   ====== . ======
 
   method *`isInterrupted()`*
@@ -339,7 +327,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
     returns: True if thread is finished
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 270]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 269]
   ====== . ======
 
   method *`setDaemon(value)`*
@@ -351,7 +339,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
     returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 277]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 276]
   ====== . ======
 
   method *`setName(value)`*
@@ -363,14 +351,14 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
     returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 284]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 283]
   ====== . ======
 
 === ThreadType(threading.Thread) (class) ===
 
 Partial implementation of Java Thread type, based on Python Thread.
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 296]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 295]
 
   method *`__init__(name)`*
 
@@ -380,17 +368,14 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
     name: name of this thread
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 300]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 299]
   ====== . ======
 
   method *`interrupt()`*
 
   _No-op; Python threads are not directly interruptible. _
 
-    {{{
-    }}}
-
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 308]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 307]
   ====== . ======
 
   method *`isInterrupted()`*
@@ -401,14 +386,14 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
     returns: False
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 314]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 313]
   ====== . ======
 
 === Thread(ThreadType) (class) ===
 
 Thread parent type, based on available framework
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 322]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 321]
 
   method *`__init__(name, parent, dis)`*
 
@@ -420,7 +405,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 3
     dis: ignored
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 326]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 325]
   ====== . ======
 
 

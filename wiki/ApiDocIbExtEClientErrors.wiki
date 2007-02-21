@@ -9,9 +9,6 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientErrors.py l
 
   method *`__init__()`*
 
-    {{{
-    }}}
-
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientErrors.py line 61]
   ====== . ======
 

@@ -1,9 +1,17 @@
 #summary Defines Receiver class to handle inbound data.
 #labels ApiDoc
 
+= Description =
+
+
+The Receiver class is built programatically.  Message types are
+defined in the ib.opt.message module, and those types are used to
+construct methods on the Receiver class during its definition.
+Refer to the ReceiverType metaclass for details.
+
 === messageMethod(name, argnames) (function) ===
 
-_messageMethod -> creates method for dispatching messages _
+_Creates method for dispatching messages. _
 
   {{{
   name: name of method as string
@@ -11,40 +19,50 @@ _messageMethod -> creates method for dispatching messages _
   returns: newly created method (as closure)
   }}}
 
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 12]
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 17]
 ====== . ======
 
 === ReceiverType(type) (class) ===
 
-ReceiverType -> metaclass that adds EWrapper methods to Receiver  This metaclass creates dispatch methods for each method defined by EWrapper.
+Metaclass to add EWrapper methods to Receiver class.
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 26]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 31]
 
   method *`__new__(name, bases, namespace)`*
 
+  _Creates a new type. _
+
     {{{
+    name: name of new type as string
+    bases: tuple of base classes
+    namespace: dictionary with namespace for new type
+    returns: generated type
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 32]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 35]
   ====== . ======
 
 === Receiver(object) (class) ===
 
-Receiver -> dispatches messages to interested callables
+Receiver -> dispatches messages to interested callables  Instances implement the EWrapper interface but do not subclass it.
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 38]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 48]
 
   method *`__init__(listeners=None, types=None)`*
 
+  _Constructor. _
+
     {{{
+    listeners=None: mapping of existing listeners
+    types=None: method name to message type lookup
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 45]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 56]
   ====== . ======
 
   method *`dispatch(name, mapping)`*
 
-  _send message to each listener _
+  _Send message to each listener. _
 
     {{{
     name: method name
@@ -52,12 +70,12 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 3
     returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 49]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 65]
   ====== . ======
 
   method *`register(listener, *types)`*
 
-  _associate listener with message types created by this Receiver _
+  _Associate listener with message types created by this Receiver. _
 
     {{{
     listener: callable to receive messages
@@ -65,24 +83,24 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 3
     returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 66]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 82]
   ====== . ======
 
   method *`registerAll(listener)`*
 
-  _associate listener with all messages created by this Receiver _
+  _Associate listener with all messages created by this Receiver. _
 
     {{{
     listener: callable to receive messages
     returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 80]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 96]
   ====== . ======
 
   method *`unregister(listener, *types)`*
 
-  _disassociate listener with message types created by this Receiver _
+  _Disassociate listener with message types created by this Receiver. _
 
     {{{
     listener: callable to no longer receive messages
@@ -90,60 +108,60 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 3
     returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 88]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 104]
   ====== . ======
 
   method *`unregisterAll(listener)`*
 
-  _disassociate listener with all messages created by this Receiver _
+  _Disassociate listener with all messages created by this Receiver. _
 
     {{{
     listener: callable to no longer receive messages
     returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 104]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 120]
   ====== . ======
 
   method *`key()`*
 
-  _lookup key for given object _
+  _Generates lookup key for given object. _
 
     {{{
     obj: any object
     returns: obj name or string representation
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 113]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 129]
   ====== . ======
 
   method *`error(e)`*
 
-  _error -> handle an error generated by the reader  Error message types can't be associated in the default manner with this family of methods, so we define these three here by hand. _
+  _Dispatch an error generated by the reader.  Error message types can't be associated in the default manner with this family of methods, so we define these three here by hand. _
 
     {{{
     e: some error value
     returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 125]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 141]
   ====== . ======
 
   method *`error_0(strval)`*
 
-  _error -> handle an error given a string value _
+  _Dispatch an error given a string value. _
 
     {{{
     strval: some error value as string
     returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 138]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 154]
   ====== . ======
 
   method *`error_1(id, errorCode, errorMsg)`*
 
-  _error -> handle an error given an id, code and message _
+  _Dispatch an error given an id, code and message. _
 
     {{{
     id: error id
@@ -152,7 +170,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 3
     returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 147]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 163]
   ====== . ======
 
 
