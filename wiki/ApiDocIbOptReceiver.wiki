@@ -16,10 +16,7 @@ defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 12]
 
 === ReceiverType(type) (class) ===
 
-ReceiverType -> metaclass that adds EWrapper methods to Receiver
-
-This metaclass creates dispatch methods for each method defined by
-EWrapper.
+ReceiverType -> metaclass that adds EWrapper methods to ReceiverThis metaclass creates dispatch methods for each method defined byEWrapper.
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 26]
 

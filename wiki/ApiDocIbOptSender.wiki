@@ -3,8 +3,7 @@
 
 === Sender(object) (class) ===
 
-objects call listeners pre/post reqScannerParameters,
-reqAccountUpdates, etc.
+objects call listeners pre/post reqScannerParameters,reqAccountUpdates, etc.
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 12]
 

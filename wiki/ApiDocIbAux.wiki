@@ -43,11 +43,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
 
 === Cloneable(object) (class) ===
 
-stub for the Cloneable java interface
-
-some of the translated code implements the java Cloneable
-interface, but its methods are never used.  we provide this class
-for subtyping, and will implement methods as needed later.
+stub for the Cloneable java interfacesome of the translated code implements the java Cloneableinterface, but its methods are never used.  we provide this classfor subtyping, and will implement methods as needed later.
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 55]
 
@@ -172,10 +168,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 1
 
 === StringBuffer(list) (class) ===
 
-partial implementation of the java StringBuffer type
-
-translated code uses instances of this type to build up strings.
-the list base type provides the append method.
+partial implementation of the java StringBuffer typetranslated code uses instances of this type to build up strings.the list base type provides the append method.
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 167]
 

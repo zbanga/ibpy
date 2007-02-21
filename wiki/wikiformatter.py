@@ -92,7 +92,7 @@ def write_variables(variables, write, link, indent=0):
         write()
 
         if descrip:
-            write('%s _%s_' % (offset, descrip))
+            write('%s _%s_' % (offset, descrip.replace('\n', '')))
         elif summary:
             write('%s _%s_' % (offset, summary))
         write()
@@ -145,7 +145,7 @@ class PythonDocGenerator:
             if not description:
                 write('_%s_' % summary)
             else:
-                write(description)
+                write(description.replace('\n', ''))
                 write()
 
             write('class defined at [%s line %s]' % (link, cls.attrib['lineno']))
