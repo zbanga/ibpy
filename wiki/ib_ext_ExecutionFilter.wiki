@@ -3,7 +3,8 @@
 
 ==== ExecutionFilter(object) ====
 
-_generated source for ExecutionFilter _
+_generated source for ExecutionFilter_
+
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 16]
 

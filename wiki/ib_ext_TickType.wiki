@@ -3,7 +3,8 @@
 
 ==== TickType(object) ====
 
-_generated source for TickType _
+_generated source for TickType_
+
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/TickType.py line 15]
 

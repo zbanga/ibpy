@@ -46,17 +46,19 @@ class PythonDocGenerator:
 
         if summary is not None:
             summary = summary.text
+            suminfo = summary
         else:
             summary = 'Reference documentation for %s' % (package, )
+            suminfo = ''
         write('#summary %s' % summary)
         write('#labels API-Doc')
         write()
 
         if description is not None:
             description = description.text
-            description = description.replace(summary, '')
+            description = description[len(suminfo):]
             description = description.lstrip()
-            write('_%s _' % wikiescape(description))
+            write('%s' % wikiescape(description))
             write()
 
         def write_calls(functions, indent=0):
@@ -107,9 +109,16 @@ class PythonDocGenerator:
             name = cls.find('info/def').text
             write('==== %s ====' % name)
             write()
+            summary = cls.find('info/summary')
+            if summary is not None and summary.text:
+                summary = summary.text
+                write('_%s_' % summary)
+            else:
+                summary = ''
             description = cls.find('info/description')
             if description is not None and description.text:
-                write('_%s _' % wikiescape(description.text))
+                desc = description.text[len(summary):]
+                write('%s' % desc)
                 write()
             write('class defined at [%s line %s]' % (link, cls.attrib['lineno']))
             write()

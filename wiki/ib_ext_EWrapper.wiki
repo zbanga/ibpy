@@ -3,7 +3,8 @@
 
 ==== EWrapper(AnyWrapper) ====
 
-_generated source for EWrapper _
+_generated source for EWrapper_
+
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 16]
 

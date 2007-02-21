@@ -1,12 +1,13 @@
 #summary Defines Sender class to handle outbound requests.
 #labels API-Doc
 
-_ _
+
 
 ==== Sender(object) ====
 
 _objects call listeners pre/post reqScannerParameters,
-reqAccountUpdates, etc. _
+reqAccountUpdates, etc._
+
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 12]
 

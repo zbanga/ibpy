@@ -3,7 +3,8 @@
 
 ==== EClientSocket(object) ====
 
-_generated source for EClientSocket _
+_generated source for EClientSocket_
+
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 26]
 

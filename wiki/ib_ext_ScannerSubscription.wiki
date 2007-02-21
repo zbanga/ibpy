@@ -3,7 +3,8 @@
 
 ==== ScannerSubscription(object) ====
 
-_generated source for ScannerSubscription _
+_generated source for ScannerSubscription_
+
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 17]
 

@@ -1,7 +1,7 @@
 #summary Defines Receiver class to handle inbound data.
 #labels API-Doc
 
-_ _
+
 
 ==== messageMethod(name, argnames) ====
 
@@ -21,7 +21,8 @@ defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 12]
 _ReceiverType -> metaclass that adds EWrapper methods to Receiver
 
 This metaclass creates dispatch methods for each method defined by
-EWrapper. _
+EWrapper._
+
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 26]
 
@@ -33,7 +34,8 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 2
 
 ==== Receiver(object) ====
 
-_Receiver -> dispatches messages to interested callables _
+_Receiver -> dispatches messages to interested callables_
+
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 38]
 

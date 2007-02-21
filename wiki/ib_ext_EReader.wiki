@@ -3,7 +3,8 @@
 
 ==== EReader(Thread) ====
 
-_generated source for EReader _
+_generated source for EReader_
+
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 21]
 
