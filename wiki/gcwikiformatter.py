@@ -101,6 +101,13 @@ def write_variables(variables, write, link, indent=0):
         write()
 
 
+def update_index(wikifile, package, index='DocumentationIndex.wiki'):
+    data = open(index).read()
+    wikiname = wikifile[:-5]
+    if wikiname not in data:
+        fh = open(index, 'a')
+        fh.write('  # %s - documentation for %s\n' % (wikiname, package))
+
 class PythonDocGenerator:
     def __init__(self, options):
         pass
@@ -110,6 +117,7 @@ class PythonDocGenerator:
         filename = output_filename(modulefile)
         link = format_url(modulefile)
         package = package_name(modulefile)
+        update_index(filename, package)
 
         fh = open(filename, 'w')
         def write(value=''):
