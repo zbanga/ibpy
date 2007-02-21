@@ -54,6 +54,9 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 3
 
   _establish a connection to TWS with instance attributes _
 
+    returns: None
+    }}}
+
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 61]
   ====== . ======
 
