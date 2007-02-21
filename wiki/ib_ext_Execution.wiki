@@ -1,9 +1,9 @@
-#summary ib.ext.Execution reference documentation
+#summary Reference documentation for ib.ext.Execution
 #labels API-Doc
 
 ==== Execution(object) ====
 
-_generated source for !Execution_
+_generated source for Execution_
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 16]
 
   `__init__()`

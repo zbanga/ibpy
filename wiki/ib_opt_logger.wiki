@@ -1,4 +1,4 @@
-#summary ib.opt.logger reference documentation
+#summary Reference documentation for ib.opt.logger
 #labels API-Doc
 
 ==== logger(name='ibpy', level=level, format=format, datefmt=datefmt) ====

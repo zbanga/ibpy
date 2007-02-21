@@ -1,9 +1,9 @@
-#summary ib.ext.AnyWrapper reference documentation
+#summary Reference documentation for ib.ext.AnyWrapper
 #labels API-Doc
 
 ==== AnyWrapper(object) ====
 
-_generated source for !AnyWrapper_
+_generated source for AnyWrapper_
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 16]
 
   `error(e)`

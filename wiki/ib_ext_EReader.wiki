@@ -1,9 +1,9 @@
-#summary ib.ext.EReader reference documentation
+#summary Reference documentation for ib.ext.EReader
 #labels API-Doc
 
 ==== EReader(Thread) ====
 
-_generated source for !EReader_
+_generated source for EReader_
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 21]
 
   `parent()`

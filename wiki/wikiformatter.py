@@ -20,6 +20,7 @@ caps = [chr(n) for n in range(65,91)]
 
 
 def wikiescape(text):
+    return text # bah
     for word in text.split():
         if len([v for v in [c in caps for c in word] if v]):
 	    text = text.replace(word, '!'+word)
@@ -46,7 +47,7 @@ class PythonDocGenerator:
         if summary is not None:
             summary = summary.text
         else:
-            summary = '%s reference documentation' % (package, )
+            summary = 'Reference documentation for %s' % (package, )
         write('#summary %s' % summary)
         write('#labels API-Doc')
         write()

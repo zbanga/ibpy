@@ -1,9 +1,9 @@
-#summary ib.ext.Contract reference documentation
+#summary Reference documentation for ib.ext.Contract
 #labels API-Doc
 
 ==== Contract(Cloneable) ====
 
-_generated source for !Contract_
+_generated source for Contract_
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 17]
 
   `__init__()`

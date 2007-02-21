@@ -1,9 +1,9 @@
-#summary ib.ext.ScannerSubscription reference documentation
+#summary Reference documentation for ib.ext.ScannerSubscription
 #labels API-Doc
 
 ==== ScannerSubscription(object) ====
 
-_generated source for !ScannerSubscription_
+_generated source for ScannerSubscription_
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ScannerSubscription.py line 17]
 
   `numberOfRows()`

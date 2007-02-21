@@ -1,9 +1,9 @@
-#summary ib.ext.ContractDetails reference documentation
+#summary Reference documentation for ib.ext.ContractDetails
 #labels API-Doc
 
 ==== ContractDetails(object) ====
 
-_generated source for !ContractDetails_
+_generated source for ContractDetails_
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ContractDetails.py line 17]
 
   `__init__()`

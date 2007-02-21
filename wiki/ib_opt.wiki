@@ -1,12 +1,12 @@
 #summary # This is the preferred client interface to this module.
 #labels API-Doc
 
-_# !Alternatively, the !Connection type can be sub-classed an its create
+_# Alternatively, the Connection type can be sub-classed an its create
 # classmethod reused_
 
 ==== Connection(object) ====
 
-_!Connection -> encapsulates a connection to !TWS_
+_Connection -> encapsulates a connection to TWS_
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 34]
 
   `__init__(host, port, clientId)`
@@ -23,7 +23,7 @@ defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 34]
 
   `connect()`
 
-  _establish a connection to !TWS with instance attributes_
+  _establish a connection to TWS with instance attributes_
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 58]
   ====== . ======
@@ -54,7 +54,7 @@ defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 34]
 
   `create(host='localhost', port=7496, clientId=0)`
 
-  _creates and returns !Connection object_
+  _creates and returns Connection object_
 
     {{{
     host : name of host for connection; default is localhost

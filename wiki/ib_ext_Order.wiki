@@ -1,9 +1,9 @@
-#summary ib.ext.Order reference documentation
+#summary Reference documentation for ib.ext.Order
 #labels API-Doc
 
 ==== Order(object) ====
 
-_generated source for !Order_
+_generated source for Order_
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 16]
 
   `__init__()`

@@ -1,10 +1,10 @@
-#summary ib.opt.sender reference documentation
+#summary Reference documentation for ib.opt.sender
 #labels API-Doc
 
 ==== Sender(object) ====
 
-_objects call listeners pre/post !reqScannerParameters,
-!reqAccountUpdates, etc._
+_objects call listeners pre/post reqScannerParameters,
+reqAccountUpdates, etc._
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 10]
 
   `__init__()`
