@@ -7,20 +7,19 @@
 from ib.ext.EWrapper import EWrapper
 from ib.ext.EClientSocket import EClientSocket
 
-
 class SomeWrapper(EWrapper):
     def tickPrice(self, tickerId, field, price, canAutoExecute):
         ... code to handle tickPrice data ...
 
+    ... code to implement all other EWrapper methods ...
 
 wrapper = ReferenceWrapper()
-connection = EClientSocket(self.wrapper)
+connection = EClientSocket(wrapper)
 connection.eConnect('localhost', 7496, 0)
 connection.reqIds()
 ... additional requests ...
 connection.eDisconnect()
 }}}
-
 
 = Details =
 
@@ -36,8 +35,5 @@ instance.  After you have connected the socket instance, you can call
 the TWS API to request account information, market information, place
 orders, etc.
 
-Refer to the [http://code.google.com/p/ibpy/w/list?q=label:ApiDoc IbPy
-API documentation] and to the
-[http://www.interactivebrokers.com/php/webhelp/whnjs.htm Interactive
-Brokers documentation] for more information.
-
+Refer to the [http://code.google.com/p/ibpy/w/list?q=label:ApiDoc IbPy API documentation] and to the
+[http://www.interactivebrokers.com/php/webhelp/whnjs.htm Interactive Brokers documentation] for more information.
