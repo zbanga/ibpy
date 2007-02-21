@@ -12,7 +12,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 33]
   ====== . ======
 
-  method *`__init___0(p_orderId, p_clientId, p_execId, p_time, p_acctNumber, p_exchange, p_side, p_shares, p_price, p_permId, p_liquidation)`*
+  method *`__init___0(p_orderId,  p_clientId,  p_execId,  p_time,  p_acctNumber,  p_exchange,  p_side,  p_shares,  p_price,  p_permId,  p_liquidation)`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 42]
   ====== . ======

@@ -19,7 +19,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py lin
 
   method *`register(*types)`*
 
-  _Decorator to register an implementation for a specific set of types..register(t1, t2)(f) is equivalent to .register_func((t1, t2), f). _
+  _Decorator to register an implementation for a specific set of types.  .register(t1, t2)(f) is equivalent to .register_func((t1, t2), f). _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py line 50]
   ====== . ======
@@ -40,7 +40,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py lin
 
   method *`find_func(types)`*
 
-  _Find the appropriate overloaded function; don't call it.This won't work for old-style classes or classes without __mro__. _
+  _Find the appropriate overloaded function; don't call it.  This won't work for old-style classes or classes without __mro__. _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py line 74]
   ====== . ======

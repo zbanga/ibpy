@@ -1,7 +1,7 @@
 #summary Defines logging formats and logger instance
 #labels ApiDoc
 
-=== logger(name='ibpy', level=level, format=format, datefmt=datefmt) (function) ===
+=== logger(name='ibpy', level=level, format=format,  datefmt=datefmt) (function) ===
 
 _logger(...) -> returns a logger all fixed up _
 

@@ -11,7 +11,7 @@ deliver.
 
 === registry (variable) ===
 
- _maps wrapper method names to the message class that can beinstantiated for delivery by the named method._
+ _maps wrapper method names to the message class that can be instantiated for delivery by the named method._
 
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 23]
 ====== . ======
@@ -57,7 +57,7 @@ defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 109]
 
 === MessageType(type) (class) ===
 
-MessageType -> simple metaclass to track Message subclassesAs new Message subclasses are defined (see below), they are savedto the registry mapping.
+MessageType -> simple metaclass to track Message subclasses  As new Message subclasses are defined (see below), they are saved to the registry mapping.
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 26]
 
@@ -105,7 +105,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 39
 
 === Error(Message) (class) ===
 
-Error -> specialized message typeThe error family of method calls can't be built programmatically,so we define one here.
+Error -> specialized message type  The error family of method calls can't be built programmatically, so we define one here.
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 75]
 

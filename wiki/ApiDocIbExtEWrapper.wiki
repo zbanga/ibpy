@@ -17,12 +17,12 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 1
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 24]
   ====== . ======
 
-  method *`tickOptionComputation(tickerId, field, impliedVol, delta, modelPrice, pvDividend)`*
+  method *`tickOptionComputation(tickerId,  field,  impliedVol,  delta,  modelPrice,  pvDividend)`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 27]
   ====== . ======
 
-  method *`orderStatus(orderId, status, filled, remaining, avgFillPrice, permId, parentId, lastFillPrice, clientId)`*
+  method *`orderStatus(orderId,  status,  filled,  remaining,  avgFillPrice,  permId,  parentId,  lastFillPrice,  clientId)`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 35]
   ====== . ======
@@ -37,7 +37,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 1
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 49]
   ====== . ======
 
-  method *`updatePortfolio(contract, position, marketPrice, marketValue, averageCost, unrealizedPNL, realizedPNL, accountName)`*
+  method *`updatePortfolio(contract,  position,  marketPrice,  marketValue,  averageCost,  unrealizedPNL,  realizedPNL,  accountName)`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 52]
   ====== . ======
@@ -67,12 +67,12 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 1
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 74]
   ====== . ======
 
-  method *`updateMktDepth(tickerId, position, operation, side, price, size)`*
+  method *`updateMktDepth(tickerId,  position,  operation,  side,  price,  size)`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 77]
   ====== . ======
 
-  method *`updateMktDepthL2(tickerId, position, marketMaker, operation, side, price, size)`*
+  method *`updateMktDepthL2(tickerId,  position,  marketMaker,  operation,  side,  price,  size)`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 85]
   ====== . ======
@@ -92,7 +92,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 1
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 100]
   ====== . ======
 
-  method *`historicalData(reqId, date, open, high, low, close, volume, count, WAP, hasGaps)`*
+  method *`historicalData(reqId,  date,  open,  high,  low,  close,  volume,  count,  WAP,  hasGaps)`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 103]
   ====== . ======
@@ -102,7 +102,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 1
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 115]
   ====== . ======
 
-  method *`scannerData(reqId, rank, contractDetails, distance, benchmark, projection)`*
+  method *`scannerData(reqId,  rank,  contractDetails,  distance,  benchmark,  projection)`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 118]
   ====== . ======

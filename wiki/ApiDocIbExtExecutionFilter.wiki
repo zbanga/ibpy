@@ -12,7 +12,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 29]
   ====== . ======
 
-  method *`__init___0(p_clientId, p_acctCode, p_time, p_symbol, p_secType, p_exchange, p_side)`*
+  method *`__init___0(p_clientId,  p_acctCode,  p_time,  p_symbol,  p_secType,  p_exchange,  p_side)`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 33]
   ====== . ======

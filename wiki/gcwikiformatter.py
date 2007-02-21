@@ -51,13 +51,13 @@ def write_callables(functions, write, link, indent=0):
     for function in sorted(functions, key=line_no):
         defstr = etext(function.find('info/def'))
         if defstr:
-            defstr = defstr.replace('\n', '')
+            defstr = defstr.replace('\n', ' ')
             write(deffs % (offset, defstr))
             write()
 
         description = etext(function.find('info/description'))
         if description:
-            write('%s_%s _' % (offset, description.replace('\n', '')))
+            write('%s_%s _' % (offset, description.replace('\n', ' ')))
             write()
 
         params = function.findall('info/param')
@@ -92,7 +92,7 @@ def write_variables(variables, write, link, indent=0):
         write()
 
         if descrip:
-            write('%s _%s_' % (offset, descrip.replace('\n', '')))
+            write('%s _%s_' % (offset, descrip.replace('\n', ' ')))
         elif summary:
             write('%s _%s_' % (offset, summary))
         write()
@@ -145,7 +145,7 @@ class PythonDocGenerator:
             if not description:
                 write('_%s_' % summary)
             else:
-                write(description.replace('\n', ''))
+                write(description.replace('\n', ' '))
                 write()
 
             write('class defined at [%s line %s]' % (link, cls.attrib['lineno']))

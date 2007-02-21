@@ -92,7 +92,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py l
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 275]
   ====== . ======
 
-  method *`reqHistoricalData(tickerId, contract, endDateTime, durationStr, barSizeSetting, whatToShow, useRTH, formatDate)`*
+  method *`reqHistoricalData(tickerId,  contract,  endDateTime,  durationStr,  barSizeSetting,  whatToShow,  useRTH,  formatDate)`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 292]
   ====== . ======
@@ -117,7 +117,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py l
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 422]
   ====== . ======
 
-  method *`exerciseOptions(tickerId, contract, exerciseAction, exerciseQuantity, account, override)`*
+  method *`exerciseOptions(tickerId,  contract,  exerciseAction,  exerciseQuantity,  account,  override)`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 439]
   ====== . ======

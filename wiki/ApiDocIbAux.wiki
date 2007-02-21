@@ -3,7 +3,7 @@
 
 === synchronized(lock) (function) ===
 
-_synchronization decoratorfrom http://wiki.python.org/moin/PythonDecoratorLibrary _
+_synchronization decorator  from http://wiki.python.org/moin/PythonDecoratorLibrary _
 
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 13]
 ====== . ======
@@ -41,7 +41,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
 
 === Cloneable(object) (class) ===
 
-stub for the Cloneable java interfacesome of the translated code implements the java Cloneableinterface, but its methods are never used.  we provide this classfor subtyping, and will implement methods as needed later.
+stub for the Cloneable java interface  some of the translated code implements the java Cloneable interface, but its methods are never used.  we provide this class for subtyping, and will implement methods as needed later.
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 55]
 
@@ -58,7 +58,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 6
 
   method *`readByte(unpack=struct.unpack)`*
 
-  _reads a byte from the contained streamkeyword arguments are bound to module globals for fasteraccess. _
+  _reads a byte from the contained stream  keyword arguments are bound to module globals for faster access. _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 71]
   ====== . ======
@@ -76,7 +76,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 8
 
   method *`write(data, pack=struct.pack, eol=struct.pack('!b', 0))`*
 
-  _writes data to the contained streamkeyword arguments are bound to module globals for fasteraccess. _
+  _writes data to the contained stream  keyword arguments are bound to module globals for faster access. _
 
     {{{
     data: string to send, or 0
@@ -160,13 +160,13 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 1
 
 === StringBuffer(list) (class) ===
 
-partial implementation of the java StringBuffer typetranslated code uses instances of this type to build up strings.the list base type provides the append method.
+partial implementation of the java StringBuffer type  translated code uses instances of this type to build up strings. the list base type provides the append method.
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 167]
 
   method *`__str__(join=str.join, chr=chr)`*
 
-  _the string value of this instancekeyword arguments are bound to module globals for fasteraccess. _
+  _the string value of this instance  keyword arguments are bound to module globals for faster access. _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 174]
   ====== . ======
