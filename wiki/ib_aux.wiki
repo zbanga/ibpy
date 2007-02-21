@@ -306,4 +306,3 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 255]
   ====== . ======
-
