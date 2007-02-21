@@ -57,10 +57,7 @@ def write_callables(functions, write, link, indent=0):
 
         description = etext(function.find('info/description'))
         if description:
-            for line in description.split('\n'):
-                line = line.strip()
-                if line:
-                    write('%s_%s _' % (offset, line))
+            write('%s_%s _' % (offset, description))
             write()
 
         params = function.findall('info/param')
@@ -100,6 +97,8 @@ def write_variables(variables, write, link, indent=0):
             write('%s _%s_' % (offset, summary))
         write()
         write('%sdefined at [%s line %s]' % (offset, link, var.attrib['lineno']))
+        write('%s====== . ======' % offset)
+        write()
 
 
 class PythonDocGenerator:

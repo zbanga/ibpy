@@ -34,6 +34,8 @@ Alternatively, the Connection type can be sub-classed an its create
 classmethod reused_
 
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 105]
+====== . ======
+
 === Connection(object) (class) ===
 
 _Connection -> encapsulates a connection to TWS_

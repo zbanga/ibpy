@@ -3,8 +3,9 @@
 
 === synchronized(lock) (function) ===
 
-_synchronization decorator _
-_from http://wiki.python.org/moin/PythonDecoratorLibrary _
+_synchronization decorator
+
+from http://wiki.python.org/moin/PythonDecoratorLibrary _
 
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 13]
 ====== . ======
@@ -66,9 +67,10 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 6
 
   method *`readByte(unpack=struct.unpack)`*
 
-  _reads a byte from the contained stream _
-  _keyword arguments are bound to module globals for faster _
-  _access. _
+  _reads a byte from the contained stream
+
+keyword arguments are bound to module globals for faster
+access. _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 71]
   ====== . ======
@@ -87,9 +89,10 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 8
 
   method *`write(data, pack=struct.pack, eol=struct.pack('!b', 0))`*
 
-  _writes data to the contained stream _
-  _keyword arguments are bound to module globals for faster _
-  _access. _
+  _writes data to the contained stream
+
+keyword arguments are bound to module globals for faster
+access. _
 
     {{{
     data: string to send, or 0
@@ -111,6 +114,8 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 1
    _sentinel value used by the socket writer_
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 112]
+  ====== . ======
+
   method *`parseDouble()`*
 
   _returns python float from string _
@@ -130,6 +135,8 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 1
    _sentinel value used by the socket writer_
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 129]
+  ====== . ======
+
   method *`parseInt()`*
 
   _returns python int from string _
@@ -182,9 +189,10 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 1
 
   method *`__str__(join=str.join, chr=chr)`*
 
-  _the string value of this instance _
-  _keyword arguments are bound to module globals for faster _
-  _access. _
+  _the string value of this instance
+
+keyword arguments are bound to module globals for faster
+access. _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 174]
   ====== . ======
