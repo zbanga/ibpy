@@ -13,7 +13,7 @@ class SomeWrapper(EWrapper):
 
     ... code to implement all other EWrapper methods ...
 
-wrapper = ReferenceWrapper()
+wrapper = SomeWrapper()
 connection = EClientSocket(wrapper)
 connection.eConnect('localhost', 7496, 0)
 connection.reqIds()
