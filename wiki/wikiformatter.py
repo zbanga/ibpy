@@ -16,21 +16,6 @@ def lineno(elem):
     return int(elem.attrib['lineno'])
 
 
-caps = [chr(n) for n in range(65,91)]
-
-
-def wikiescape(text):
-    repl = set()
-    for word in text.split():
-        if word.startswith('http://'):
-            continue
-        if len([v for v in [c in caps for c in word] if v]) > 1:
-            repl.add(word)
-    for word in repl:
-        text = text.replace(word, '!'+word)
-    return text
-
-
 class PythonDocGenerator:
     def __init__(self, options):
         pass
@@ -48,17 +33,13 @@ class PythonDocGenerator:
         summary = module.find('info/summary')
         description = module.find('info/description')
 
-        summary = 'Reference documentation for %s' % (package, )
-        suminfo = ''
+        summary = 'API documentation for %s' % (package, )
         write('#summary %s' % summary)
         write('#labels API-Doc')
         write()
 
         if description is not None:
-            description = description.text
-            description = description[len(suminfo):]
-            description = description.lstrip()
-            write('%s' % wikiescape(description))
+            write('%s' % description.text.lstrip())
             write()
 
         def write_calls(functions, indent=0):
@@ -66,23 +47,20 @@ class PythonDocGenerator:
             offset = '  ' * indent
             moreoffset = offset + '  '
 
-
             for function in functions:
-                fs = '%s=== function %s ===' if not indent else '%smethod `%s`'
                 defstr = function.find('info/def')
                 if defstr is not None:
+                    fs = '%s=== function %s ===' if not indent else '%smethod `%s`'
                     defstr = defstr.text.replace('\n', '')
-                write(fs % (offset, defstr))
-                write()
+                    write(fs % (offset, defstr))
+                    write()
 
                 description = function.find('info/description')
                 if description is not None and description.text:
                     for line in description.text.split('\n'):
                         line = line.strip()
-                        write('%s_%s _' % (offset, wikiescape(line)))
-                else:
-                    pass
-                write()
+                        write('%s_%s _' % (offset, line))
+                    write()
 
                 params = function.findall('info/param')
                 if params:
@@ -107,11 +85,11 @@ class PythonDocGenerator:
         for cls in classes:
             write('=== class %s ===' % cls.find('info/def').text)
             write()
-            summary = cls.find('info/summary')
 
+            summary = cls.find('info/summary')
             if summary is not None and summary.text:
                 summary = summary.text
-                write('_%s _' % wikiescape(summary))
+                write('_%s _' % summary)
             else:
                 summary = ''
 
@@ -125,10 +103,5 @@ class PythonDocGenerator:
             write()
             write_calls(cls.findall('method'), 1)
 
-
-        write('')
-        write('')
-        return filename + ' ' + package
-
-    def done(self):
-        pass
+        write()
+        return False

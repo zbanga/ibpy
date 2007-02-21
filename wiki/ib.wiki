@@ -1,7 +1,6 @@
-#summary Reference documentation for ib
+#summary API documentation for ib
 #labels API-Doc
 
 Package root.
-
 
 

@@ -1,4 +1,4 @@
-#summary Reference documentation for ib.ext.Execution
+#summary API documentation for ib.ext.Execution
 #labels API-Doc
 
 Source file: Execution.java
@@ -16,21 +16,17 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 
 
   method `__init__()`
 
-
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 31]
   ====== . ======
 
   method `__init___0(p_orderId, p_clientId, p_execId, p_time, p_acctNumber, p_exchange, p_side, p_shares, p_price, p_permId, p_liquidation)`
-
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 40]
   ====== . ======
 
   method `__eq__(p_other)`
 
-
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 63]
   ====== . ======
-
 
 

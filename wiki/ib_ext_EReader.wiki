@@ -1,84 +1,72 @@
-#summary Reference documentation for ib.ext.EReader
+#summary API documentation for ib.ext.EReader
 #labels API-Doc
 
-Source file: !EReader.java
-Target file: !EReader.py
+Source file: EReader.java
+Target file: EReader.py
 
 Original file copyright original author(s).
 This file copyright Troy Melhase, troy@gci.net.
 
 === class EReader(Thread) ===
 
-_generated source for !EReader _
+_generated source for EReader _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 19]
 
   method `parent()`
 
-
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 49]
   ====== . ======
 
   method `eWrapper()`
-
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 52]
   ====== . ======
 
   method `__init__(parent, dis)`
 
-
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 56]
   ====== . ======
 
   method `__init___0(name, parent, dis)`
-
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 60]
   ====== . ======
 
   method `run()`
 
-
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 66]
   ====== . ======
 
   method `processMsg(msgId)`
-
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 75]
   ====== . ======
 
   method `readStr()`
 
-
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 468]
   ====== . ======
 
   method `readBoolFromInt()`
-
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 478]
   ====== . ======
 
   method `readInt()`
 
-
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 482]
   ====== . ======
 
   method `readLong()`
-
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 486]
   ====== . ======
 
   method `readDouble()`
 
-
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 490]
   ====== . ======
-
 
 

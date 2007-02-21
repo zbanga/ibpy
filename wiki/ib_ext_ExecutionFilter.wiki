@@ -1,36 +1,32 @@
-#summary Reference documentation for ib.ext.ExecutionFilter
+#summary API documentation for ib.ext.ExecutionFilter
 #labels API-Doc
 
-Source file: !ExecutionFilter.java
-Target file: !ExecutionFilter.py
+Source file: ExecutionFilter.java
+Target file: ExecutionFilter.py
 
 Original file copyright original author(s).
 This file copyright Troy Melhase, troy@gci.net.
 
 === class ExecutionFilter(object) ===
 
-_generated source for !ExecutionFilter _
+_generated source for ExecutionFilter _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 14]
 
   method `__init__()`
 
-
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 27]
   ====== . ======
 
   method `__init___0(p_clientId, p_acctCode, p_time, p_symbol, p_secType, p_exchange, p_side)`
-
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 31]
   ====== . ======
 
   method `__eq__(p_other)`
 
-
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 46]
   ====== . ======
-
 
 

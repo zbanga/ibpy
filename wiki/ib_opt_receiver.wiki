@@ -1,4 +1,4 @@
-#summary Reference documentation for ib.opt.receiver
+#summary API documentation for ib.opt.receiver
 #labels API-Doc
 
 Defines Receiver class to handle inbound data.
@@ -18,16 +18,15 @@ defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 12]
 
 === class ReceiverType(type) ===
 
-_!ReceiverType -> metaclass that adds !EWrapper methods to Receiver
+_ReceiverType -> metaclass that adds EWrapper methods to Receiver
 
 This metaclass creates dispatch methods for each method defined by
-!!EWrapper. _
+EWrapper. _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 26]
 
   method `__new__(name, bases, namespace)`
-
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 32]
   ====== . ======
@@ -40,7 +39,6 @@ _Receiver -> dispatches messages to interested callables _
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 38]
 
   method `__init__(listeners=None, types=None)`
-
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 45]
   ====== . ======
@@ -161,6 +159,5 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 3
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 147]
   ====== . ======
-
 
 

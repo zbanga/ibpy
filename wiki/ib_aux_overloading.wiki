@@ -1,4 +1,4 @@
-#summary Reference documentation for ib.aux.overloading
+#summary API documentation for ib.aux.overloading
 #labels API-Doc
 
 === class overloaded ===
@@ -10,12 +10,10 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py lin
 
   method `__init__(default_func)`
 
-
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py line 39]
   ====== . ======
 
   method `__get__(obj, type=None)`
-
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py line 45]
   ====== . ======
@@ -51,6 +49,5 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py lin
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py line 74]
   ====== . ======
-
 
 

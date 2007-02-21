@@ -1,7 +1,7 @@
-#summary Reference documentation for ib.opt
+#summary API documentation for ib.opt
 #labels API-Doc
 
-Sugary sweet layer of icing on top of the !TWS !API.
+Sugary sweet layer of icing on top of the TWS API.
 
 Use:
    {{{
@@ -11,11 +11,11 @@ Use:
        ...
 
    con = ibConnection()
-   con.register(my_callback, !message.TickSize, !message.TickPrice)
+   con.register(my_callback, message.TickSize, message.TickPrice)
    con.connect()
-   !con.reqAccountUpdates(...)
+   con.reqAccountUpdates(...)
    ...
-   con.unregister(my_callback, !message.TickSize)
+   con.unregister(my_callback, message.TickSize)
    }}}
 
 Enable and disable logging:
@@ -23,31 +23,29 @@ Enable and disable logging:
    {{{
    con.enableLogging()
    ...
-   !con.enableLogging(False)
+   con.enableLogging(False)
    }}}
 
 === class Connection(object) ===
 
-_Connection -> encapsulates a connection to !TWS _
+_Connection -> encapsulates a connection to TWS _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 37]
 
   method `__init__(host, port, clientId)`
 
-
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 41]
   ====== . ======
 
   method `__getattr__(name)`
-
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 48]
   ====== . ======
 
   method `connect()`
 
-  _establish a connection to !TWS with instance attributes _
+  _establish a connection to TWS with instance attributes _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 61]
   ====== . ======
@@ -89,6 +87,5 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 3
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 91]
   ====== . ======
-
 
 

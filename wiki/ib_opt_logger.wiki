@@ -1,4 +1,4 @@
-#summary Reference documentation for ib.opt.logger
+#summary API documentation for ib.opt.logger
 #labels API-Doc
 
 Defines logging formats and logger instance
@@ -9,6 +9,5 @@ _logger(...) -> returns a logger all fixed up _
 
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/logger.py line 16]
 ====== . ======
-
 
 
