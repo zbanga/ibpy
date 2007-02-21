@@ -5,7 +5,7 @@
 
   * [GettingStarted Getting Started] - instructions for installation and general use
   * [IbPyLikeJava Using IbPy like Java] - how to use the generated source
-  * [IbPyOptional Using the optional interface] - how to use the optional, more Pythonic interface
+  * [IbPyOptional Using the optional IbPy interface] - how to use the optional, more Pythonic interface
 
 == API Reference Documents ===
 
