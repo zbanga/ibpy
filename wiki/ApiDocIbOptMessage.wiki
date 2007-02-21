@@ -1,6 +1,7 @@
 #summary Defines message types for the Receiver class.
 #labels ApiDoc
 
+= Description =
 
 
 This module inspects the EWrapper class to build a set of Message

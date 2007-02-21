@@ -80,6 +80,10 @@ def write_callables(functions, write, link, indent=0):
         write('%s====== . ======' % offset)
         write()
 
+def write_variables(variables, write, link, indent=0):
+    variables.sort(key=line_no)
+    offset = '  ' * indent
+
 
 class PythonDocGenerator:
     def __init__(self, options):
@@ -108,9 +112,11 @@ class PythonDocGenerator:
         write()
 
         if description:
+            write('= Description =')
             write(description)
             write()
 
+        write_variables(module.findall('variable'), write, link, 0)
         write_callables(module.findall('function'), write, link, 0)
 
         for cls in sorted(module.findall('class'), key=line_no):
