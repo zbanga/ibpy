@@ -1,7 +1,11 @@
 #summary Reference documentation for ib.aux
 #labels API-Doc
 
+= Intro =
 Just enough auxiliary bits to make the translated code work.
+
+== Summary ===
+
 
 === function synchronized(lock) ===
 
@@ -302,5 +306,4 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 255]
   ====== . ======
-
 
