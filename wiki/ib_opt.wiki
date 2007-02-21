@@ -24,33 +24,33 @@ Enable and disable logging:
    !con.enableLogging(False)
    }}}
 
-==== Connection(object) ====
+=== class Connection(object) ===
 
 _Connection -> encapsulates a connection to !TWS _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 37]
 
-  `__init__(host, port, clientId)`
+  method `__init__(host, port, clientId)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 41]
   ====== . ======
 
-  `__getattr__(name)`
+  method `__getattr__(name)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 48]
   ====== . ======
 
-  `connect()`
+  method `connect()`
 
   _establish a connection to !TWS with instance attributes _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 61]
   ====== . ======
 
-  `enableLogging(enable=True)`
+  method `enableLogging(enable=True)`
 
   _toggle logging of all messages _
 
@@ -62,7 +62,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 3
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 68]
   ====== . ======
 
-  `logMessage(message)`
+  method `logMessage(message)`
 
   _format and send a message values to the logger _
 
@@ -74,7 +74,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 3
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 80]
   ====== . ======
 
-  `create(host='localhost', port=7496, clientId=0)`
+  method `create(host='localhost', port=7496, clientId=0)`
 
   _creates and returns Connection object _
 

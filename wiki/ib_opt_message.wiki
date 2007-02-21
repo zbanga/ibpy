@@ -6,7 +6,7 @@ types.  In creating the types, it also builds a registry of them that
 the Receiver class uses to determine message types to instantiate and
 deliver.
 
-==== isWrapperMethod(name, value) ====
+=== function isWrapperMethod(name, value) ===
 
 _predicate for wrapper methods _
 
@@ -19,7 +19,7 @@ _predicate for wrapper methods _
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 86]
 ====== . ======
 
-==== selectWrapperMethods(cls) ====
+=== function selectWrapperMethods(cls) ===
 
 _wrapper methods of a class _
 
@@ -31,7 +31,7 @@ _wrapper methods of a class _
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 98]
 ====== . ======
 
-==== buildMessageTypes(wrapper, mapping, *bases) ====
+=== function buildMessageTypes(wrapper, mapping, *bases) ===
 
 _construct message types and add to given mapping _
 
@@ -45,7 +45,7 @@ _construct message types and add to given mapping _
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 110]
 ====== . ======
 
-==== MessageType(type) ====
+=== class MessageType(type) ===
 
 _!MessageType -> simple metaclass to track Message subclasses
 
@@ -55,53 +55,53 @@ to the registry mapping. _
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 27]
 
-  `__init__(name, bases, namespace)`
+  method `__init__(name, bases, namespace)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 33]
   ====== . ======
 
-==== Message(object) ====
+=== class Message(object) ===
 
 _Message -> base type for message instances _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 40]
 
-  `__init__(**kwds)`
+  method `__init__(**kwds)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 47]
   ====== . ======
 
-  `__str__()`
+  method `__str__()`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 52]
   ====== . ======
 
-  `items()`
+  method `items()`
 
   _list of message's (slot, slot value) pairs, as 2-tuples _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 57]
   ====== . ======
 
-  `values()`
+  method `values()`
 
   _list of message's slot values _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 63]
   ====== . ======
 
-  `keys()`
+  method `keys()`
 
   _list of message's slots _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 69]
   ====== . ======
 
-==== Error(Message) ====
+=== class Error(Message) ===
 
 _Error -> specialized message type
 

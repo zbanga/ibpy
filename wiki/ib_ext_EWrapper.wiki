@@ -1,140 +1,145 @@
-#summary Reference documentation for ib.ext.EWrapper
+#summary Source file: "EWrapper.java"
+Target file: "EWrapper.py"
+
+Original file copyright original author(s).
 #labels API-Doc
 
-==== EWrapper(AnyWrapper) ====
+This file copyright Troy Melhase, troy@gci.net.
+
+=== class EWrapper(AnyWrapper) ===
 
 _generated source for !EWrapper _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 16]
 
-  `tickPrice(tickerId, field, price, canAutoExecute)`
+  method `tickPrice(tickerId, field, price, canAutoExecute)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 21]
   ====== . ======
 
-  `tickSize(tickerId, field, size)`
+  method `tickSize(tickerId, field, size)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 24]
   ====== . ======
 
-  `tickOptionComputation(tickerId, field, impliedVol, delta, modelPrice, pvDividend)`
+  method `tickOptionComputation(tickerId, field, impliedVol, delta, modelPrice, pvDividend)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 27]
   ====== . ======
 
-  `orderStatus(orderId, status, filled, remaining, avgFillPrice, permId, parentId, lastFillPrice, clientId)`
+  method `orderStatus(orderId, status, filled, remaining, avgFillPrice, permId, parentId, lastFillPrice, clientId)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 35]
   ====== . ======
 
-  `openOrder(orderId, contract, order)`
+  method `openOrder(orderId, contract, order)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 46]
   ====== . ======
 
-  `updateAccountValue(key, value, currency, accountName)`
+  method `updateAccountValue(key, value, currency, accountName)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 49]
   ====== . ======
 
-  `updatePortfolio(contract, position, marketPrice, marketValue, averageCost, unrealizedPNL, realizedPNL, accountName)`
+  method `updatePortfolio(contract, position, marketPrice, marketValue, averageCost, unrealizedPNL, realizedPNL, accountName)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 52]
   ====== . ======
 
-  `updateAccountTime(timeStamp)`
+  method `updateAccountTime(timeStamp)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 62]
   ====== . ======
 
-  `nextValidId(orderId)`
+  method `nextValidId(orderId)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 65]
   ====== . ======
 
-  `contractDetails(contractDetails)`
+  method `contractDetails(contractDetails)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 68]
   ====== . ======
 
-  `bondContractDetails(contractDetails)`
+  method `bondContractDetails(contractDetails)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 71]
   ====== . ======
 
-  `execDetails(orderId, contract, execution)`
+  method `execDetails(orderId, contract, execution)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 74]
   ====== . ======
 
-  `updateMktDepth(tickerId, position, operation, side, price, size)`
+  method `updateMktDepth(tickerId, position, operation, side, price, size)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 77]
   ====== . ======
 
-  `updateMktDepthL2(tickerId, position, marketMaker, operation, side, price, size)`
+  method `updateMktDepthL2(tickerId, position, marketMaker, operation, side, price, size)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 85]
   ====== . ======
 
-  `updateNewsBulletin(msgId, msgType, message, origExchange)`
+  method `updateNewsBulletin(msgId, msgType, message, origExchange)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 94]
   ====== . ======
 
-  `managedAccounts(accountsList)`
+  method `managedAccounts(accountsList)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 97]
   ====== . ======
 
-  `receiveFA(faDataType, xml)`
+  method `receiveFA(faDataType, xml)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 100]
   ====== . ======
 
-  `historicalData(reqId, date, open, high, low, close, volume, count, WAP, hasGaps)`
+  method `historicalData(reqId, date, open, high, low, close, volume, count, WAP, hasGaps)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 103]
   ====== . ======
 
-  `scannerParameters(xml)`
+  method `scannerParameters(xml)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 115]
   ====== . ======
 
-  `scannerData(reqId, rank, contractDetails, distance, benchmark, projection)`
+  method `scannerData(reqId, rank, contractDetails, distance, benchmark, projection)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 118]
   ====== . ======
 
-  `tickGeneric(tickerId, tickType, value)`
+  method `tickGeneric(tickerId, tickType, value)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 126]
   ====== . ======
 
-  `tickString(tickerId, tickType, value)`
+  method `tickString(tickerId, tickType, value)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapper.py line 129]

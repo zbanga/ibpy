@@ -1,74 +1,79 @@
-#summary Reference documentation for ib.ext.EReader
+#summary Source file: "EReader.java"
+Target file: "EReader.py"
+
+Original file copyright original author(s).
 #labels API-Doc
 
-==== EReader(Thread) ====
+This file copyright Troy Melhase, troy@gci.net.
+
+=== class EReader(Thread) ===
 
 _generated source for !EReader _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 21]
 
-  `parent()`
+  method `parent()`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 51]
   ====== . ======
 
-  `eWrapper()`
+  method `eWrapper()`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 54]
   ====== . ======
 
-  `__init__(parent, dis)`
+  method `__init__(parent, dis)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 58]
   ====== . ======
 
-  `__init___0(name, parent, dis)`
+  method `__init___0(name, parent, dis)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 62]
   ====== . ======
 
-  `run()`
+  method `run()`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 68]
   ====== . ======
 
-  `processMsg(msgId)`
+  method `processMsg(msgId)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 77]
   ====== . ======
 
-  `readStr()`
+  method `readStr()`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 470]
   ====== . ======
 
-  `readBoolFromInt()`
+  method `readBoolFromInt()`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 480]
   ====== . ======
 
-  `readInt()`
+  method `readInt()`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 484]
   ====== . ======
 
-  `readLong()`
+  method `readLong()`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 488]
   ====== . ======
 
-  `readDouble()`
+  method `readDouble()`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 492]

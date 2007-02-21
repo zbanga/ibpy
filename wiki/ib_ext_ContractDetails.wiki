@@ -1,20 +1,25 @@
-#summary Reference documentation for ib.ext.ContractDetails
+#summary Source file: "ContractDetails.java"
+Target file: "ContractDetails.py"
+
+Original file copyright original author(s).
 #labels API-Doc
 
-==== ContractDetails(object) ====
+This file copyright Troy Melhase, troy@gci.net.
+
+=== class ContractDetails(object) ===
 
 _generated source for !ContractDetails _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ContractDetails.py line 17]
 
-  `__init__()`
+  method `__init__()`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ContractDetails.py line 32]
   ====== . ======
 
-  `__init___0(p_summary, p_marketName, p_tradingClass, p_conid, p_minTick, p_multiplier, p_orderTypes, p_validExchanges)`
+  method `__init___0(p_summary, p_marketName, p_tradingClass, p_conid, p_minTick, p_multiplier, p_orderTypes, p_validExchanges)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ContractDetails.py line 38]

@@ -10,4 +10,5 @@ all: $(modules)
 
 $(modules):
 	@echo [I] generating wiki doc for $@
-	@export PYTHONPATH=$(shell pwd) && pythondoc.py -s -O wikiformatter $@ > /dev/null
+	@export PYTHONPATH=$(shell pwd) && pythondoc.py -s -O wikiformatter $@
+

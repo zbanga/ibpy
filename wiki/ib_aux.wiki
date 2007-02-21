@@ -3,7 +3,7 @@
 
 
 
-==== synchronized(lock) ====
+=== function synchronized(lock) ===
 
 _synchronization decorator _
 _ _
@@ -12,27 +12,27 @@ _from http://wiki.python.org/moin/PythonDecoratorLibrary _
 defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 13]
 ====== . ======
 
-==== Boolean(object) ====
+=== class Boolean(object) ===
 
 _partial implementation of java Boolean type _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 29]
 
-  `__init__(value)`
+  method `__init__(value)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 33]
   ====== . ======
 
-  `booleanValue()`
+  method `booleanValue()`
 
   _the value of this instance (a bool) _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 36]
   ====== . ======
 
-  `valueOf(text)`
+  method `valueOf(text)`
 
   _creates an instance of this class with a bool value _
 
@@ -45,7 +45,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 2
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 44]
   ====== . ======
 
-==== Cloneable(object) ====
+=== class Cloneable(object) ===
 
 _stub for the Cloneable java interface
 
@@ -56,20 +56,20 @@ for subtyping, and will implement methods as needed later.
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 55]
 
-==== DataInputStream(object) ====
+=== class DataInputStream(object) ===
 
 _partial implementation of the java !DataInputStream type _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 64]
 
-  `__init__(stream)`
+  method `__init__(stream)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 68]
   ====== . ======
 
-  `readByte(unpack=struct.unpack)`
+  method `readByte(unpack=struct.unpack)`
 
   _reads a byte from the contained stream _
   _ _
@@ -79,20 +79,20 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 6
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 71]
   ====== . ======
 
-==== DataOutputStream(object) ====
+=== class DataOutputStream(object) ===
 
 _partial implementation of the java !DataOutputStream type _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 82]
 
-  `__init__(stream)`
+  method `__init__(stream)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 86]
   ====== . ======
 
-  `write(data, pack=struct.pack, eol=struct.pack('!b', 0))`
+  method `write(data, pack=struct.pack, eol=struct.pack('!b', 0))`
 
   _writes data to the contained stream _
   _ _
@@ -107,69 +107,69 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 8
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 89]
   ====== . ======
 
-==== Double(float) ====
+=== class Double(float) ===
 
 _partial implementation of java Double type _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 106]
 
-  `parseDouble()`
+  method `parseDouble()`
 
   _returns python float from string _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 113]
   ====== . ======
 
-==== Integer(int) ====
+=== class Integer(int) ===
 
 _partial implementation of java Integer type _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 120]
 
-  `parseInt()`
+  method `parseInt()`
 
   _returns python int from string _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 127]
   ====== . ======
 
-  `parseLong()`
+  method `parseLong()`
 
   _returns python long from string _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 134]
   ====== . ======
 
-==== Socket(socket.socket) ====
+=== class Socket(socket.socket) ===
 
 _partial implementation of the java Socket type. _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 141]
 
-  `__init__(host, port)`
+  method `__init__(host, port)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 145]
   ====== . ======
 
-  `getInputStream()`
+  method `getInputStream()`
 
   _returns this instance, which has a send method _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 149]
   ====== . ======
 
-  `getOutputStream()`
+  method `getOutputStream()`
 
   _returns this instance, which has a recv method _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 155]
   ====== . ======
 
-==== StringBuffer(list) ====
+=== class StringBuffer(list) ===
 
 _partial implementation of the java !StringBuffer type
 
@@ -179,7 +179,7 @@ the list base type provides the append method.
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 162]
 
-  `__str__(join=str.join, chr=chr)`
+  method `__str__(join=str.join, chr=chr)`
 
   _the string value of this instance _
   _ _
@@ -189,115 +189,115 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 1
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 169]
   ====== . ======
 
-==== ThreadType(QThread) ====
+=== class ThreadType(QThread) ===
 
 _partial implementation of java Thread type, based on Qt3 !QThread _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 183]
 
-  `__init__(name)`
+  method `__init__(name)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 187]
   ====== . ======
 
-  `interrupt()`
+  method `interrupt()`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 190]
   ====== . ======
 
-  `isInterrupted()`
+  method `isInterrupted()`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 193]
   ====== . ======
 
-  `setDaemon(value)`
+  method `setDaemon(value)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 196]
   ====== . ======
 
-  `setName(value)`
+  method `setName(value)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 199]
   ====== . ======
 
-==== ThreadType(QThread) ====
+=== class ThreadType(QThread) ===
 
 _partial implementation of java Thread type, based on Qt4 !QThread _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 207]
 
-  `__init__(name)`
+  method `__init__(name)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 211]
   ====== . ======
 
-  `interrupt()`
+  method `interrupt()`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 214]
   ====== . ======
 
-  `isInterrupted()`
+  method `isInterrupted()`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 217]
   ====== . ======
 
-  `setDaemon(value)`
+  method `setDaemon(value)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 220]
   ====== . ======
 
-  `setName(value)`
+  method `setName(value)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 223]
   ====== . ======
 
-==== ThreadType(threading.Thread) ====
+=== class ThreadType(threading.Thread) ===
 
 _partial implementation of java Thread type, based on Python Thread _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 230]
 
-  `__init__(name)`
+  method `__init__(name)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 234]
   ====== . ======
 
-  `interrupt()`
+  method `interrupt()`
 
   _no-op; python threads are not directly interruptible _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 238]
   ====== . ======
 
-  `isInterrupted()`
+  method `isInterrupted()`
 
   _returns False, which signals the reader to keep reading _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 244]
   ====== . ======
 
-==== Thread(ThreadType) ====
+=== class Thread(ThreadType) ===
 
 _Thread parent type, based on available framework _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 251]
 
-  `__init__(name, parent, dis)`
+  method `__init__(name, parent, dis)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/__init__.py line 255]

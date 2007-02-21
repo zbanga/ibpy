@@ -3,7 +3,7 @@
 
 
 
-==== Sender(object) ====
+=== class Sender(object) ===
 
 _objects call listeners pre/post !reqScannerParameters,
 !reqAccountUpdates, etc. _
@@ -11,19 +11,19 @@ _objects call listeners pre/post !reqScannerParameters,
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 12]
 
-  `__init__()`
+  method `__init__()`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 19]
   ====== . ======
 
-  `connect(host, port, clientId, handler)`
+  method `connect(host, port, clientId, handler)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 22]
   ====== . ======
 
-  `__getattr__(name)`
+  method `__getattr__(name)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 26]

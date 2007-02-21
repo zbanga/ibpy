@@ -72,7 +72,7 @@ class PythonDocGenerator:
 
 
             for function in functions:
-                fs = '%s==== %s ====' if not indent else '%s`%s`'
+                fs = '%s=== function %s ===' if not indent else '%smethod `%s`'
                 defstr = function.find('info/def')
                 if defstr is not None:
                     defstr = defstr.text.replace('\n', '')
@@ -109,21 +109,22 @@ class PythonDocGenerator:
         classes.sort(key=lineno)
 
         for cls in classes:
-            name = cls.attrib['name']
-            name = cls.find('info/def').text
-            write('==== %s ====' % name)
+            write('=== class %s ===' % cls.find('info/def').text)
             write()
             summary = cls.find('info/summary')
+
             if summary is not None and summary.text:
                 summary = summary.text
                 write('_%s _' % wikiescape(summary))
             else:
                 summary = ''
+
             description = cls.find('info/description')
             if description is not None and description.text:
                 desc = description.text[len(summary):]
                 write('%s' % desc)
                 write()
+
             write('class defined at [%s line %s]' % (link, cls.attrib['lineno']))
             write()
             write_calls(cls.findall('method'), 1)

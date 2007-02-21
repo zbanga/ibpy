@@ -1,26 +1,31 @@
-#summary Reference documentation for ib.ext.ComboLeg
+#summary Source file: "ComboLeg.java"
+Target file: "ComboLeg.py"
+
+Original file copyright original author(s).
 #labels API-Doc
 
-==== ComboLeg(object) ====
+This file copyright Troy Melhase, troy@gci.net.
+
+=== class ComboLeg(object) ===
 
 _generated source for !ComboLeg _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 16]
 
-  `__init__()`
+  method `__init__()`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 31]
   ====== . ======
 
-  `__init___0(p_ConId, p_Ratio, p_Action, p_exchange, p_openClose)`
+  method `__init___0(p_ConId, p_Ratio, p_Action, p_exchange, p_openClose)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 37]
   ====== . ======
 
-  `__eq__(p_other)`
+  method `__eq__(p_other)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 48]

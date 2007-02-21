@@ -1,26 +1,31 @@
-#summary Reference documentation for ib.ext.Execution
+#summary Source file: "Execution.java"
+Target file: "Execution.py"
+
+Original file copyright original author(s).
 #labels API-Doc
 
-==== Execution(object) ====
+This file copyright Troy Melhase, troy@gci.net.
+
+=== class Execution(object) ===
 
 _generated source for Execution _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 16]
 
-  `__init__()`
+  method `__init__()`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 33]
   ====== . ======
 
-  `__init___0(p_orderId, p_clientId, p_execId, p_time, p_acctNumber, p_exchange, p_side, p_shares, p_price, p_permId, p_liquidation)`
+  method `__init___0(p_orderId, p_clientId, p_execId, p_time, p_acctNumber, p_exchange, p_side, p_shares, p_price, p_permId, p_liquidation)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 42]
   ====== . ======
 
-  `__eq__(p_other)`
+  method `__eq__(p_other)`
 
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 65]
