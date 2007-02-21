@@ -4,7 +4,7 @@
 
 !IbPy should work with any GUI framework available to Python.  If you
 have problems integrating with a particular framework, please post a
-message to the [http://groups.google.com/FIXME mailing list] with
+message to the [http://groups.google.com/group/ibpy-discuss mailing list] with
 the details.
 
 = Thread Models =
@@ -26,5 +26,6 @@ import Qt3 or Qt4 first.
   }}}
 
 Other threading models (e.g., GTK) should work normally.  If you have
-problems, please post a message to the [http://groups.google.com/FIXME
-mailing list] with details.
+problems, please post a message to the [http://groups.google.com/group/ibpy-discuss mailing list] 
+with details.
+
