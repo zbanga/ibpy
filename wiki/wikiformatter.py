@@ -20,9 +20,14 @@ caps = [chr(n) for n in range(65,91)]
 
 
 def wikiescape(text):
+    repl = set()
     for word in text.split():
-        if len([v for v in [c in caps for c in word] if v]):
-	    text = text.replace(word, '!'+word)
+        if word.startswith('http://'):
+            continue
+        if len([v for v in [c in caps for c in word] if v]) > 1:
+            repl.add(word)
+    for word in repl:
+        text = text.replace(word, '!'+word)
     return text
 
 

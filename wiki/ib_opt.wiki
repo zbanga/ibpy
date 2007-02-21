@@ -1,14 +1,14 @@
 #summary Sugary sweet layer of icing on top of the TWS API.
 #labels API-Doc
 
-!Use:
+Use:
    {{{
-   from ib.opt import !ibConnection, message
+   from ib.opt import ibConnection, message
 
    def my_callback(msg):
        ...
 
-   con = !ibConnection()
+   con = ibConnection()
    con.register(my_callback, !message.TickSize, !message.TickPrice)
    con.connect()
    !con.reqAccountUpdates(...)
@@ -16,17 +16,17 @@
    con.unregister(my_callback, !message.TickSize)
    }}}
 
-!Enable and disable logging:
+Enable and disable logging:
 
    {{{
-   !con.enableLogging()
+   con.enableLogging()
    ...
    !con.enableLogging(False)
    }}}
 
 ==== Connection(object) ====
 
-_!Connection -> encapsulates a connection to !TWS _
+_Connection -> encapsulates a connection to !TWS _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 37]
@@ -76,7 +76,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 3
 
   `create(host='localhost', port=7496, clientId=0)`
 
-  _creates and returns !Connection object _
+  _creates and returns Connection object _
 
     {{{
     host : name of host for connection; default is localhost
