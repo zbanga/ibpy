@@ -1,5 +1,5 @@
-files := $(shell find ../trunk/ib/ -name "*.py")
-modules := $(wordlist 1, $(words $(files)), $(files))
+pyfiles := $(shell find ../trunk/ib/ -name "*.py")
+modules := $(wordlist 1, $(words $(pyfiles)), $(pyfiles))
 
 
 .PHONY: all $(modules)
@@ -9,5 +9,5 @@ all: $(modules)
 
 
 $(modules):
-	@export PYTHONPATH=$(shell pwd)
-	pythondoc.py -s -O wikiformatter $@
+	@echo [I] generating wiki doc for $@
+	@export PYTHONPATH=$(shell pwd) && pythondoc.py -s -O wikiformatter $@ > /dev/null
