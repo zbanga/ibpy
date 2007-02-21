@@ -1,32 +1,32 @@
 #summary Sugary sweet layer of icing on top of the TWS API.
 #labels API-Doc
 
-Use:
+!Use:
    {{{
-   from ib.opt import ibConnection, message
+   from ib.opt import !ibConnection, message
 
    def my_callback(msg):
        ...
 
-   con = ibConnection()
-   con.register(my_callback, message.TickSize, message.TickPrice)
+   con = !ibConnection()
+   con.register(my_callback, !message.TickSize, !message.TickPrice)
    con.connect()
-   con.reqAccountUpdates(...)
+   !con.reqAccountUpdates(...)
    ...
-   con.unregister(my_callback, message.TickSize)
+   con.unregister(my_callback, !message.TickSize)
    }}}
 
-Enable and disable logging:
+!Enable and disable logging:
 
    {{{
-   con.enableLogging()
+   !con.enableLogging()
    ...
-   con.enableLogging(False)
+   !con.enableLogging(False)
    }}}
 
 ==== Connection(object) ====
 
-_Connection -> encapsulates a connection to TWS_
+_!Connection -> encapsulates a connection to !TWS _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 37]
@@ -45,7 +45,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 3
 
   `connect()`
 
-  _establish a connection to TWS with instance attributes _
+  _establish a connection to !TWS with instance attributes _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 61]
   ====== . ======
@@ -76,7 +76,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 3
 
   `create(host='localhost', port=7496, clientId=0)`
 
-  _creates and returns Connection object _
+  _creates and returns !Connection object _
 
     {{{
     host : name of host for connection; default is localhost

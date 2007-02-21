@@ -1,9 +1,9 @@
 #summary Defines message types for the Receiver class.
 #labels API-Doc
 
-This module inspects the EWrapper class to build a set of Message
-types.  In creating the types, it also builds a registry of them that
-the Receiver class uses to determine message types to instantiate and
+!This module inspects the !EWrapper class to build a set of !Message
+types.  !In creating the types, it also builds a registry of them that
+the !Receiver class uses to determine message types to instantiate and
 deliver.
 
 ==== isWrapperMethod(name, value) ====
@@ -47,10 +47,10 @@ defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 110]
 
 ==== MessageType(type) ====
 
-_MessageType -> simple metaclass to track Message subclasses
+_!!!MessageType -> simple metaclass to track !!Message subclasses
 
-As new Message subclasses are defined (see below), they are saved
-to the registry mapping._
+!As new !!Message subclasses are defined (see below), they are saved
+to the registry mapping. _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 27]
@@ -63,7 +63,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 27
 
 ==== Message(object) ====
 
-_Message -> base type for message instances_
+_!Message -> base type for message instances _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 40]
@@ -103,10 +103,10 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 40
 
 ==== Error(Message) ====
 
-_Error -> specialized message type
+_!Error -> specialized message type
 
-The error family of method calls can't be built programmatically,
-so we define one here._
+!The error family of method calls can't be built programmatically,
+so we define one here. _
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 76]
