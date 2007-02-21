@@ -3,14 +3,14 @@
 
 = Introduction =
 
-The documentation for IbPy is divided into two sections:  [HowTo how-to documents] and [ApiDoc API reference documents].  Both types are indexed here.
+The documentation for !IbPy is divided into two sections:  how-to documents and API reference documents.  Both types are indexed here.
 
 
 == How To Documents ==
 
-  # Getting Started
-  # Using IbPy like Java
-  # Using the optional interface
+  * [GettingStarted Getting Started] - instructions for installation and general use
+  * [IbPyLikeJava Using IbPy like Java] - how to use the generated source
+  * [IbPyOptional Using the optional interface] - how to use the optional, more Pythonic interface
 
 == API Reference Documents ===
 
