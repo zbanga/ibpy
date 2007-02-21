@@ -1,11 +1,6 @@
 #summary Project documentation index.
 #labels Featured
 
-= Introduction =
-
-The documentation for !IbPy is divided into two sections:  how-to documents and API reference documents.  Both types are indexed here.
-
-
 == How To Documents ==
 
   * [GettingStarted Getting Started] - instructions for installation and general use
