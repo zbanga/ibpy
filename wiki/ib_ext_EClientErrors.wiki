@@ -1,5 +1,5 @@
-#summary Source file: "EClientErrors.java"
-Target file: "EClientErrors.py"
+#summary Source file: EClientErrors.java
+Target file: EClientErrors.py
 
 Original file copyright original author(s).
 #labels API-Doc
@@ -11,12 +11,12 @@ This file copyright Troy Melhase, troy@gci.net.
 _generated source for !EClientErrors _
 
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientErrors.py line 15]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientErrors.py line 13]
 
   method `__init__()`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientErrors.py line 61]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientErrors.py line 59]
   ====== . ======
 
 

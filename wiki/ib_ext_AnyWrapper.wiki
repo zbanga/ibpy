@@ -1,35 +1,40 @@
-#summary Reference documentation for ib.ext.AnyWrapper
+#summary Source file: AnyWrapper.java
+Target file: AnyWrapper.py
+
+Original file copyright original author(s).
 #labels API-Doc
+
+This file copyright Troy Melhase, troy@gci.net.
 
 === class AnyWrapper(object) ===
 
 _generated source for !AnyWrapper _
 
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 16]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 14]
 
   method `error(e)`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 22]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 20]
   ====== . ======
 
   method `error_0(strval)`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 26]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 24]
   ====== . ======
 
   method `error_1(id, errorCode, errorMsg)`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 30]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 28]
   ====== . ======
 
   method `connectionClosed()`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 33]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 31]
   ====== . ======
 
 

@@ -1,5 +1,5 @@
-#summary Source file: "Execution.java"
-Target file: "Execution.py"
+#summary Source file: Execution.java
+Target file: Execution.py
 
 Original file copyright original author(s).
 #labels API-Doc
@@ -11,24 +11,24 @@ This file copyright Troy Melhase, troy@gci.net.
 _generated source for Execution _
 
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 16]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 14]
 
   method `__init__()`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 33]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 31]
   ====== . ======
 
   method `__init___0(p_orderId, p_clientId, p_execId, p_time, p_acctNumber, p_exchange, p_side, p_shares, p_price, p_permId, p_liquidation)`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 42]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 40]
   ====== . ======
 
   method `__eq__(p_other)`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 65]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 63]
   ====== . ======
 
 

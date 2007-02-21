@@ -1,5 +1,5 @@
-#summary Source file: "Order.java"
-Target file: "Order.py"
+#summary Source file: Order.java
+Target file: Order.py
 
 Original file copyright original author(s).
 #labels API-Doc
@@ -11,18 +11,18 @@ This file copyright Troy Melhase, troy@gci.net.
 _generated source for Order _
 
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 16]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 14]
 
   method `__init__()`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 90]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 88]
   ====== . ======
 
   method `__eq__(p_other)`
 
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 110]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 108]
   ====== . ======
 
 
