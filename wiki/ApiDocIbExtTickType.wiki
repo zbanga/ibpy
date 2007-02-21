@@ -1,20 +1,20 @@
-#summary API documentation for ib.ext.TickType
-#labels API-Doc
-
-Source file: TickType.java
+#summary Source file: TickType.java
 Target file: TickType.py
 
 Original file copyright original author(s).
+#labels ApiDoc
+
+
 This file copyright Troy Melhase, troy@gci.net.
 
 === class TickType(object) ===
 
-_generated source for TickType _
+_generated source for TickType_
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/TickType.py line 13]
 
-  method `getField(tickType)`
+  method *`getField(tickType)`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/TickType.py line 57]
   ====== . ======

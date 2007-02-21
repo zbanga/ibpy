@@ -1,20 +1,20 @@
-#summary API documentation for ib.ext.EClientErrors
-#labels API-Doc
-
-Source file: EClientErrors.java
+#summary Source file: EClientErrors.java
 Target file: EClientErrors.py
 
 Original file copyright original author(s).
+#labels ApiDoc
+
+
 This file copyright Troy Melhase, troy@gci.net.
 
 === class EClientErrors(object) ===
 
-_generated source for EClientErrors _
+_generated source for EClientErrors_
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientErrors.py line 13]
 
-  method `__init__()`
+  method *`__init__()`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientErrors.py line 59]
   ====== . ======

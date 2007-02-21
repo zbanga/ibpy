@@ -1,25 +1,25 @@
-#summary API documentation for ib.ext.Order
-#labels API-Doc
-
-Source file: Order.java
+#summary Source file: Order.java
 Target file: Order.py
 
 Original file copyright original author(s).
+#labels ApiDoc
+
+
 This file copyright Troy Melhase, troy@gci.net.
 
 === class Order(object) ===
 
-_generated source for Order _
+_generated source for Order_
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 14]
 
-  method `__init__()`
+  method *`__init__()`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 88]
   ====== . ======
 
-  method `__eq__(p_other)`
+  method *`__eq__(p_other)`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 108]
   ====== . ======

@@ -12,9 +12,10 @@ add support for module variables.
 
 
 """
-linkbase = 'http://ibpy.googlecode.com/svn/'
+svnroot = 'http://ibpy.googlecode.com/svn/'
 
-def outname(v):
+
+def output_filename(v):
     t = v[9:-3].replace('/__init__', '').split('/')
     if len(t) == 3 and t[-2] == 'ext':
         t = str.join('', [a.title() for a in t[:-1]]) + t[-1]
@@ -22,14 +23,62 @@ def outname(v):
         t = str.join('', [a.title() for a in t])
     return 'ApiDoc' + t + '.wiki'
 
-def pkgname(v):
+
+def package_name(v):
     return v[9:-3].replace('/__init__', '').replace('/', '.')
 
-def linkname(v):
-    return linkbase + v[3:]
 
-def lineno(elem):
+def format_url(v):
+    return svnroot + v[3:]
+
+
+def line_no(elem):
     return int(elem.attrib['lineno'])
+
+
+def etext(elem, default=''):
+    if elem is None:
+        return default
+    else:
+        return elem.text
+
+
+def write_callables(functions, write, link, indent=0):
+    functions.sort(key=line_no)
+    offset = '  ' * indent
+    moreoffset = offset + '  '
+
+    deffs = '%s=== function %s ===' if not indent else '%smethod *`%s`*'
+    for function in functions:
+        defstr = etext(function.find('info/def'))
+        if defstr:
+            defstr = defstr.replace('\n', '')
+            write(deffs % (offset, defstr))
+            write()
+
+        description = etext(function.find('info/description'))
+        if description:
+            for line in description.split('\n'):
+                line = line.strip()
+                if line:
+                    write('%s_%s _' % (offset, line))
+            write()
+
+        params = function.findall('info/param')
+        if params:
+            write('%s{{{' % moreoffset)
+            for param in params:
+                name = param.attrib['name']
+                write('%s%s: %s' % (moreoffset, name, param.text or ''))
+            ret = etext(function.find('info/return'))
+            if ret:
+                write('%sreturns: %s' % (moreoffset, ret, ))
+            write('%s}}}' % moreoffset)
+            write()
+
+        write('%sdefined at [%s line %s]' % (offset, link, function.attrib['lineno']))
+        write('%s====== . ======' % offset)
+        write()
 
 
 class PythonDocGenerator:
@@ -38,86 +87,51 @@ class PythonDocGenerator:
 
     def save(self, module, name):
         modulefile = module.attrib['filename']
-        filename = outname(modulefile)
-        link = linkname(modulefile)
-        package = pkgname(modulefile)
+        filename = output_filename(modulefile)
+        link = format_url(modulefile)
+        package = package_name(modulefile)
 
         fh = open(filename, 'w')
         def write(value=''):
             fh.write(value + '\n')
 
-        summary = module.find('info/summary')
-        description = module.find('info/description')
+        summary = etext(module.find('info/summary'))
+        description = etext(module.find('info/description'))
 
-        summary = 'API documentation for %s' % (package, )
+        if not summary:
+            summary = 'Reference documentation for %s' % (package, )
+        elif description.startswith(summary):
+            description = description[len(summary):]
+
         write('#summary %s' % summary)
-        write('#labels API-Doc')
+        write('#labels ApiDoc')
         write()
 
-        if description is not None:
-            write('%s' % description.text.lstrip())
+        if description:
+            write(description)
             write()
 
-        def write_calls(functions, indent=0):
-            functions.sort(key=lineno)
-            offset = '  ' * indent
-            moreoffset = offset + '  '
+        write_callables(module.findall('function'), write, link, 0)
 
-            for function in functions:
-                defstr = function.find('info/def')
-                if defstr is not None:
-                    fs = '%s=== function %s ===' if not indent else '%smethod `%s`'
-                    defstr = defstr.text.replace('\n', '')
-                    write(fs % (offset, defstr))
-                    write()
-
-                description = function.find('info/description')
-                if description is not None and description.text:
-                    for line in description.text.split('\n'):
-                        line = line.strip()
-                        write('%s_%s _' % (offset, line))
-                    write()
-
-                params = function.findall('info/param')
-                if params:
-                    write('%s{{{' % moreoffset)
-                    for param in params:
-                        name = param.attrib['name'].replace('*', '')
-                        write('%s%s : %s' % (moreoffset, name, param.text or ''))
-                    ret = function.find('info/return')
-                    if ret is not None:
-                        write('%sreturns: %s' % (moreoffset, ret.text, ))
-                    write('%s}}}' % moreoffset)
-                    write()
-                write('%sdefined at [%s line %s]' % (offset, link, function.attrib['lineno']))
-                write('%s====== . ======' % offset)
-                write()
-
-        write_calls(module.findall('function'))
-
-        classes = module.findall('class')
-        classes.sort(key=lineno)
-
-        for cls in classes:
-            write('=== class %s ===' % cls.find('info/def').text)
+        for cls in sorted(module.findall('class'), key=line_no):
+            write('=== class %s ===' % etext(cls.find('info/def')))
             write()
 
-            summary = cls.find('info/summary')
-            if summary is not None and summary.text:
-                summary = summary.text
-                write('_%s _' % summary)
-            else:
-                summary = ''
+            summary = etext(cls.find('info/summary'))
+            description = etext(cls.find('info/description'))
 
-            description = cls.find('info/description')
-            if description is not None and description.text:
-                desc = description.text[len(summary):]
-                write('%s' % desc)
+            if summary:
+                write('_%s_' % summary)
+
+            if description:
+                if description.startswith(summary):
+                    description = description[len(summary):]
+                write(description)
                 write()
 
             write('class defined at [%s line %s]' % (link, cls.attrib['lineno']))
             write()
-            write_calls(cls.findall('method'), 1)
+            write_callables(cls.findall('method'), write, link, 1)
 
         write()
         return False

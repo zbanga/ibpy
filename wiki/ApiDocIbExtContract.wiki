@@ -1,35 +1,35 @@
-#summary API documentation for ib.ext.Contract
-#labels API-Doc
-
-Source file: Contract.java
+#summary Source file: Contract.java
 Target file: Contract.py
 
 Original file copyright original author(s).
+#labels ApiDoc
+
+
 This file copyright Troy Melhase, troy@gci.net.
 
 === class Contract(Cloneable) ===
 
-_generated source for Contract _
+_generated source for Contract_
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 15]
 
-  method `__init__()`
+  method *`__init__()`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 48]
   ====== . ======
 
-  method `clone()`
+  method *`clone()`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 51]
   ====== . ======
 
-  method `__init___0(p_symbol, p_secType, p_expiry, p_strike, p_right, p_multiplier, p_exchange, p_currency, p_localSymbol, p_comboLegs, p_primaryExch, p_includeExpired, p_cusip, p_ratings, p_descAppend, p_bondType, p_couponType, p_callable, p_putable, p_coupon, p_convertible, p_maturity, p_issueDate, p_nextOptionDate, p_nextOptionType, p_nextOptionPartial, p_notes)`
+  method *`__init___0(p_symbol, p_secType, p_expiry, p_strike, p_right, p_multiplier, p_exchange, p_currency, p_localSymbol, p_comboLegs, p_primaryExch, p_includeExpired, p_cusip, p_ratings, p_descAppend, p_bondType, p_couponType, p_callable, p_putable, p_coupon, p_convertible, p_maturity, p_issueDate, p_nextOptionDate, p_nextOptionType, p_nextOptionPartial, p_notes)`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 57]
   ====== . ======
 
-  method `__eq__(p_other)`
+  method *`__eq__(p_other)`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 112]
   ====== . ======

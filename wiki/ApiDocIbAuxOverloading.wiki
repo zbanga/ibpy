@@ -1,50 +1,48 @@
-#summary API documentation for ib.aux.overloading
-#labels API-Doc
+#summary Reference documentation for ib.aux.overloading
+#labels ApiDoc
 
 === class overloaded ===
 
-_An implementation of overloaded functions. _
+_An implementation of overloaded functions._
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py line 36]
 
-  method `__init__(default_func)`
+  method *`__init__(default_func)`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py line 39]
   ====== . ======
 
-  method `__get__(obj, type=None)`
+  method *`__get__(obj, type=None)`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py line 45]
   ====== . ======
 
-  method `register(*types)`
+  method *`register(*types)`*
 
   _Decorator to register an implementation for a specific set of types. _
-  _ _
   _.register(t1, t2)(f) is equivalent to .register_func((t1, t2), f). _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py line 50]
   ====== . ======
 
-  method `register_func(types, func)`
+  method *`register_func(types, func)`*
 
   _Helper to register an implementation. _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py line 61]
   ====== . ======
 
-  method `__call__(*args)`
+  method *`__call__(*args)`*
 
   _Call the overloaded function. _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py line 66]
   ====== . ======
 
-  method `find_func(types)`
+  method *`find_func(types)`*
 
   _Find the appropriate overloaded function; don't call it. _
-  _ _
   _This won't work for old-style classes or classes without __mro__. _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/aux/overloading.py line 74]

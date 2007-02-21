@@ -1,7 +1,7 @@
-#summary API documentation for ib.opt.message
-#labels API-Doc
+#summary Defines message types for the Receiver class.
+#labels ApiDoc
 
-Defines message types for the Receiver class.
+
 
 This module inspects the EWrapper class to build a set of Message
 types.  In creating the types, it also builds a registry of them that
@@ -13,8 +13,8 @@ deliver.
 _predicate for wrapper methods _
 
   {{{
-  name : name of class attribute as string
-  value : value of class attribute; any object
+  name: name of class attribute as string
+  value: value of class attribute; any object
   returns: True if wrapper method
   }}}
 
@@ -26,7 +26,7 @@ defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 85]
 _wrapper methods of a class _
 
   {{{
-  cls : class object to inspect
+  cls: class object to inspect
   returns: list of two-tuples, each (name, method)
   }}}
 
@@ -38,9 +38,9 @@ defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 97]
 _construct message types and add to given mapping _
 
   {{{
-  wrapper : class object to inspect for methods
-  mapping : dictionary for adding new message types
-  bases : sequence of base classes for message types
+  wrapper: class object to inspect for methods
+  mapping: dictionary for adding new message types
+  bases: sequence of base classes for message types
   returns: None;
   }}}
 
@@ -52,48 +52,48 @@ defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 109]
 _MessageType -> simple metaclass to track Message subclasses
 
 As new Message subclasses are defined (see below), they are saved
-to the registry mapping. _
+to the registry mapping._
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 26]
 
-  method `__init__(name, bases, namespace)`
+  method *`__init__(name, bases, namespace)`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 32]
   ====== . ======
 
 === class Message(object) ===
 
-_Message -> base type for message instances _
+_Message -> base type for message instances_
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 39]
 
-  method `__init__(**kwds)`
+  method *`__init__(**kwds)`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 46]
   ====== . ======
 
-  method `__str__()`
+  method *`__str__()`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 51]
   ====== . ======
 
-  method `items()`
+  method *`items()`*
 
   _list of message's (slot, slot value) pairs, as 2-tuples _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 56]
   ====== . ======
 
-  method `values()`
+  method *`values()`*
 
   _list of message's slot values _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 62]
   ====== . ======
 
-  method `keys()`
+  method *`keys()`*
 
   _list of message's slots _
 
@@ -105,7 +105,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 39
 _Error -> specialized message type
 
 The error family of method calls can't be built programmatically,
-so we define one here. _
+so we define one here._
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 75]

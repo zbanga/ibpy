@@ -1,7 +1,7 @@
-#summary API documentation for ib.opt
-#labels API-Doc
+#summary Sugary sweet layer of icing on top of the TWS API.
+#labels ApiDoc
 
-Sugary sweet layer of icing on top of the TWS API.
+
 
 Use:
    {{{
@@ -28,60 +28,60 @@ Enable and disable logging:
 
 === class Connection(object) ===
 
-_Connection -> encapsulates a connection to TWS _
+_Connection -> encapsulates a connection to TWS_
 
 
 class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 37]
 
-  method `__init__(host, port, clientId)`
+  method *`__init__(host, port, clientId)`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 41]
   ====== . ======
 
-  method `__getattr__(name)`
+  method *`__getattr__(name)`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 48]
   ====== . ======
 
-  method `connect()`
+  method *`connect()`*
 
   _establish a connection to TWS with instance attributes _
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 61]
   ====== . ======
 
-  method `enableLogging(enable=True)`
+  method *`enableLogging(enable=True)`*
 
   _toggle logging of all messages _
 
     {{{
-    enable : if True (default), enables logging; otherwise disables
+    enable: if True (default), enables logging; otherwise disables
     returns: None
     }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 68]
   ====== . ======
 
-  method `logMessage(message)`
+  method *`logMessage(message)`*
 
   _format and send a message values to the logger _
 
     {{{
-    message : instance of Message
+    message: instance of Message
     returns: None
     }}}
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 80]
   ====== . ======
 
-  method `create(host='localhost', port=7496, clientId=0)`
+  method *`create(host='localhost', port=7496, clientId=0)`*
 
   _creates and returns Connection object _
 
     {{{
-    host : name of host for connection; default is localhost
-    port : port number for connection; default is 7496
-    clientId : client identifier to send when connected
+    host: name of host for connection; default is localhost
+    port: port number for connection; default is 7496
+    clientId: client identifier to send when connected
     returns: Connection instance
     }}}
 
