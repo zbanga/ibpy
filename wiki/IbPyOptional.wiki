@@ -1,4 +1,5 @@
 #summary How to use the optional interface provided by IbPy.
+#labels Featured
 
 = Introduction =
 
