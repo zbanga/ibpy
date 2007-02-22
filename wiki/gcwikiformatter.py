@@ -106,10 +106,11 @@ def write_variables(variables, write, link, indent=0):
 def update_index(wikifile, package, index='DocumentationIndex.wiki'):
     data = open(index).read()
     wikiname = wikifile[:-5]
-    if wikiname not in data:
+    wikistring = '  * [%s %s] - documentation for {{{%s}}}' % \
+                 (wikiname, wikiname, package)
+    if wikistring not in data:
         fh = open(index, 'a')
-        fs = '  * [%s %s] - documentation for {{{%s}}}\n'
-        fh.write(fs % (wikiname, wikiname, package))
+        fh.write(wikistring + '\n')
 
 class PythonDocGenerator:
     def __init__(self, options):
