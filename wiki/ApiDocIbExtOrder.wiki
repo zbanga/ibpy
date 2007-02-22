@@ -1,4 +1,4 @@
-#summary Automated source translation for Order.
+#summary Translation source for Order.
 #labels ApiDoc
 
 === Order(object) (class) ===

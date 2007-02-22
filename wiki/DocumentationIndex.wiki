@@ -28,4 +28,4 @@
   * [ApiDocIbOptSender ApiDocIbOptSender] - documentation for {{{ib.opt.sender}}}
   * [ApiDocIbOptReceiver ApiDocIbOptReceiver] - documentation for {{{ib.opt.receiver}}}
   * [ApiDocIbOptMessage ApiDocIbOptMessage] - documentation for {{{ib.opt.message}}}
-  * [ApiDocIbAuxOverloading ApiDocIbAuxOverloading] - documentation for {{{ib.aux.overloading}}}
+  * [ApiDocIbAuxOverloading ApiDocIbAuxOverloading] - documentation for {{{ib.aux.overloading}}}  * [ApiDocIbLibOverloading ApiDocIbLibOverloading] - documentation for {{{ib.lib.overloading}}}

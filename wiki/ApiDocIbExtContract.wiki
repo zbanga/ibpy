@@ -1,4 +1,4 @@
-#summary Automated source translation for Contract.
+#summary Translation source for Contract.
 #labels ApiDoc
 
 === Contract(Cloneable) (class) ===

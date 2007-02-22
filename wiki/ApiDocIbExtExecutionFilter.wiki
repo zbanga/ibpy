@@ -1,4 +1,4 @@
-#summary Automated source translation for ExecutionFilter.
+#summary Translation source for ExecutionFilter.
 #labels ApiDoc
 
 === ExecutionFilter(object) (class) ===

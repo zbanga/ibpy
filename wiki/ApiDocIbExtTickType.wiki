@@ -1,4 +1,4 @@
-#summary Automated source translation for TickType.
+#summary Translation source for TickType.
 #labels ApiDoc
 
 === TickType(object) (class) ===

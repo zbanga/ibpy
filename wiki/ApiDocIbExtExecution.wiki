@@ -1,4 +1,4 @@
-#summary Automated source translation for Execution.
+#summary Translation source for Execution.
 #labels ApiDoc
 
 === Execution(object) (class) ===

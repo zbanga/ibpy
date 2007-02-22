@@ -1,4 +1,4 @@
-#summary Automated source translation for ContractDetails.
+#summary Translation source for ContractDetails.
 #labels ApiDoc
 
 === ContractDetails(object) (class) ===

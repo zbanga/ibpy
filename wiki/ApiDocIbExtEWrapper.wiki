@@ -1,4 +1,4 @@
-#summary Automated source translation for EWrapper.
+#summary Translation source for EWrapper.
 #labels ApiDoc
 
 === EWrapper(AnyWrapper) (class) ===

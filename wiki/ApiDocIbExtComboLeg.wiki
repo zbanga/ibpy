@@ -1,4 +1,4 @@
-#summary Automated source translation for ComboLeg.
+#summary Translation source for ComboLeg.
 #labels ApiDoc
 
 === ComboLeg(object) (class) ===

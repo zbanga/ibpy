@@ -1,4 +1,4 @@
-#summary Automated source translation for EClientSocket.
+#summary Translation source for EClientSocket.
 #labels ApiDoc
 
 === EClientSocket(object) (class) ===
