@@ -29,13 +29,24 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 12]
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 23]
   ====== . ======
 
+  method *`disconnect()`*
+
+  _Disconnects the client. _
+
+    {{{
+    returns: None
+    }}}
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 36]
+  ====== . ======
+
   method *`__getattr__(name)`*
 
     {{{
     returns: named attribute from instance client object
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 36]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 44]
   ====== . ======
 
 

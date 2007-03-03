@@ -5,26 +5,26 @@
 
 generated source for AnyWrapper
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 16]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 18]
 
   method *`error(e)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 22]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 24]
   ====== . ======
 
   method *`error_0(strval)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 26]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 28]
   ====== . ======
 
   method *`error_1(id, errorCode, errorMsg)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 30]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 32]
   ====== . ======
 
   method *`connectionClosed()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 33]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapper.py line 35]
   ====== . ======
 
 

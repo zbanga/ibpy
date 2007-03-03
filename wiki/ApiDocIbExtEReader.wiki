@@ -5,61 +5,61 @@
 
 generated source for EReader
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 23]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 26]
 
   method *`parent()`*
-
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 53]
-  ====== . ======
-
-  method *`eWrapper()`*
 
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 56]
   ====== . ======
 
+  method *`eWrapper()`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 59]
+  ====== . ======
+
   method *`__init__(parent, dis)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 60]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 63]
   ====== . ======
 
   method *`__init___0(name, parent, dis)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 64]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 67]
   ====== . ======
 
   method *`run()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 70]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 73]
   ====== . ======
 
   method *`processMsg(msgId)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 79]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 82]
   ====== . ======
 
   method *`readStr()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 472]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 475]
   ====== . ======
 
   method *`readBoolFromInt()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 482]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 485]
   ====== . ======
 
   method *`readInt()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 486]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 489]
   ====== . ======
 
   method *`readLong()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 490]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 493]
   ====== . ======
 
   method *`readDouble()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 494]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EReader.py line 497]
   ====== . ======
 
 

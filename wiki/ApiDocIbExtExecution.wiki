@@ -5,21 +5,21 @@
 
 generated source for Execution
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 16]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 18]
 
   method *`__init__()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 33]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 35]
   ====== . ======
 
   method *`__init___0(p_orderId,  p_clientId,  p_execId,  p_time,  p_acctNumber,  p_exchange,  p_side,  p_shares,  p_price,  p_permId,  p_liquidation)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 42]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 44]
   ====== . ======
 
   method *`__eq__(p_other)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 65]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Execution.py line 67]
   ====== . ======
 
 

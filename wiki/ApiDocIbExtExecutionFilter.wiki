@@ -5,21 +5,21 @@
 
 generated source for ExecutionFilter
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 16]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 18]
 
   method *`__init__()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 29]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 31]
   ====== . ======
 
   method *`__init___0(p_clientId,  p_acctCode,  p_time,  p_symbol,  p_secType,  p_exchange,  p_side)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 33]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 35]
   ====== . ======
 
   method *`__eq__(p_other)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 48]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ExecutionFilter.py line 50]
   ====== . ======
 
 

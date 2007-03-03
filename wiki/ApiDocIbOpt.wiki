@@ -31,7 +31,7 @@ Enable and disable logging:
 
  _This is the preferred client interface to this module. Alternatively, the Connection type can be sub-classed an its create classmethod reused_
 
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 111]
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 118]
 ====== . ======
 
 === Connection(object) (class) ===
@@ -73,6 +73,17 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 3
   defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 67]
   ====== . ======
 
+  method *`disconnect()`*
+
+  _Disconnect from TWS _
+
+    {{{
+    returns: None
+    }}}
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 74]
+  ====== . ======
+
   method *`enableLogging(enable=True)`*
 
   _Enable or disable logging of all messages. _
@@ -82,7 +93,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 3
     returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 74]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 81]
   ====== . ======
 
   method *`logMessage(message)`*
@@ -94,7 +105,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 3
     returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 86]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 93]
   ====== . ======
 
   method *`create(host='localhost', port=7496, clientId=0)`*
@@ -108,7 +119,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 3
     returns: Connection (or subclass) instance
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 97]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 104]
   ====== . ======
 
 
