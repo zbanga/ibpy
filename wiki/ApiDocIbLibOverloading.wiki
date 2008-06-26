@@ -14,44 +14,44 @@ http://svn.python.org/view/sandbox/trunk/overload/overloading.py
 
 An implementation of overloaded functions.
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/lib/overloading.py line 46]
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/overloading.py#46 line 46]
 
   method *`__init__(default_func)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/lib/overloading.py line 49]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/overloading.py#49 line 49]
   ====== . ======
 
   method *`__get__(obj, type=None)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/lib/overloading.py line 55]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/overloading.py#55 line 55]
   ====== . ======
 
   method *`register(*types)`*
 
   _Decorator to register an implementation for a specific set of types.  .register(t1, t2)(f) is equivalent to .register_func((t1, t2), f). _
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/lib/overloading.py line 60]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/overloading.py#60 line 60]
   ====== . ======
 
   method *`register_func(types, func)`*
 
   _Helper to register an implementation. _
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/lib/overloading.py line 71]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/overloading.py#71 line 71]
   ====== . ======
 
   method *`__call__(*args)`*
 
   _Call the overloaded function. _
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/lib/overloading.py line 76]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/overloading.py#76 line 76]
   ====== . ======
 
   method *`find_func(types)`*
 
   _Find the appropriate overloaded function; don't call it.  This won't work for old-style classes or classes without __mro__. _
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/lib/overloading.py line 84]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/overloading.py#84 line 84]
   ====== . ======
 
 

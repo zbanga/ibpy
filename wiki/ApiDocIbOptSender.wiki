@@ -11,7 +11,7 @@ EClientSocket member objects.
 
 Encapsulates an EClientSocket instance, and proxies attribute lookup to it.
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 14]
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/opt/sender.py#14 line 14]
 
   method *`connect(host, port, clientId, handler, clientType=EClientSocket)`*
 
@@ -25,7 +25,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 14]
     returns: True if connected, False otherwise
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 21]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/opt/sender.py#21 line 21]
   ====== . ======
 
   method *`disconnect()`*
@@ -36,7 +36,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 14]
     returns: True if disconnected, False otherwise
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 35]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/opt/sender.py#35 line 35]
   ====== . ======
 
   method *`__getattr__(name)`*
@@ -45,7 +45,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 14]
     returns: named attribute from EClientSocket object
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 46]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/opt/sender.py#46 line 46]
   ====== . ======
 
 

@@ -5,26 +5,26 @@
 
 generated source for Contract
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 20]
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Contract.py#20 line 20]
 
   method *`__init__()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 40]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Contract.py#40 line 40]
   ====== . ======
 
   method *`clone()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 45]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Contract.py#45 line 45]
   ====== . ======
 
   method *`__init___0(p_conId,  p_symbol,  p_secType,  p_expiry,  p_strike,  p_right,  p_multiplier,  p_exchange,  p_currency,  p_localSymbol,  p_comboLegs,  p_primaryExch,  p_includeExpired)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 51]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Contract.py#51 line 51]
   ====== . ======
 
   method *`__eq__(p_other)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 78]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Contract.py#78 line 78]
   ====== . ======
 
 

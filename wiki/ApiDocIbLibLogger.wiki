@@ -5,21 +5,21 @@
 
  _Default log message formatting string._
 
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/lib/logger.py line 13]
+defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/logger.py#13 line 13]
 ====== . ======
 
 === datefmt (variable) ===
 
  _Default log date formatting string._
 
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/lib/logger.py line 17]
+defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/logger.py#17 line 17]
 ====== . ======
 
 === level (variable) ===
 
  _Default log level.  Set IBPY_LOGLEVEL environment variable to change this default._
 
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/lib/logger.py line 22]
+defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/logger.py#22 line 22]
 ====== . ======
 
 === logger(name='ibpy', level=level, format=format,  datefmt=datefmt) (function) ===
@@ -34,7 +34,7 @@ _Configures and returns a logging instance. _
   returns: logging instance (the module)
   }}}
 
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/lib/logger.py line 25]
+defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/logger.py#25 line 25]
 ====== . ======
 
 

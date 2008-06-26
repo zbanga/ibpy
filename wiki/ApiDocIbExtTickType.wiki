@@ -5,11 +5,11 @@
 
 generated source for TickType
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/TickType.py line 17]
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/TickType.py#17 line 17]
 
   method *`getField(tickType)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/TickType.py line 70]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/TickType.py#70 line 70]
   ====== . ======
 
 

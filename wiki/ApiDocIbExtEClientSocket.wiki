@@ -5,291 +5,291 @@
 
 generated source for EClientSocket
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 31]
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#31 line 31]
 
   method *`faMsgTypeName(faDataType)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 44]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#44 line 44]
   ====== . ======
 
   method *`serverVersion()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 96]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#96 line 96]
   ====== . ======
 
   method *`TwsConnectionTime()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 99]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#99 line 99]
   ====== . ======
 
   method *`wrapper()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 102]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#102 line 102]
   ====== . ======
 
   method *`reader()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 105]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#105 line 105]
   ====== . ======
 
   method *`__init__(anyWrapper)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 108]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#108 line 108]
   ====== . ======
 
   method *`isConnected()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 111]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#111 line 111]
   ====== . ======
 
   method *`eConnect(host, port, clientId)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 116]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#116 line 116]
   ====== . ======
 
   method *`connectionError()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 126]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#126 line 126]
   ====== . ======
 
   method *`checkConnected(host)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 130]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#130 line 130]
   ====== . ======
 
   method *`createReader(socket, dis)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 138]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#138 line 138]
   ====== . ======
 
   method *`eConnect_0(socket, clientId)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 143]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#143 line 143]
   ====== . ======
 
   method *`eDisconnect()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 163]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#163 line 163]
   ====== . ======
 
   method *`cancelScannerSubscription(tickerId)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 177]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#177 line 177]
   ====== . ======
 
   method *`reqScannerParameters()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 194]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#194 line 194]
   ====== . ======
 
   method *`reqScannerSubscription(tickerId, subscription)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 210]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#210 line 210]
   ====== . ======
 
   method *`reqMktData(tickerId, contract, genericTickList, snapshot)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 250]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#250 line 250]
   ====== . ======
 
   method *`cancelHistoricalData(tickerId)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 299]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#299 line 299]
   ====== . ======
 
   method *`cancelRealTimeBars(tickerId)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 315]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#315 line 315]
   ====== . ======
 
   method *`reqHistoricalData(tickerId,  contract,  endDateTime,  durationStr,  barSizeSetting,  whatToShow,  useRTH,  formatDate)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 332]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#332 line 332]
   ====== . ======
 
   method *`reqRealTimeBars(tickerId,  contract,  barSize,  whatToShow,  useRTH)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 391]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#391 line 391]
   ====== . ======
 
   method *`reqContractDetails(contract)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 425]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#425 line 425]
   ====== . ======
 
   method *`reqMktDepth(tickerId, contract, numRows)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 455]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#455 line 455]
   ====== . ======
 
   method *`cancelMktData(tickerId)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 484]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#484 line 484]
   ====== . ======
 
   method *`cancelMktDepth(tickerId)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 498]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#498 line 498]
   ====== . ======
 
   method *`exerciseOptions(tickerId,  contract,  exerciseAction,  exerciseQuantity,  account,  override)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 515]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#515 line 515]
   ====== . ======
 
   method *`placeOrder(id, contract, order)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 550]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#550 line 550]
   ====== . ======
 
   method *`reqAccountUpdates(subscribe, acctCode)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 704]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#704 line 704]
   ====== . ======
 
   method *`reqExecutions(filter)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 720]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#720 line 720]
   ====== . ======
 
   method *`cancelOrder(id)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 741]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#741 line 741]
   ====== . ======
 
   method *`reqOpenOrders()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 755]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#755 line 755]
   ====== . ======
 
   method *`reqIds(numIds)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 768]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#768 line 768]
   ====== . ======
 
   method *`reqNewsBulletins(allMsgs)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 782]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#782 line 782]
   ====== . ======
 
   method *`cancelNewsBulletins()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 796]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#796 line 796]
   ====== . ======
 
   method *`setServerLogLevel(logLevel)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 809]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#809 line 809]
   ====== . ======
 
   method *`reqAutoOpenOrders(bAutoBind)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 823]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#823 line 823]
   ====== . ======
 
   method *`reqAllOpenOrders()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 837]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#837 line 837]
   ====== . ======
 
   method *`reqManagedAccts()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 850]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#850 line 850]
   ====== . ======
 
   method *`requestFA(faDataType)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 863]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#863 line 863]
   ====== . ======
 
   method *`replaceFA(faDataType, xml)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 880]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#880 line 880]
   ====== . ======
 
   method *`reqCurrentTime()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 898]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#898 line 898]
   ====== . ======
 
   method *`error(err)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 915]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#915 line 915]
   ====== . ======
 
   method *`error_0(id, errorCode, errorMsg)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 920]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#920 line 920]
   ====== . ======
 
   method *`close()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 923]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#923 line 923]
   ====== . ======
 
   method *`is_(strval)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 928]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#928 line 928]
   ====== . ======
 
   method *`isNull(strval)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 932]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#932 line 932]
   ====== . ======
 
   method *`error_1(id, pair, tail)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 936]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#936 line 936]
   ====== . ======
 
   method *`send(strval)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 940]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#940 line 940]
   ====== . ======
 
   method *`sendEOL()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 945]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#945 line 945]
   ====== . ======
 
   method *`send_0(val)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 949]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#949 line 949]
   ====== . ======
 
   method *`send_1(val)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 953]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#953 line 953]
   ====== . ======
 
   method *`send_2(val)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 958]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#958 line 958]
   ====== . ======
 
   method *`send_3(val)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 962]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#962 line 962]
   ====== . ======
 
   method *`sendMax(val)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 966]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#966 line 966]
   ====== . ======
 
   method *`sendMax_0(val)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 973]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#973 line 973]
   ====== . ======
 
   method *`send_4(val)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 980]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#980 line 980]
   ====== . ======
 
   method *`IsEmpty(strval)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientSocket.py line 984]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientSocket.py#984 line 984]
   ====== . ======
 
 

@@ -31,7 +31,7 @@ Enable and disable logging:
 
  _This is the preferred client interface to this module. Alternatively, the Connection type can be sub-classed an its 'create' classmethod reused._
 
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/__init__.py line 37]
+defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/opt/__init__.py#37 line 37]
 ====== . ======
 
 

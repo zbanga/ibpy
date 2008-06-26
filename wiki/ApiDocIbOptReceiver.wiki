@@ -20,14 +20,14 @@ _Creates method for dispatching messages. _
   returns: newly created method (as closure)
   }}}
 
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 19]
+defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/opt/receiver.py#19 line 19]
 ====== . ======
 
 === ReceiverType(type) (class) ===
 
 Metaclass to add EWrapper methods to Receiver class.  When the Receiver class is defined, this class adds all of the wrapper methods to it.
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 33]
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/opt/receiver.py#33 line 33]
 
   method *`__new__(name, bases, namespace)`*
 
@@ -40,14 +40,14 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 3
     returns: generated type
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 39]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/opt/receiver.py#39 line 39]
   ====== . ======
 
 === Receiver(object) (class) ===
 
 Receiver -> dispatches messages to interested callables  Instances implement the EWrapper interface by way of the metaclass.
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 52]
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/opt/receiver.py#52 line 52]
 
   method *`__init__(listeners=None, types=None)`*
 
@@ -58,7 +58,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 5
     types=None: method name to message type lookup
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 60]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/opt/receiver.py#60 line 60]
   ====== . ======
 
   method *`dispatch(name, mapping)`*
@@ -71,7 +71,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 5
     returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 70]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/opt/receiver.py#70 line 70]
   ====== . ======
 
   method *`register(listener, *types)`*
@@ -84,7 +84,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 5
     returns: True if associated with one or more handler; otherwise False
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 93]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/opt/receiver.py#93 line 93]
   ====== . ======
 
   method *`registerAll(listener)`*
@@ -96,7 +96,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 5
     returns: True if associated with one or more handler; otherwise False
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 109]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/opt/receiver.py#109 line 109]
   ====== . ======
 
   method *`unregister(listener, *types)`*
@@ -109,7 +109,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 5
     returns: True if disassociated with one or more handler; otherwise False
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 117]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/opt/receiver.py#117 line 117]
   ====== . ======
 
   method *`unregisterAll(listener)`*
@@ -121,7 +121,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 5
     returns: True if disassociated with one or more handler; otherwise False
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 136]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/opt/receiver.py#136 line 136]
   ====== . ======
 
   method *`key()`*
@@ -133,7 +133,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 5
     returns: obj name or string representation
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 145]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/opt/receiver.py#145 line 145]
   ====== . ======
 
   method *`error(e)`*
@@ -145,7 +145,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 5
     returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 157]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/opt/receiver.py#157 line 157]
   ====== . ======
 
   method *`error_0(strval)`*
@@ -157,7 +157,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 5
     returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 170]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/opt/receiver.py#170 line 170]
   ====== . ======
 
   method *`error_1(id, errorCode, errorMsg)`*
@@ -171,7 +171,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 5
     returns: None
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/receiver.py line 179]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/opt/receiver.py#179 line 179]
   ====== . ======
 
 

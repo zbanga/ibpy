@@ -5,21 +5,21 @@
 
 generated source for OrderState
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/OrderState.py line 19]
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/OrderState.py#19 line 19]
 
   method *`__init__()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/OrderState.py line 34]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/OrderState.py#34 line 34]
   ====== . ======
 
   method *`__init___0(status,  initMargin,  maintMargin,  equityWithLoan,  commission,  minCommission,  maxCommission,  commissionCurrency,  warningText)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/OrderState.py line 38]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/OrderState.py#38 line 38]
   ====== . ======
 
   method *`__eq__(other)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/OrderState.py line 56]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/OrderState.py#56 line 56]
   ====== . ======
 
 

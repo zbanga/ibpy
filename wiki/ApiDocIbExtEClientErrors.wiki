@@ -5,11 +5,11 @@
 
 generated source for EClientErrors
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientErrors.py line 17]
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientErrors.py#17 line 17]
 
   method *`__init__()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EClientErrors.py line 67]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientErrors.py#67 line 67]
   ====== . ======
 
 

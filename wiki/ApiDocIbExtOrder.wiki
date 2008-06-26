@@ -5,16 +5,16 @@
 
 generated source for Order
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 19]
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Order.py#19 line 19]
 
   method *`__init__()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 99]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Order.py#99 line 99]
   ====== . ======
 
   method *`__eq__(p_other)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 126]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Order.py#126 line 126]
   ====== . ======
 
 

@@ -5,31 +5,31 @@
 
 generated source for Util
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Util.py line 18]
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Util.py#18 line 18]
 
   method *`NormalizeString(strval)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Util.py line 24]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Util.py#24 line 24]
   ====== . ======
 
   method *`StringCompare(lhs, rhs)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Util.py line 28]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Util.py#28 line 28]
   ====== . ======
 
   method *`StringCompareIgnCase(lhs, rhs)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Util.py line 32]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Util.py#32 line 32]
   ====== . ======
 
   method *`IntMaxString(value)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Util.py line 36]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Util.py#36 line 36]
   ====== . ======
 
   method *`DoubleMaxString(value)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Util.py line 40]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Util.py#40 line 40]
   ====== . ======
 
 

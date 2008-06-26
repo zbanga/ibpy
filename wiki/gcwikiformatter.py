@@ -10,9 +10,10 @@ fix summary/description line endings.
 
 add support for module variables.
 
+http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Contract.py#50
 
 """
-svnroot = 'http://ibpy.googlecode.com/svn/'
+svnroot = 'http://code.google.com/p/ibpy/source/browse/'
 
 
 def output_filename(v):
@@ -74,7 +75,8 @@ def write_callables(functions, write, link, indent=0):
 
             write('%s}}}' % moreoffset)
             write()
-        write('%sdefined at [%s line %s]' % (offset, link, function.attrib['lineno']))
+        lineno = function.attrib['lineno']
+        write('%sdefined at [%s#%s line %s]' % (offset, link, lineno, lineno))
         write('%s====== . ======' % offset)
         write()
 
@@ -98,7 +100,8 @@ def write_variables(variables, write, link, indent=0):
         elif summary:
             write('%s _%s_' % (offset, summary))
         write()
-        write('%sdefined at [%s line %s]' % (offset, link, var.attrib['lineno']))
+        lineno = var.attrib['lineno']
+        write('%sdefined at [%s#%s line %s]' % (offset, link, lineno, lineno))
         write('%s====== . ======' % offset)
         write()
 
@@ -160,7 +163,8 @@ class PythonDocGenerator:
                 write(description.replace('\n', ' '))
                 write()
 
-            write('class defined at [%s line %s]' % (link, cls.attrib['lineno']))
+            lineno = cls.attrib['lineno']
+            write('class defined at [%s#%s line %s]' % (link, lineno, lineno))
             write()
             write_variables(cls.findall('variable'), write, link, 1)
             write_callables(cls.findall('method'), write, link, 1)
