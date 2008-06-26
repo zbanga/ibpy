@@ -30,3 +30,9 @@
   * [ApiDocIbOptMessage ApiDocIbOptMessage] - documentation for {{{ib.opt.message}}}
   * [ApiDocIbLibOverloading ApiDocIbLibOverloading] - documentation for {{{ib.lib.overloading}}}
   * [ApiDocIbLib ApiDocIbLib] - documentation for {{{ib.lib}}}
+  * [ApiDocIbExtAnyWrapperMsgGenerator ApiDocIbExtAnyWrapperMsgGenerator] - documentation for {{{ib.ext.AnyWrapperMsgGenerator}}}
+  * [ApiDocIbExtEWrapperMsgGenerator ApiDocIbExtEWrapperMsgGenerator] - documentation for {{{ib.ext.EWrapperMsgGenerator}}}
+  * [ApiDocIbExtOrderState ApiDocIbExtOrderState] - documentation for {{{ib.ext.OrderState}}}
+  * [ApiDocIbExtUtil ApiDocIbExtUtil] - documentation for {{{ib.ext.Util}}}
+  * [ApiDocIbLibLogger ApiDocIbLibLogger] - documentation for {{{ib.lib.logger}}}
+  * [ApiDocIbOptConnection ApiDocIbOptConnection] - documentation for {{{ib.opt.connection}}}

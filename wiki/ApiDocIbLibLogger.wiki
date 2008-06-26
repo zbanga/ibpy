@@ -1,0 +1,40 @@
+#summary Defines logging formats and logger instance
+#labels ApiDoc
+
+=== format (variable) ===
+
+ _Default log message formatting string._
+
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/lib/logger.py line 13]
+====== . ======
+
+=== datefmt (variable) ===
+
+ _Default log date formatting string._
+
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/lib/logger.py line 17]
+====== . ======
+
+=== level (variable) ===
+
+ _Default log level.  Set IBPY_LOGLEVEL environment variable to change this default._
+
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/lib/logger.py line 22]
+====== . ======
+
+=== logger(name='ibpy', level=level, format=format,  datefmt=datefmt) (function) ===
+
+_Configures and returns a logging instance. _
+
+  {{{
+  name: ignored
+  level: logging level
+  format: format string for log messages
+  datefmt: format string for log dates
+  returns: logging instance (the module)
+  }}}
+
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/lib/logger.py line 25]
+====== . ======
+
+

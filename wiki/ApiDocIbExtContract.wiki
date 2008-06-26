@@ -1,30 +1,30 @@
-#summary Translation source for Contract.
+#summary Translated source for Contract.
 #labels ApiDoc
 
 === Contract(Cloneable) (class) ===
 
 generated source for Contract
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 19]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 20]
 
   method *`__init__()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 52]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 40]
   ====== . ======
 
   method *`clone()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 55]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 45]
   ====== . ======
 
-  method *`__init___0(p_symbol,  p_secType,  p_expiry,  p_strike,  p_right,  p_multiplier,  p_exchange,  p_currency,  p_localSymbol,  p_comboLegs,  p_primaryExch,  p_includeExpired,  p_cusip,  p_ratings,  p_descAppend,  p_bondType,  p_couponType,  p_callable,  p_putable,  p_coupon,  p_convertible,  p_maturity,  p_issueDate,  p_nextOptionDate,  p_nextOptionType,  p_nextOptionPartial,  p_notes)`*
+  method *`__init___0(p_conId,  p_symbol,  p_secType,  p_expiry,  p_strike,  p_right,  p_multiplier,  p_exchange,  p_currency,  p_localSymbol,  p_comboLegs,  p_primaryExch,  p_includeExpired)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 61]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 51]
   ====== . ======
 
   method *`__eq__(p_other)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 116]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Contract.py line 78]
   ====== . ======
 
 

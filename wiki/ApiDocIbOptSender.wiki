@@ -1,32 +1,31 @@
 #summary Defines Sender class to handle outbound requests.
 #labels ApiDoc
 
+= Description =
+
+
+Sender instances defer failed attribute lookup to their
+EClientSocket member objects.
+
 === Sender(object) (class) ===
 
 Encapsulates an EClientSocket instance, and proxies attribute lookup to it.
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 12]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 14]
 
-  method *`__init__()`*
+  method *`connect(host, port, clientId, handler, clientType=EClientSocket)`*
 
-  _Constructor. _
-
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 17]
-  ====== . ======
-
-  method *`connect(host, port, clientId, handler)`*
-
-  _Creates an EClientSocket and connects it. _
+  _Creates a TWS client socket and connects it. _
 
     {{{
     host: name of host for connection; default is localhost
     port: port number for connection; default is 7496
     clientId: client identifier to send when connected
     handler: object to receive reader messages
-    returns: None
+    returns: True if connected, False otherwise
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 23]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 21]
   ====== . ======
 
   method *`disconnect()`*
@@ -34,19 +33,19 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 12]
   _Disconnects the client. _
 
     {{{
-    returns: None
+    returns: True if disconnected, False otherwise
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 36]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 35]
   ====== . ======
 
   method *`__getattr__(name)`*
 
     {{{
-    returns: named attribute from instance client object
+    returns: named attribute from EClientSocket object
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 44]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/sender.py line 46]
   ====== . ======
 
 

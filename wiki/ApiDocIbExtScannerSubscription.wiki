@@ -1,4 +1,4 @@
-#summary Translation source for ScannerSubscription.
+#summary Translated source for ScannerSubscription.
 #labels ApiDoc
 
 === ScannerSubscription(object) (class) ===

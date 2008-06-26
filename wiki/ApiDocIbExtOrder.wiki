@@ -1,20 +1,20 @@
-#summary Translation source for Order.
+#summary Translated source for Order.
 #labels ApiDoc
 
 === Order(object) (class) ===
 
 generated source for Order
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 18]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 19]
 
   method *`__init__()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 92]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 99]
   ====== . ======
 
   method *`__eq__(p_other)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 112]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Order.py line 126]
   ====== . ======
 
 

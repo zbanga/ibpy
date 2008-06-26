@@ -1,0 +1,35 @@
+#summary Translated source for Util.
+#labels ApiDoc
+
+=== Util(object) (class) ===
+
+generated source for Util
+
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Util.py line 18]
+
+  method *`NormalizeString(strval)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Util.py line 24]
+  ====== . ======
+
+  method *`StringCompare(lhs, rhs)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Util.py line 28]
+  ====== . ======
+
+  method *`StringCompareIgnCase(lhs, rhs)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Util.py line 32]
+  ====== . ======
+
+  method *`IntMaxString(value)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Util.py line 36]
+  ====== . ======
+
+  method *`DoubleMaxString(value)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/Util.py line 40]
+  ====== . ======
+
+

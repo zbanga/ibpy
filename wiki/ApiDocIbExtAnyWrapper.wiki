@@ -1,4 +1,4 @@
-#summary Translation source for AnyWrapper.
+#summary Translated source for AnyWrapper.
 #labels ApiDoc
 
 === AnyWrapper(object) (class) ===

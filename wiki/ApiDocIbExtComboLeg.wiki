@@ -1,25 +1,30 @@
-#summary Translation source for ComboLeg.
+#summary Translated source for ComboLeg.
 #labels ApiDoc
 
 === ComboLeg(object) (class) ===
 
 generated source for ComboLeg
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 18]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 19]
 
   method *`__init__()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 33]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 36]
   ====== . ======
 
-  method *`__init___0(p_ConId,  p_Ratio,  p_Action,  p_exchange,  p_openClose)`*
+  method *`__init___0(p_conId,  p_ratio,  p_action,  p_exchange,  p_openClose)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 39]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 40]
+  ====== . ======
+
+  method *`__init___1(p_conId,  p_ratio,  p_action,  p_exchange,  p_openClose,  p_shortSaleSlot,  p_designatedLocation)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 48]
   ====== . ======
 
   method *`__eq__(p_other)`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 50]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/ComboLeg.py line 63]
   ====== . ======
 
 

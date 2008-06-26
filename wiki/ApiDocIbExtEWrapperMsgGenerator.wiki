@@ -1,0 +1,150 @@
+#summary Translated source for EWrapperMsgGenerator.
+#labels ApiDoc
+
+=== EWrapperMsgGenerator(AnyWrapperMsgGenerator) (class) ===
+
+generated source for EWrapperMsgGenerator
+
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 18]
+
+  method *`tickPrice(tickerId, field, price, canAutoExecute)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 26]
+  ====== . ======
+
+  method *`tickSize(tickerId, field, size)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 30]
+  ====== . ======
+
+  method *`tickOptionComputation(tickerId,  field,  impliedVol,  delta,  modelPrice,  pvDividend)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 34]
+  ====== . ======
+
+  method *`tickGeneric(tickerId, tickType, value)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 47]
+  ====== . ======
+
+  method *`tickString(tickerId, tickType, value)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 51]
+  ====== . ======
+
+  method *`tickEFP(tickerId,  tickType,  basisPoints,  formattedBasisPoints,  impliedFuture,  holdDays,  futureExpiry,  dividendImpact,  dividendsToExpiry)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 55]
+  ====== . ======
+
+  method *`orderStatus(orderId,  status,  filled,  remaining,  avgFillPrice,  permId,  parentId,  lastFillPrice,  clientId,  whyHeld)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 67]
+  ====== . ======
+
+  method *`openOrder(orderId, contract, order, orderState)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 80]
+  ====== . ======
+
+  method *`updateAccountValue(key, value, currency, accountName)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 92]
+  ====== . ======
+
+  method *`updatePortfolio(contract,  position,  marketPrice,  marketValue,  averageCost,  unrealizedPNL,  realizedPNL,  accountName)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 96]
+  ====== . ======
+
+  method *`updateAccountTime(timeStamp)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 108]
+  ====== . ======
+
+  method *`nextValidId(orderId)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 112]
+  ====== . ======
+
+  method *`contractDetails(contractDetails)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 116]
+  ====== . ======
+
+  method *`contractDetailsMsg(contractDetails)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 122]
+  ====== . ======
+
+  method *`contractMsg(contract)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 127]
+  ====== . ======
+
+  method *`bondContractDetails(contractDetails)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 132]
+  ====== . ======
+
+  method *`execDetails(orderId, contract, execution)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 138]
+  ====== . ======
+
+  method *`updateMktDepth(tickerId,  position,  operation,  side,  price,  size)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 143]
+  ====== . ======
+
+  method *`updateMktDepthL2(tickerId,  position,  marketMaker,  operation,  side,  price,  size)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 152]
+  ====== . ======
+
+  method *`updateNewsBulletin(msgId, msgType, message, origExchange)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 162]
+  ====== . ======
+
+  method *`managedAccounts(accountsList)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 166]
+  ====== . ======
+
+  method *`receiveFA(faDataType, xml)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 170]
+  ====== . ======
+
+  method *`historicalData(reqId,  date,  open,  high,  low,  close,  volume,  count,  WAP,  hasGaps)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 174]
+  ====== . ======
+
+  method *`realtimeBar(reqId,  time,  open,  high,  low,  close,  volume,  wap,  count)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 187]
+  ====== . ======
+
+  method *`scannerParameters(xml)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 199]
+  ====== . ======
+
+  method *`scannerData(reqId,  rank,  contractDetails,  distance,  benchmark,  projection,  legsStr)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 203]
+  ====== . ======
+
+  method *`scannerDataEnd(reqId)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 214]
+  ====== . ======
+
+  method *`currentTime(time)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/EWrapperMsgGenerator.py line 218]
+  ====== . ======
+
+

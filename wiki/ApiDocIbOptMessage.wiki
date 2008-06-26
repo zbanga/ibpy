@@ -12,14 +12,14 @@ that the Receiver class then uses to determine message types.
 
  _Dictionary that associates wrapper method names to the message class that should be instantiated for delivery during that method call._
 
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 24]
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 22]
 ====== . ======
 
 === wrapperMethods (variable) ===
 
  _A (partial) method so other modules can use the same mappings we have._
 
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 147]
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 149]
 ====== . ======
 
 === isWrapperMethod(name, value) (function) ===
@@ -32,7 +32,7 @@ _Predicate for wrapper methods. _
   returns: True if wrapper method
   }}}
 
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 102]
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 101]
 ====== . ======
 
 === selectWrapperMethods(cls) (function) ===
@@ -41,10 +41,10 @@ _Wrapper methods of a class. _
 
   {{{
   cls: class object to inspect
-  returns: list of two-tuples, each (name, method)
+  returns: list of two-tuples, each (name, argnames)
   }}}
 
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 114]
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 113]
 ====== . ======
 
 === buildMessageTypes(wrapper, mapping, *bases) (function) ===
@@ -58,14 +58,14 @@ _Construct message types and add to given mapping. _
   returns: None
   }}}
 
-defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 126]
+defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 128]
 ====== . ======
 
 === MessageType(type) (class) ===
 
 MessageType -> simple metaclass to track Message subclasses  As new Message subclasses are defined (see below), they are saved to the registry mapping.
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 27]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 25]
 
   method *`__init__(name, bases, namespace)`*
 
@@ -77,14 +77,14 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 27
     namespace: dictionary with namespace of new type
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 33]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 31]
   ====== . ======
 
 === Message(object) (class) ===
 
 Base class of all Message types.
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 46]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 45]
 
   method *`__init__(**kwds)`*
 
@@ -94,12 +94,12 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 46
     **kwds: keywords and values for instance
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 53]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 52]
   ====== . ======
 
   method *`__str__()`*
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 62]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 61]
   ====== . ======
 
   method *`items()`*
@@ -110,7 +110,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 46
     returns: list of 2-tuples, each slot (name, value)
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 70]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 69]
   ====== . ======
 
   method *`values()`*
@@ -121,7 +121,7 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 46
     returns: list of each slot value
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 77]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 76]
   ====== . ======
 
   method *`keys()`*
@@ -132,13 +132,13 @@ class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 46
     returns: list of each slot.
     }}}
 
-  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 84]
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 83]
   ====== . ======
 
 === Error(Message) (class) ===
 
 Specialized message type.  The error family of method calls can't be built programmatically, so we define one here.
 
-class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 92]
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/opt/message.py line 91]
 
 

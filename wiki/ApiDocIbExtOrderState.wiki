@@ -1,0 +1,25 @@
+#summary Translated source for OrderState.
+#labels ApiDoc
+
+=== OrderState(object) (class) ===
+
+generated source for OrderState
+
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/OrderState.py line 19]
+
+  method *`__init__()`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/OrderState.py line 34]
+  ====== . ======
+
+  method *`__init___0(status,  initMargin,  maintMargin,  equityWithLoan,  commission,  minCommission,  maxCommission,  commissionCurrency,  warningText)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/OrderState.py line 38]
+  ====== . ======
+
+  method *`__eq__(other)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/OrderState.py line 56]
+  ====== . ======
+
+

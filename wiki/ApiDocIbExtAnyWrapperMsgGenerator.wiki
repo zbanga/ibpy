@@ -1,0 +1,30 @@
+#summary Translated source for AnyWrapperMsgGenerator.
+#labels ApiDoc
+
+=== AnyWrapperMsgGenerator(object) (class) ===
+
+generated source for AnyWrapperMsgGenerator
+
+class defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapperMsgGenerator.py line 19]
+
+  method *`error(ex)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapperMsgGenerator.py line 26]
+  ====== . ======
+
+  method *`error_0(strval)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapperMsgGenerator.py line 31]
+  ====== . ======
+
+  method *`error_1(id, errorCode, errorMsg)`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapperMsgGenerator.py line 36]
+  ====== . ======
+
+  method *`connectionClosed()`*
+
+  defined at [http://ibpy.googlecode.com/svn/trunk/ib/ext/AnyWrapperMsgGenerator.py line 45]
+  ====== . ======
+
+
