@@ -1,5 +1,5 @@
 pyfiles := $(shell find ../trunk/ib/ -name "*.py")
-modules := $(wordlist 1, $(words $(pyfiles)), $(pyfiles))
+modules := $(sort $(wordlist 1, $(words $(pyfiles)), $(pyfiles)))
 
 
 .PHONY: all $(modules)

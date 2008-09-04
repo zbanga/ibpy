@@ -110,7 +110,7 @@ def update_index(wikifile, package, index='DocumentationIndex.wiki'):
     data = open(index).read()
     wikiname = wikifile[:-5]
     wikistring = '  * [%s %s] - documentation for {{{%s}}}' % \
-                 (wikiname, wikiname, package)
+                 (wikiname, wikiname[6:], package)
     if wikistring not in data:
         fh = open(index, 'a')
         fh.write(wikistring + '\n')
