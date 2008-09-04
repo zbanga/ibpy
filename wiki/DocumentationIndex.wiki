@@ -1,14 +1,14 @@
 #summary Project documentation index.
 #labels Featured
 
-== How To Documents ==
+== Guides ==
 
   * [GettingStarted Getting Started] - instructions for installation and general use
   * [IbPyLikeJava Using IbPy like Java] - how to use the generated source
   * [IbPyOptional Using the optional IbPy interface] - how to use the optional, more Pythonic interface
   * [ThreadAndGuiNotes Using GUI frameworks and Threads] - how to use !IbPy with various GUI frameworks and threading models
 
-== API Reference Documents ===
+== API Reference ===
 
   * [ApiDocIbExtAnyWrapper ApiDocIbExtAnyWrapper] - documentation for {{{ib.ext.AnyWrapper}}}
   * [ApiDocIbExtComboLeg ApiDocIbExtComboLeg] - documentation for {{{ib.ext.ComboLeg}}}
@@ -36,3 +36,4 @@
   * [ApiDocIbExtUtil ApiDocIbExtUtil] - documentation for {{{ib.ext.Util}}}
   * [ApiDocIbLibLogger ApiDocIbLibLogger] - documentation for {{{ib.lib.logger}}}
   * [ApiDocIbOptConnection ApiDocIbOptConnection] - documentation for {{{ib.opt.connection}}}
+  * [ApiDocIbExtUnderComp ApiDocIbExtUnderComp] - documentation for {{{ib.ext.UnderComp}}}

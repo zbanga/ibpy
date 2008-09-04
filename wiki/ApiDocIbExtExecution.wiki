@@ -9,17 +9,17 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Execu
 
   method *`__init__()`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Execution.py#35 line 35]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Execution.py#37 line 37]
   ====== . ======
 
-  method *`__init___0(p_orderId,  p_clientId,  p_execId,  p_time,  p_acctNumber,  p_exchange,  p_side,  p_shares,  p_price,  p_permId,  p_liquidation)`*
+  method *`__init___0(p_orderId,  p_clientId,  p_execId,  p_time,  p_acctNumber,  p_exchange,  p_side,  p_shares,  p_price,  p_permId,  p_liquidation,  p_cumQty,  p_avgPrice)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Execution.py#44 line 44]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Execution.py#48 line 48]
   ====== . ======
 
   method *`__eq__(p_other)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Execution.py#67 line 67]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Execution.py#75 line 75]
   ====== . ======
 
 

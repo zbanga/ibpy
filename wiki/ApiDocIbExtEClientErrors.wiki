@@ -9,7 +9,7 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClie
 
   method *`__init__()`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientErrors.py#67 line 67]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EClientErrors.py#69 line 69]
   ====== . ======
 
 

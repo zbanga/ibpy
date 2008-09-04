@@ -9,7 +9,7 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/TickT
 
   method *`getField(tickType)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/TickType.py#70 line 70]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/TickType.py#71 line 71]
   ====== . ======
 
 

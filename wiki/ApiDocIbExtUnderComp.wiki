@@ -1,0 +1,20 @@
+#summary Translated source for UnderComp.
+#labels ApiDoc
+
+=== UnderComp(object) (class) ===
+
+generated source for UnderComp
+
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/UnderComp.py#17 line 17]
+
+  method *`__init__()`*
+
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/UnderComp.py#25 line 25]
+  ====== . ======
+
+  method *`__eq__(p_other)`*
+
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/UnderComp.py#30 line 30]
+  ====== . ======
+
+
