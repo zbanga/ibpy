@@ -1,4 +1,4 @@
-#summary Translated source for AnyWrapper.
+#summary Reference documentation for ib.ext.AnyWrapper
 #labels ApiDoc
 
 === AnyWrapper(object) (class) ===

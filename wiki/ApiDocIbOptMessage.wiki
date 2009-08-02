@@ -1,26 +1,5 @@
-#summary Defines message types for the Receiver class.
+#summary Reference documentation for ib.opt.message
 #labels ApiDoc
-
-= Description =
-
-
-This module inspects the EWrapper class to build a set of Message
-types.  In creating the types, it also builds a registry of them
-that the Receiver class then uses to determine message types.
-
-=== registry (variable) ===
-
- _Dictionary that associates wrapper method names to the message class that should be instantiated for delivery during that method call._
-
-defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/opt/message.py#22 line 22]
-====== . ======
-
-=== wrapperMethods (variable) ===
-
- _A (partial) method so other modules can use the same mappings we have._
-
-defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/opt/message.py#155 line 155]
-====== . ======
 
 === isWrapperMethod(name, value) (function) ===
 

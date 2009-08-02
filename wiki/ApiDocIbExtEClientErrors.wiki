@@ -1,4 +1,4 @@
-#summary Translated source for EClientErrors.
+#summary Reference documentation for ib.ext.EClientErrors
 #labels ApiDoc
 
 === EClientErrors(object) (class) ===

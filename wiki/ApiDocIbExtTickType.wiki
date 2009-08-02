@@ -1,4 +1,4 @@
-#summary Translated source for TickType.
+#summary Reference documentation for ib.ext.TickType
 #labels ApiDoc
 
 === TickType(object) (class) ===
@@ -9,7 +9,7 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/TickT
 
   method *`getField(tickType)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/TickType.py#71 line 71]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/TickType.py#72 line 72]
   ====== . ======
 
 

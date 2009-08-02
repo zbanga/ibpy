@@ -1,4 +1,4 @@
-#summary Translated source for OrderState.
+#summary Reference documentation for ib.ext.OrderState
 #labels ApiDoc
 
 === OrderState(object) (class) ===

@@ -13,6 +13,10 @@ add support for module variables.
 http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Contract.py#50
 
 """
+import logging
+logging.basicConfig(level=logging.WARN)
+logger = logging.getLogger('GoogleCodeWikiFormatter')
+
 svnroot = 'http://code.google.com/p/ibpy/source/browse/'
 
 
@@ -115,11 +119,18 @@ def update_index(wikifile, package, index='DocumentationIndex.wiki'):
         fh = open(index, 'a')
         fh.write(wikistring + '\n')
 
+
 class PythonDocGenerator:
+    """ Pluggable output generator for PythonDoc that creates Google
+        Code wiki pages.
+
+    """
     def __init__(self, options):
-        pass
+        self.options = options
+        logger.info('PythonDocGenerator.__init__(self, %s)', options)
 
     def save(self, module, name):
+        logger.info('save(%s, %s)', module, name)
         modulefile = module.attrib['filename']
         filename = output_filename(modulefile)
         link = format_url(modulefile)

@@ -1,20 +1,5 @@
-#summary Defines Connection class to encapsulate a connection to IB TWS.
+#summary Reference documentation for ib.opt.connection
 #labels ApiDoc
-
-= Description =
-
-
-Connection instances defer failed attribute lookup to their receiver
-and sender member objects.  This makes it easy to access the
-receiver to register functions:
-
->>> con = ibConnection()
->>> con.register(my_callable)
-
-And it makes it easy to access the sender functions:
-
->>> con.reqScannerParameters()
->>> con.placeOrder(...)
 
 === Connection(object) (class) ===
 

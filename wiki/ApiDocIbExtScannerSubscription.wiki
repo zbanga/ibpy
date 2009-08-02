@@ -1,4 +1,4 @@
-#summary Translated source for ScannerSubscription.
+#summary Reference documentation for ib.ext.ScannerSubscription
 #labels ApiDoc
 
 === ScannerSubscription(object) (class) ===

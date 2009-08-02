@@ -1,4 +1,4 @@
-#summary Translated source for ContractDetails.
+#summary Reference documentation for ib.ext.ContractDetails
 #labels ApiDoc
 
 === ContractDetails(object) (class) ===
@@ -9,12 +9,12 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Contr
 
   method *`__init__()`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/ContractDetails.py#47 line 47]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/ContractDetails.py#49 line 49]
   ====== . ======
 
-  method *`__init___0(p_summary,  p_marketName,  p_tradingClass,  p_minTick,  p_orderTypes,  p_validExchanges)`*
+  method *`__init___0(p_summary,  p_marketName,  p_tradingClass,  p_minTick,  p_orderTypes,  p_validExchanges,  p_underConId,  p_longName)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/ContractDetails.py#52 line 52]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/ContractDetails.py#55 line 55]
   ====== . ======
 
 

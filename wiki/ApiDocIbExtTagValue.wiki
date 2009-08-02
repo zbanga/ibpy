@@ -1,0 +1,25 @@
+#summary Reference documentation for ib.ext.TagValue
+#labels ApiDoc
+
+=== TagValue(object) (class) ===
+
+generated source for TagValue
+
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/TagValue.py#18 line 18]
+
+  method *`__init__()`*
+
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/TagValue.py#26 line 26]
+  ====== . ======
+
+  method *`__init___0(p_tag, p_value)`*
+
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/TagValue.py#30 line 30]
+  ====== . ======
+
+  method *`__eq__(p_other)`*
+
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/TagValue.py#34 line 34]
+  ====== . ======
+
+

@@ -1,4 +1,4 @@
-#summary Translated source for AnyWrapperMsgGenerator.
+#summary Reference documentation for ib.ext.AnyWrapperMsgGenerator
 #labels ApiDoc
 
 === AnyWrapperMsgGenerator(object) (class) ===

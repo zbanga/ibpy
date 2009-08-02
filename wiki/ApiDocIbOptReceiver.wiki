@@ -1,14 +1,5 @@
-#summary Defines Receiver class to handle inbound data.
+#summary Reference documentation for ib.opt.receiver
 #labels ApiDoc
-
-= Description =
-
-
-The Receiver class is built programatically at runtime.  Message
-types are defined in the ib.opt.message module, and those types are
-used to construct methods on the Receiver class during its
-definition.  Refer to the ReceiverType metaclass and the
-ib.opt.message module more information.
 
 === messageMethod(name, argnames) (function) ===
 

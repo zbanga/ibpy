@@ -1,160 +1,185 @@
-#summary Translated source for EWrapperMsgGenerator.
+#summary Reference documentation for ib.ext.EWrapperMsgGenerator
 #labels ApiDoc
 
 === EWrapperMsgGenerator(AnyWrapperMsgGenerator) (class) ===
 
 generated source for EWrapperMsgGenerator
 
-class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#18 line 18]
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#19 line 19]
 
   method *`tickPrice(tickerId, field, price, canAutoExecute)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#26 line 26]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#27 line 27]
   ====== . ======
 
   method *`tickSize(tickerId, field, size)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#30 line 30]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#31 line 31]
   ====== . ======
 
   method *`tickOptionComputation(tickerId,  field,  impliedVol,  delta,  modelPrice,  pvDividend)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#34 line 34]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#35 line 35]
   ====== . ======
 
   method *`tickGeneric(tickerId, tickType, value)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#47 line 47]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#48 line 48]
   ====== . ======
 
   method *`tickString(tickerId, tickType, value)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#51 line 51]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#52 line 52]
   ====== . ======
 
   method *`tickEFP(tickerId,  tickType,  basisPoints,  formattedBasisPoints,  impliedFuture,  holdDays,  futureExpiry,  dividendImpact,  dividendsToExpiry)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#55 line 55]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#56 line 56]
   ====== . ======
 
   method *`orderStatus(orderId,  status,  filled,  remaining,  avgFillPrice,  permId,  parentId,  lastFillPrice,  clientId,  whyHeld)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#67 line 67]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#68 line 68]
   ====== . ======
 
   method *`openOrder(orderId, contract, order, orderState)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#80 line 80]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#81 line 81]
+  ====== . ======
+
+  method *`openOrderEnd()`*
+
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#110 line 110]
   ====== . ======
 
   method *`updateAccountValue(key, value, currency, accountName)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#95 line 95]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#114 line 114]
   ====== . ======
 
   method *`updatePortfolio(contract,  position,  marketPrice,  marketValue,  averageCost,  unrealizedPNL,  realizedPNL,  accountName)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#99 line 99]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#118 line 118]
   ====== . ======
 
   method *`updateAccountTime(timeStamp)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#111 line 111]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#130 line 130]
+  ====== . ======
+
+  method *`accountDownloadEnd(accountName)`*
+
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#134 line 134]
   ====== . ======
 
   method *`nextValidId(orderId)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#115 line 115]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#138 line 138]
   ====== . ======
 
   method *`contractDetails(reqId, contractDetails)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#119 line 119]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#142 line 142]
   ====== . ======
 
   method *`contractDetailsMsg(contractDetails)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#125 line 125]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#148 line 148]
   ====== . ======
 
   method *`contractMsg(contract)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#130 line 130]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#153 line 153]
   ====== . ======
 
   method *`bondContractDetails(reqId, contractDetails)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#135 line 135]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#158 line 158]
   ====== . ======
 
   method *`contractDetailsEnd(reqId)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#141 line 141]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#164 line 164]
   ====== . ======
 
-  method *`execDetails(orderId, contract, execution)`*
+  method *`execDetails(reqId, contract, execution)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#145 line 145]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#168 line 168]
   ====== . ======
 
-  method *`updateMktDepth(tickerId,  position,  operation,  side,  price,  size)`*
-
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#150 line 150]
-  ====== . ======
-
-  method *`updateMktDepthL2(tickerId,  position,  marketMaker,  operation,  side,  price,  size)`*
-
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#159 line 159]
-  ====== . ======
-
-  method *`updateNewsBulletin(msgId, msgType, message, origExchange)`*
-
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#169 line 169]
-  ====== . ======
-
-  method *`managedAccounts(accountsList)`*
+  method *`execDetailsEnd(reqId)`*
 
   defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#173 line 173]
   ====== . ======
 
-  method *`receiveFA(faDataType, xml)`*
+  method *`updateMktDepth(tickerId,  position,  operation,  side,  price,  size)`*
 
   defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#177 line 177]
   ====== . ======
 
+  method *`updateMktDepthL2(tickerId,  position,  marketMaker,  operation,  side,  price,  size)`*
+
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#186 line 186]
+  ====== . ======
+
+  method *`updateNewsBulletin(msgId, msgType, message, origExchange)`*
+
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#196 line 196]
+  ====== . ======
+
+  method *`managedAccounts(accountsList)`*
+
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#200 line 200]
+  ====== . ======
+
+  method *`receiveFA(faDataType, xml)`*
+
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#204 line 204]
+  ====== . ======
+
   method *`historicalData(reqId,  date,  open,  high,  low,  close,  volume,  count,  WAP,  hasGaps)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#181 line 181]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#208 line 208]
   ====== . ======
 
   method *`realtimeBar(reqId,  time,  open,  high,  low,  close,  volume,  wap,  count)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#194 line 194]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#221 line 221]
   ====== . ======
 
   method *`scannerParameters(xml)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#206 line 206]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#233 line 233]
   ====== . ======
 
   method *`scannerData(reqId,  rank,  contractDetails,  distance,  benchmark,  projection,  legsStr)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#210 line 210]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#237 line 237]
   ====== . ======
 
   method *`scannerDataEnd(reqId)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#221 line 221]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#248 line 248]
   ====== . ======
 
   method *`currentTime(time)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#225 line 225]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#252 line 252]
   ====== . ======
 
   method *`fundamentalData(reqId, data)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#229 line 229]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#256 line 256]
+  ====== . ======
+
+  method *`deltaNeutralValidation(reqId, underComp)`*
+
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#260 line 260]
+  ====== . ======
+
+  method *`tickSnapshotEnd(tickerId)`*
+
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EWrapperMsgGenerator.py#264 line 264]
   ====== . ======
 
 

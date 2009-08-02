@@ -1,4 +1,4 @@
-#summary Translated source for Execution.
+#summary Reference documentation for ib.ext.Execution
 #labels ApiDoc
 
 === Execution(object) (class) ===

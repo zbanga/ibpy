@@ -1,75 +1,75 @@
-#summary Translated source for EReader.
+#summary Reference documentation for ib.ext.EReader
 #labels ApiDoc
 
 === EReader(Thread) (class) ===
 
 generated source for EReader
 
-class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#31 line 31]
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#33 line 33]
 
   method *`parent()`*
-
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#66 line 66]
-  ====== . ======
-
-  method *`eWrapper()`*
-
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#69 line 69]
-  ====== . ======
-
-  method *`__init__(parent, dis)`*
 
   defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#73 line 73]
   ====== . ======
 
+  method *`eWrapper()`*
+
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#76 line 76]
+  ====== . ======
+
+  method *`__init__(parent, dis)`*
+
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#80 line 80]
+  ====== . ======
+
   method *`__init___0(name, parent, dis)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#77 line 77]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#84 line 84]
   ====== . ======
 
   method *`run()`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#83 line 83]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#90 line 90]
   ====== . ======
 
   method *`processMsg(msgId)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#93 line 93]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#102 line 102]
   ====== . ======
 
   method *`readStr()`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#590 line 590]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#648 line 648]
   ====== . ======
 
   method *`readBoolFromInt()`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#600 line 600]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#658 line 658]
   ====== . ======
 
   method *`readInt()`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#604 line 604]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#662 line 662]
   ====== . ======
 
   method *`readIntMax()`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#608 line 608]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#666 line 666]
   ====== . ======
 
   method *`readLong()`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#612 line 612]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#670 line 670]
   ====== . ======
 
   method *`readDouble()`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#616 line 616]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#674 line 674]
   ====== . ======
 
   method *`readDoubleMax()`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#620 line 620]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/EReader.py#678 line 678]
   ====== . ======
 
 

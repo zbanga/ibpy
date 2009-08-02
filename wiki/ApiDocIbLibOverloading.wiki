@@ -1,14 +1,5 @@
-#summary Dynamically overloaded functions.
+#summary Reference documentation for ib.lib.overloading
 #labels ApiDoc
-
-= Description =
-
-
-This is an implementation of (dynamically, or run-time) overloaded
-functions; also known as generic functions or multi-methods.
-
-This module is from Python SVN,
-http://svn.python.org/view/sandbox/trunk/overload/overloading.py
 
 === overloaded (class) ===
 

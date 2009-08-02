@@ -36,3 +36,4 @@
   * [ApiDocIbOptMessage IbOptMessage] - documentation for {{{ib.opt.message}}}
   * [ApiDocIbOptReceiver IbOptReceiver] - documentation for {{{ib.opt.receiver}}}
   * [ApiDocIbOptSender IbOptSender] - documentation for {{{ib.opt.sender}}}
+  * [ApiDocIbExtTagValue IbExtTagValue] - documentation for {{{ib.ext.TagValue}}}

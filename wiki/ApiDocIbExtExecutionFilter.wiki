@@ -1,4 +1,4 @@
-#summary Translated source for ExecutionFilter.
+#summary Reference documentation for ib.ext.ExecutionFilter
 #labels ApiDoc
 
 === ExecutionFilter(object) (class) ===

@@ -1,4 +1,4 @@
-#summary Translated source for ComboLeg.
+#summary Reference documentation for ib.ext.ComboLeg
 #labels ApiDoc
 
 === ComboLeg(object) (class) ===

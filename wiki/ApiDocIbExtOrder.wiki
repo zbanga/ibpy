@@ -1,4 +1,4 @@
-#summary Translated source for Order.
+#summary Reference documentation for ib.ext.Order
 #labels ApiDoc
 
 === Order(object) (class) ===
@@ -9,12 +9,12 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Order
 
   method *`__init__()`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Order.py#99 line 99]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Order.py#102 line 102]
   ====== . ======
 
   method *`__eq__(p_other)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Order.py#126 line 126]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Order.py#130 line 130]
   ====== . ======
 
 

@@ -1,4 +1,4 @@
-#summary Translated source for UnderComp.
+#summary Reference documentation for ib.ext.UnderComp
 #labels ApiDoc
 
 === UnderComp(object) (class) ===

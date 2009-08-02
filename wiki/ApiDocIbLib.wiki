@@ -1,20 +1,5 @@
-#summary Just enough auxiliary bits to make the translated code work.
+#summary Reference documentation for ib.lib
 #labels ApiDoc
-
-= Description =
-
-
-This package provides the support necessary to use the translated
-code.  The configuration modules used in translation take care of
-many semantic differences between Java and Python, while this
-package provides the rest.
-
-=== Long (variable) ===
-
- _The generated code uses Longs just like Integers, so we use an alias instead of a subclass (for now)._
-
-defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#183 line 183]
-====== . ======
 
 === synchronized(lock) (function) ===
 
@@ -121,14 +106,14 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__ini
     returns: string read from stream
     }}}
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#102 line 102]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#103 line 103]
   ====== . ======
 
 === DataOutputStream(object) (class) ===
 
 Partial implementation of the Java DataOutputStream type
 
-class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#110 line 110]
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#111 line 111]
 
   method *`__init__(stream)`*
 
@@ -138,7 +123,7 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__ini
     stream: any object with send method
     }}}
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#114 line 114]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#115 line 115]
   ====== . ======
 
   method *`write(data, pack=struct.pack, eol=struct.pack('!b', 0))`*
@@ -150,21 +135,14 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__ini
     returns: None
     }}}
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#121 line 121]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#122 line 122]
   ====== . ======
 
 === Double(float) (class) ===
 
 Partial implementation of Java Double type.
 
-class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#135 line 135]
-
-  member *`MAX_VALUE`*
-
-   _sentinel value used by the socket writer_
-
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#141 line 141]
-  ====== . ======
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#136 line 136]
 
   method *`parseDouble()`*
 
@@ -175,21 +153,14 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__ini
     returns: float instance
     }}}
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#144 line 144]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#145 line 145]
   ====== . ======
 
 === Integer(int) (class) ===
 
 Partial implementation of Java Integer type.
 
-class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#153 line 153]
-
-  member *`MAX_VALUE`*
-
-   _sentinel value used by the socket writer_
-
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#159 line 159]
-  ====== . ======
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#154 line 154]
 
   method *`parseInt()`*
 
@@ -200,7 +171,7 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__ini
     returns: int instance
     }}}
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#162 line 162]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#163 line 163]
   ====== . ======
 
   method *`parseLong()`*
@@ -212,14 +183,14 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__ini
     returns: long instance
     }}}
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#171 line 171]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#172 line 172]
   ====== . ======
 
 === Socket(socket.socket) (class) ===
 
 Partial implementation of the Java Socket type.
 
-class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#186 line 186]
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#187 line 187]
 
   method *`__init__(host, port)`*
 
@@ -230,33 +201,33 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__ini
     port: port number as integer
     }}}
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#190 line 190]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#191 line 191]
   ====== . ======
 
   method *`getInputStream()`*
 
   _Returns this instance, which has a send method. _
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#199 line 199]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#200 line 200]
   ====== . ======
 
   method *`getOutputStream()`*
 
   _Returns this instance, which has a recv method. _
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#205 line 205]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#206 line 206]
   ====== . ======
 
   method *`isConnected()`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#211 line 211]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#212 line 212]
   ====== . ======
 
 === StringBuffer(list) (class) ===
 
 Partial implementation of the Java StringBuffer type  Translated code uses instances of this type to build up strings. The list base type provides the append method.
 
-class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#219 line 219]
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#220 line 220]
 
   method *`__str__(join=str.join, chr=chr)`*
 
@@ -266,14 +237,14 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__ini
     returns: string from characters contained in this instance
     }}}
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#225 line 225]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#226 line 226]
   ====== . ======
 
 === ThreadType(QThread) (class) ===
 
 Partial implementation of Java Thread type, based on Qt3 QThread.
 
-class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#236 line 236]
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#237 line 237]
 
   method *`__init__(name)`*
 
@@ -283,14 +254,14 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__ini
     name: ignored
     }}}
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#240 line 240]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#241 line 241]
   ====== . ======
 
   method *`interrupt()`*
 
   _Stop this thread (by call to terminate). _
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#247 line 247]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#248 line 248]
   ====== . ======
 
   method *`isInterrupted()`*
@@ -301,7 +272,7 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__ini
     returns: True if thread is finished
     }}}
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#253 line 253]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#254 line 254]
   ====== . ======
 
   method *`setDaemon(value)`*
@@ -313,7 +284,7 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__ini
     returns: None
     }}}
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#260 line 260]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#261 line 261]
   ====== . ======
 
   method *`setName(value)`*
@@ -325,14 +296,14 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__ini
     returns: None
     }}}
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#267 line 267]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#268 line 268]
   ====== . ======
 
 === ThreadType(QThread) (class) ===
 
 Partial implementation of Java Thread type, based on Qt4 QThread.
 
-class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#279 line 279]
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#280 line 280]
 
   method *`__init__(name)`*
 
@@ -342,14 +313,14 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__ini
     name: ignored
     }}}
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#283 line 283]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#284 line 284]
   ====== . ======
 
   method *`interrupt()`*
 
   _stop this thread (by call to exit) _
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#290 line 290]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#291 line 291]
   ====== . ======
 
   method *`isInterrupted()`*
@@ -360,7 +331,7 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__ini
     returns: True if thread is finished
     }}}
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#296 line 296]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#297 line 297]
   ====== . ======
 
   method *`setDaemon(value)`*
@@ -372,7 +343,7 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__ini
     returns: None
     }}}
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#303 line 303]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#304 line 304]
   ====== . ======
 
   method *`setName(value)`*
@@ -384,14 +355,14 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__ini
     returns: None
     }}}
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#310 line 310]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#311 line 311]
   ====== . ======
 
 === ThreadType(threading.Thread) (class) ===
 
 Partial implementation of Java Thread type, based on Python Thread.
 
-class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#322 line 322]
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#323 line 323]
 
   method *`__init__(name)`*
 
@@ -401,14 +372,14 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__ini
     name: name of this thread
     }}}
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#326 line 326]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#327 line 327]
   ====== . ======
 
   method *`interrupt()`*
 
   _No-op; Python threads are not directly interruptible. _
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#334 line 334]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#335 line 335]
   ====== . ======
 
   method *`isInterrupted()`*
@@ -419,14 +390,14 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__ini
     returns: False
     }}}
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#340 line 340]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#341 line 341]
   ====== . ======
 
 === Thread(ThreadType) (class) ===
 
 Thread parent type, based on available framework
 
-class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#348 line 348]
+class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#349 line 349]
 
   method *`__init__(name, parent, dis)`*
 
@@ -438,7 +409,12 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__ini
     dis: ignored
     }}}
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#352 line 352]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#353 line 353]
+  ====== . ======
+
+  method *`term()`*
+
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/lib/__init__.py#363 line 363]
   ====== . ======
 
 

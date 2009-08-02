@@ -1,4 +1,4 @@
-#summary Translated source for Contract.
+#summary Reference documentation for ib.ext.Contract
 #labels ApiDoc
 
 === Contract(Cloneable) (class) ===
@@ -14,17 +14,17 @@ class defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Contr
 
   method *`clone()`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Contract.py#46 line 46]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Contract.py#47 line 47]
   ====== . ======
 
   method *`__init___0(p_conId,  p_symbol,  p_secType,  p_expiry,  p_strike,  p_right,  p_multiplier,  p_exchange,  p_currency,  p_localSymbol,  p_comboLegs,  p_primaryExch,  p_includeExpired)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Contract.py#52 line 52]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Contract.py#53 line 53]
   ====== . ======
 
   method *`__eq__(p_other)`*
 
-  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Contract.py#79 line 79]
+  defined at [http://code.google.com/p/ibpy/source/browse/trunk/ib/ext/Contract.py#80 line 80]
   ====== . ======
 
 
