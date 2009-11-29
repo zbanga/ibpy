@@ -3,8 +3,8 @@
 
 = Synopsis =
 
-This tutorial describes how to build IbPy from scratch.  By using this
-method, you can create an IbPy installation for the latest TWS API
+This tutorial describes how to build !IbPy from scratch.  By using this
+method, you can create an !IbPy installation for the latest TWS API
 version.
 
 
@@ -25,7 +25,7 @@ directory.  If you don't have such a thing, run these commands:
 
 == Install java2python ==
 
-To build IbPy sources, we need [http://code.google.com/p/java2python/
+To build !IbPy sources, we need [http://code.google.com/p/java2python/
 java2python] and its dependancies.  Be sure you've installed
 [http://www.antlr2.org/ Antlr 2.7.7] and its Python library.
 
@@ -34,7 +34,7 @@ Checkout, build and install:
 
 {{{
     $ cd ~/src
-    $ svn co -r 50 https://java2python.googlecode.com/svn/trunk java2python
+    $ svn co -r 50 http://java2python.googlecode.com/svn/trunk java2python
     $ cd java2python/java2python
     $ make
     $ cd ..
@@ -43,16 +43,16 @@ Checkout, build and install:
 
 This will install the java2python package into
 `~/.local/lib/python2.6/site-packages`, and the `j2py` script in
-`~/.local/bin`.  Make sure the bin directory is in your PATH.
+`~/.local/bin`.  Make sure the bin directory is in your `PATH`.
 
-== Checkout IbPy ==
+== Checkout !IbPy ==
 
-The remaining build process is automated from within the IbPy package.
+The remaining build process is automated from within the !IbPy package.
 Check out the source:
 
 {{{
     $ cd ~/src
-    $ svn co https://ibpy.googlecode.com/svn/trunk ibpy
+    $ svn co http://ibpy.googlecode.com/svn/trunk ibpy
 }}}
 
 
@@ -77,6 +77,6 @@ distribution, you can now build that and install from it instead.
 }}}
 
 This will create two files, one `.tar.gz` and one `.zip`, in the
-`release-M-N` directory (where `M` is the IbPy version and `N` is the TWS
-API version).
+`release-M-N` directory, where `M` is the !IbPy version and `N` is the TWS
+API version.
 
