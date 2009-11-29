@@ -25,8 +25,7 @@ directory.  If you don't have such a thing, run these commands:
 
 == Install java2python ==
 
-To build !IbPy sources, we need [http://code.google.com/p/java2python/
-java2python] and its dependancies.  Be sure you've installed
+To build !IbPy sources, we need [http://code.google.com/p/java2python/ java2python] and its dependancies.  Be sure you've installed
 [http://www.antlr2.org/ Antlr 2.7.7] and its Python library.
 
 You'll need a very specific version of java2python, revision 50.
@@ -79,4 +78,3 @@ distribution, you can now build that and install from it instead.
 This will create two files, one `.tar.gz` and one `.zip`, in the
 `release-M-N` directory, where `M` is the !IbPy version and `N` is the TWS
 API version.
-
